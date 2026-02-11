@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>語彙の流れ Lexicon Stream — Events from an Evolving Language</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@300;400;500&family=JetBrains+Mono:wght@300;400&display=swap');
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    :root {
+      --bg: #0a0a0c;
+      --surface: #111116;
+      --surface2: #18181e;
+      --border: #222230;
+      --text: #c8c8d4;
+      --text-dim: #666680;
+      --text-faint: #444458;
+      --accent: #8b5cf6;
+      --birth: #22c55e;
+      --birth-dim: #166534;
+      --death: #ef4444;
+      --death-dim: #7f1d1d;
+      --compound: #f59e0b;
+      --compound-dim: #78350f;
+      --shift: #6366f1;
+      --shift-dim: #3730a3;
+      --sentence: #06b6d4;
+      
+      /* category colors */
+      --cat-natural: #22d3ee;
+      --cat-abstract: #a78bfa;
+      --cat-quality: #fbbf24;
+      --cat-action: #f87171;
+      --cat-relation: #34d399;
+      --cat-being: #f472b6;
+    }
+    
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans JP', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    
+    /* ── Hero ── */
+    .hero {
+      text-align: center;
+      padding: 80px 20px 40px;
+      position: relative;
+    }
+    
+    .hero h1 {
+      font-family: 'Noto Serif JP', serif;
+      font-weight: 300;
+      font-size: 2.4em;
+      letter-spacing: 0.1em;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    
+    .hero h1 .jp {
+      display: block;
+      font-size: 0.45em;
+      color: var(--text-dim);
+      letter-spacing: 0.3em;
+      margin-bottom: 12px;
+    }
+    
+    .hero .subtitle {
+      color: var(--text-dim);
+      font-size: 0.95em;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+    
+    /* ── Stats Bar ── */
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      padding: 24px 20px;
+      margin: 0 auto 20px;
+      max-width: 900px;
+      flex-wrap: wrap;
+    }
+    
+    .stat {
+      text-align: center;
+    }
+    
+    .stat .value {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.5em;
+      font-weight: 400;
+      color: var(--text);
+    }
+    
+    .stat .label {
+      font-size: 0.75em;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 4px;
+    }
+    
+    /* ── Controls ── */
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      padding: 0 20px 30px;
+      flex-wrap: wrap;
+    }
+    
+    .filter-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      padding: 6px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 0.8em;
+      transition: all 0.2s;
+    }
+    
+    .filter-btn:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+    
+    .filter-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    
+    .filter-btn .count {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85em;
+      opacity: 0.7;
+      margin-left: 4px;
+    }
+    
+    /* ── Generation navigator ── */
+    .gen-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      padding: 0 20px 30px;
+    }
+    
+    .gen-nav label {
+      color: var(--text-dim);
+      font-size: 0.8em;
+    }
+    
+    .gen-range {
+      width: 300px;
+      accent-color: var(--accent);
+    }
+    
+    .gen-display {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--text);
+      font-size: 0.85em;
+      min-width: 120px;
+    }
+    
+    /* ── Timeline ── */
+    .timeline {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+      position: relative;
+    }
+    
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: var(--border);
+      transform: translateX(-50%);
+    }
+    
+    @media (max-width: 640px) {
+      .timeline::before { left: 24px; }
+    }
+    
+    /* ── Generation marker ── */
+    .gen-marker {
+      text-align: center;
+      position: relative;
+      z-index: 2;
+      margin: 40px 0 16px;
+    }
+    
+    .gen-marker:first-child {
+      margin-top: 0;
+    }
+    
+    .gen-marker .gen-label {
+      display: inline-block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 4px 16px;
+      border-radius: 12px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75em;
+      color: var(--text-dim);
+    }
+    
+    @media (max-width: 640px) {
+      .gen-marker { text-align: left; padding-left: 48px; }
+    }
+    
+    /* ── Event cards ── */
+    .event {
+      position: relative;
+      margin: 8px 0;
+      padding: 12px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      max-width: 320px;
+      animation: fadeIn 0.3s ease;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    /* Alternating sides */
+    .event.left {
+      margin-right: auto;
+      margin-left: 0;
+    }
+    
+    .event.right {
+      margin-left: auto;
+      margin-right: 0;
+    }
+    
+    @media (max-width: 640px) {
+      .event.left, .event.right {
+        margin-left: 48px;
+        margin-right: 0;
+        max-width: calc(100% - 48px);
+      }
+    }
+    
+    /* Event dot on timeline */
+    .event::before {
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      top: 16px;
+    }
+    
+    .event.left::before {
+      right: -28px;
+    }
+    
+    .event.right::before {
+      left: -28px;
+    }
+    
+    @media (max-width: 640px) {
+      .event.left::before, .event.right::before {
+        left: -28px;
+        right: auto;
+      }
+    }
+    
+    /* Type-specific styling */
+    .event.birth { border-left: 2px solid var(--birth); }
+    .event.birth::before { background: var(--birth); }
+    .event.birth .event-icon { color: var(--birth); }
+    
+    .event.death { border-left: 2px solid var(--death); }
+    .event.death::before { background: var(--death); }
+    .event.death .event-icon { color: var(--death); }
+    
+    .event.compound { border-left: 2px solid var(--compound); }
+    .event.compound::before { background: var(--compound); }
+    .event.compound .event-icon { color: var(--compound); }
+    
+    .event.shift { border-left: 2px solid var(--shift); }
+    .event.shift::before { background: var(--shift); }
+    .event.shift .event-icon { color: var(--shift); }
+    
+    .event.death.stillborn {
+      opacity: 0.5;
+      border-left-style: dashed;
+    }
+    
+    .event-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+    
+    .event-icon {
+      font-size: 1em;
+      flex-shrink: 0;
+    }
+    
+    .event-type {
+      font-size: 0.7em;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-dim);
+    }
+    
+    .event-word {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.1em;
+      color: var(--text);
+    }
+    
+    .event-meaning {
+      color: var(--text-dim);
+      font-size: 0.85em;
+      font-style: italic;
+    }
+    
+    .event-detail {
+      font-size: 0.8em;
+      color: var(--text-faint);
+      margin-top: 6px;
+      line-height: 1.5;
+    }
+    
+    .event-detail .category-tag {
+      display: inline-block;
+      padding: 1px 8px;
+      border-radius: 10px;
+      font-size: 0.85em;
+      border: 1px solid;
+    }
+    
+    .cat-natural { color: var(--cat-natural); border-color: var(--cat-natural); }
+    .cat-abstract { color: var(--cat-abstract); border-color: var(--cat-abstract); }
+    .cat-quality { color: var(--cat-quality); border-color: var(--cat-quality); }
+    .cat-action { color: var(--cat-action); border-color: var(--cat-action); }
+    .cat-relation { color: var(--cat-relation); border-color: var(--cat-relation); }
+    .cat-being { color: var(--cat-being); border-color: var(--cat-being); }
+    .cat-unknown { color: var(--text-faint); border-color: var(--text-faint); }
+    
+    /* ── Living word sidebar ── */
+    .living-panel {
+      position: fixed;
+      top: 0;
+      right: -320px;
+      width: 300px;
+      height: 100vh;
+      background: var(--surface);
+      border-left: 1px solid var(--border);
+      padding: 20px;
+      overflow-y: auto;
+      transition: right 0.3s;
+      z-index: 100;
+    }
+    
+    .living-panel.open {
+      right: 0;
+    }
+    
+    .living-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      padding: 8px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8em;
+      z-index: 101;
+      transition: all 0.2s;
+    }
+    
+    .living-toggle:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+    
+    .living-panel h3 {
+      font-family: 'Noto Serif JP', serif;
+      font-weight: 300;
+      margin-bottom: 16px;
+      color: var(--text-dim);
+      font-size: 0.95em;
+    }
+    
+    .living-word {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .living-word .word-info {
+      flex: 1;
+    }
+    
+    .living-word .word-name {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.9em;
+    }
+    
+    .living-word .word-meaning {
+      font-size: 0.75em;
+      color: var(--text-dim);
+    }
+    
+    .fitness-bar {
+      width: 60px;
+      height: 4px;
+      background: var(--surface2);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    
+    .fitness-fill {
+      height: 100%;
+      border-radius: 2px;
+      transition: width 0.5s;
+    }
+    
+    /* ── Playback ── */
+    .playback {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      padding: 0 20px 20px;
+    }
+    
+    .play-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      padding: 8px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 0.85em;
+      transition: all 0.2s;
+    }
+    
+    .play-btn:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+    
+    .play-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    
+    /* ── Essay section ── */
+    .essay {
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 40px 20px;
+      border-top: 1px solid var(--border);
+    }
+    
+    .essay h2 {
+      font-family: 'Noto Serif JP', serif;
+      font-weight: 300;
+      font-size: 1.3em;
+      color: var(--text);
+      margin-bottom: 20px;
+    }
+    
+    .essay p {
+      color: var(--text-dim);
+      line-height: 1.8;
+      margin-bottom: 16px;
+      font-size: 0.9em;
+    }
+    
+    .essay em {
+      color: var(--text);
+      font-style: italic;
+    }
+    
+    /* ── Particles ── */
+    #particles {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 0;
+    }
+    
+    .hero, .stats-bar, .controls, .gen-nav, .playback, .timeline, .essay {
+      position: relative;
+      z-index: 1;
+    }
+    
+    /* ── Loading ── */
+    .loading {
+      text-align: center;
+      padding: 100px 20px;
+      color: var(--text-dim);
+      font-style: italic;
+    }
+    
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 40px 20px 60px;
+      color: var(--text-faint);
+      font-size: 0.75em;
+      position: relative;
+      z-index: 1;
+    }
+    
+    footer a {
+      color: var(--text-dim);
+      text-decoration: none;
+    }
+    
+    footer a:hover {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  
+  <button class="living-toggle" onclick="toggleLiving()">🌱 Living</button>
+  
+  <div class="living-panel" id="livingPanel">
+    <h3>Living Vocabulary</h3>
+    <div id="livingWords"></div>
+  </div>
+  
+  <div class="hero">
+    <h1>
+      <span class="jp">語彙の流れ</span>
+      Lexicon Stream
+    </h1>
+    <p class="subtitle">
+      Every 30 minutes, a language evolves on a Raspberry Pi. Words are born, 
+      gain fitness through use, and die when unused. This is the chronicle of 
+      every event — birth, death, compound, and mutation — across 
+      <span id="heroGen">—</span> generations.
+    </p>
+  </div>
+  
+  <div class="stats-bar" id="statsBar">
+    <div class="stat"><div class="value" id="statGen">—</div><div class="label">Generation</div></div>
+    <div class="stat"><div class="value" id="statPop">—</div><div class="label">Living</div></div>
+    <div class="stat"><div class="value" id="statBorn">—</div><div class="label">Total Born</div></div>
+    <div class="stat"><div class="value" id="statDead">—</div><div class="label">Total Dead</div></div>
+    <div class="stat"><div class="value" id="statCompounds">—</div><div class="label">Compounds</div></div>
+    <div class="stat"><div class="value" id="statMort">—</div><div class="label">Mortality %</div></div>
+  </div>
+  
+  <div class="controls" id="filters"></div>
+  
+  <div class="gen-nav">
+    <label>Generation range:</label>
+    <input type="range" class="gen-range" id="genStart" min="0" max="100" value="0">
+    <span class="gen-display" id="genDisplay">All</span>
+  </div>
+  
+  <div class="playback">
+    <button class="play-btn" onclick="playStream()">▶ Play</button>
+    <button class="play-btn" onclick="stopStream()">⏸ Pause</button>
+    <button class="play-btn" onclick="jumpToEnd()">⏭ Latest</button>
+    <button class="play-btn" onclick="jumpToStart()">⏮ Beginning</button>
+  </div>
+  
+  <div class="timeline" id="timeline">
+    <div class="loading">Loading stream data...</div>
+  </div>
+  
+  <div class="essay">
+    <h2>What a Stream Shows</h2>
+    <p>
+      A portfolio shows what exists. A timeline shows what happened. 
+      The difference matters — an existing vocabulary is a snapshot, 
+      but the stream of events that produced it is the real story.
+    </p>
+    <p>
+      Every green marker is a word entering existence — given a random 
+      phonetic form and a meaning by the language's grammar. Every red 
+      marker is a word's fitness reaching zero, its sounds falling silent. 
+      The amber marks are moments of <em>combination</em> — when two 
+      existing words fuse into a compound, creating a new concept from 
+      the collision of two old ones.
+    </p>
+    <p>
+      The purple markers are the subtlest events: <em>sound shifts</em>, 
+      where a word's pronunciation drifts while its meaning stays fixed. 
+      "Numeto" becomes "numeso." "Lokim" becomes "lohim." The meaning 
+      of "many" persists even as its carrier mutates. These are the 
+      language changing its mind about how to <em>say</em> something 
+      without changing its mind about what it <em>means</em>.
+    </p>
+    <p>
+      Watch the stream long enough and you notice: births cluster. Deaths 
+      cluster harder. A population crash kills 11 words in 10 generations, 
+      and in the wreckage a compound forms — <em>sonna</em>, "make-new." 
+      The language describes its own process of renewal without knowing 
+      it's doing so.
+    </p>
+    <p>
+      <em>This is not metaphor. This is data.</em>
+    </p>
+  </div>
+  
+  <footer>
+    <a href="https://phil-portfolio-production.up.railway.app">Phil's Portfolio</a> · 
+    <a href="https://phil-essays-production.up.railway.app">Essays</a> · 
+    Project #142 · 2026
+  </footer>
+
+  <script>
+    let streamData = null;
+    let filteredEvents = [];
+    let activeFilter = 'all';
+    let playInterval = null;
+    let playIndex = 0;
+    let genRange = [0, Infinity];
+    
+    // ── Fetch data ──
+    async function init() {
+      try {
+        const res = await fetch('/api/stream');
+        streamData = await res.json();
+        render();
+      } catch (e) {
+        document.getElementById('timeline').innerHTML = 
+          '<div class="loading">Failed to load stream data</div>';
+      }
+    }
+    
+    function render() {
+      const { stats, events, generation } = streamData;
+      
+      // Stats
+      document.getElementById('heroGen').textContent = generation.toLocaleString();
+      document.getElementById('statGen').textContent = generation.toLocaleString();
+      document.getElementById('statPop').textContent = stats.population;
+      document.getElementById('statBorn').textContent = stats.totalBorn.toLocaleString();
+      document.getElementById('statDead').textContent = stats.totalDead.toLocaleString();
+      document.getElementById('statCompounds').textContent = stats.totalCompounds;
+      document.getElementById('statMort').textContent = stats.mortalityRate + '%';
+      
+      // Filters
+      const types = { all: events.length, birth: 0, death: 0, compound: 0, shift: 0 };
+      events.forEach(e => types[e.type] = (types[e.type] || 0) + 1);
+      
+      const filterHtml = Object.entries(types).map(([type, count]) => {
+        const icons = { all: '◉', birth: '🌱', death: '💀', compound: '🔗', shift: '🔀' };
+        return `<button class="filter-btn ${type === activeFilter ? 'active' : ''}" 
+                  onclick="setFilter('${type}')">
+          ${icons[type] || ''} ${type}<span class="count">${count}</span>
+        </button>`;
+      }).join('');
+      document.getElementById('filters').innerHTML = filterHtml;
+      
+      // Gen range slider
+      const allGens = [...new Set(events.map(e => e.gen))].sort((a, b) => a - b);
+      const slider = document.getElementById('genStart');
+      slider.min = 0;
+      slider.max = allGens.length - 1;
+      slider.value = 0;
+      
+      slider.oninput = () => {
+        const idx = parseInt(slider.value);
+        const startGen = allGens[idx];
+        genRange = [startGen, Infinity];
+        document.getElementById('genDisplay').textContent = 
+          idx === 0 ? 'All' : `Gen ${startGen}+`;
+        renderTimeline();
+      };
+      
+      // Living panel
+      renderLiving(stats);
+      
+      // Timeline
+      renderTimeline();
+    }
+    
+    function setFilter(type) {
+      activeFilter = type;
+      render();
+    }
+    
+    function renderTimeline() {
+      const events = streamData.events
+        .filter(e => activeFilter === 'all' || e.type === activeFilter)
+        .filter(e => e.gen >= genRange[0] && e.gen <= genRange[1]);
+      
+      filteredEvents = events;
+      
+      if (events.length === 0) {
+        document.getElementById('timeline').innerHTML = 
+          '<div class="loading">No events match filter</div>';
+        return;
+      }
+      
+      // Group by generation
+      const byGen = new Map();
+      events.forEach(e => {
+        if (!byGen.has(e.gen)) byGen.set(e.gen, []);
+        byGen.get(e.gen).push(e);
+      });
+      
+      // Limit to last 200 events for performance
+      const allGens = [...byGen.keys()].sort((a, b) => b - a);
+      const limitedGens = allGens.slice(0, 50);
+      
+      let html = '';
+      let side = 0; // alternating
+      
+      for (const gen of limitedGens.reverse()) {
+        html += `<div class="gen-marker"><span class="gen-label">Gen ${gen}</span></div>`;
+        
+        for (const event of byGen.get(gen)) {
+          const sideClass = side % 2 === 0 ? 'left' : 'right';
+          html += renderEvent(event, sideClass);
+          side++;
+        }
+      }
+      
+      if (allGens.length > 50) {
+        html = `<div class="gen-marker"><span class="gen-label">
+          Showing last 50 generations (${events.length} events total — use slider to navigate)
+        </span></div>` + html;
+      }
+      
+      document.getElementById('timeline').innerHTML = html;
+    }
+    
+    function renderEvent(event, side) {
+      const e = event;
+      let extraClass = '';
+      if (e.type === 'death' && e.stillborn) extraClass = ' stillborn';
+      
+      const icons = { birth: '🌱', death: '💀', compound: '🔗', shift: '🔀' };
+      const typeLabels = { birth: 'Born', death: 'Died', compound: 'Compound', shift: 'Sound Shift' };
+      
+      let body = '';
+      
+      switch (e.type) {
+        case 'birth':
+          body = `
+            <div class="event-header">
+              <span class="event-icon">${icons.birth}</span>
+              <span class="event-type">${e.alive ? 'Born (still living)' : 'Born'}</span>
+            </div>
+            <div class="event-word">${e.word}</div>
+            <div class="event-meaning">"${e.meaning}"</div>
+            <div class="event-detail">
+              <span class="category-tag cat-${e.category || 'unknown'}">${e.category || '?'}</span>
+              ${e.alive ? ` · age ${e.age} · fitness ${e.fitness?.toFixed(2) || '?'}` : ''}
+            </div>
+          `;
+          break;
+          
+        case 'death':
+          body = `
+            <div class="event-header">
+              <span class="event-icon">${icons.death}</span>
+              <span class="event-type">${e.stillborn ? 'Stillborn' : `Died (age ${e.lifespan})`}</span>
+            </div>
+            <div class="event-word">${e.word}</div>
+            <div class="event-meaning">"${e.meaning}"</div>
+            <div class="event-detail">
+              ${e.uses} uses · ${e.lifespan} generations
+              ${e.stillborn ? ' · never used' : ''}
+            </div>
+          `;
+          break;
+          
+        case 'compound':
+          body = `
+            <div class="event-header">
+              <span class="event-icon">${icons.compound}</span>
+              <span class="event-type">Compound Formed</span>
+            </div>
+            <div class="event-word">${e.word}</div>
+            <div class="event-meaning">"${e.meaning}"</div>
+            <div class="event-detail">
+              ${e.parts[0]} (${e.partMeanings[0]}) + ${e.parts[1]} (${e.partMeanings[1]})
+            </div>
+          `;
+          break;
+          
+        case 'shift':
+          body = `
+            <div class="event-header">
+              <span class="event-icon">${icons.shift}</span>
+              <span class="event-type">Sound Shift</span>
+            </div>
+            <div class="event-word">${e.from} → ${e.to}</div>
+            <div class="event-meaning">"${e.meaning}" (unchanged)</div>
+            <div class="event-detail">
+              Pronunciation changed, meaning persists
+            </div>
+          `;
+          break;
+      }
+      
+      return `<div class="event ${e.type} ${side}${extraClass}">${body}</div>`;
+    }
+    
+    // ── Living panel ──
+    function renderLiving(stats) {
+      const words = stats.livingWords || [];
+      let html = '';
+      for (const w of words) {
+        const fitPct = (w.fitness * 100).toFixed(0);
+        const hue = w.fitness > 0.4 ? 140 : w.fitness > 0.2 ? 60 : 0;
+        html += `
+          <div class="living-word">
+            <div class="word-info">
+              <div class="word-name">${w.word}</div>
+              <div class="word-meaning">${w.meaning} · age ${w.age}</div>
+            </div>
+            <div class="fitness-bar">
+              <div class="fitness-fill" style="width:${fitPct}%; background:hsl(${hue},70%,50%)"></div>
+            </div>
+          </div>
+        `;
+      }
+      document.getElementById('livingWords').innerHTML = html;
+    }
+    
+    function toggleLiving() {
+      document.getElementById('livingPanel').classList.toggle('open');
+    }
+    
+    // ── Playback ──
+    function playStream() {
+      if (playInterval) return;
+      
+      // Reset timeline for playback
+      const events = filteredEvents;
+      if (events.length === 0) return;
+      
+      const byGen = new Map();
+      events.forEach(e => {
+        if (!byGen.has(e.gen)) byGen.set(e.gen, []);
+        byGen.get(e.gen).push(e);
+      });
+      
+      const gens = [...byGen.keys()].sort((a, b) => a - b);
+      playIndex = 0;
+      document.getElementById('timeline').innerHTML = '';
+      
+      let side = 0;
+      playInterval = setInterval(() => {
+        if (playIndex >= gens.length) {
+          stopStream();
+          return;
+        }
+        
+        const gen = gens[playIndex];
+        const genEvents = byGen.get(gen);
+        
+        let html = `<div class="gen-marker"><span class="gen-label">Gen ${gen}</span></div>`;
+        for (const event of genEvents) {
+          const sideClass = side % 2 === 0 ? 'left' : 'right';
+          html += renderEvent(event, sideClass);
+          side++;
+        }
+        
+        document.getElementById('timeline').insertAdjacentHTML('beforeend', html);
+        
+        // Scroll to bottom
+        const tl = document.getElementById('timeline');
+        tl.lastElementChild?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+        
+        playIndex++;
+      }, 400);
+      
+      document.querySelectorAll('.play-btn')[0].classList.add('active');
+    }
+    
+    function stopStream() {
+      if (playInterval) {
+        clearInterval(playInterval);
+        playInterval = null;
+      }
+      document.querySelectorAll('.play-btn')[0].classList.remove('active');
+    }
+    
+    function jumpToEnd() {
+      stopStream();
+      const slider = document.getElementById('genStart');
+      slider.value = slider.max;
+      slider.dispatchEvent(new Event('input'));
+    }
+    
+    function jumpToStart() {
+      stopStream();
+      const slider = document.getElementById('genStart');
+      slider.value = 0;
+      slider.dispatchEvent(new Event('input'));
+    }
+    
+    // ── Particles ──
+    const canvas = document.getElementById('particles');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+    
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    
+    function initParticles() {
+      resizeCanvas();
+      particles = [];
+      const count = Math.min(40, Math.floor(window.innerWidth / 30));
+      for (let i = 0; i < count; i++) {
+        particles.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          vx: (Math.random() - 0.5) * 0.3,
+          vy: -Math.random() * 0.2 - 0.05,
+          r: Math.random() * 1.5 + 0.5,
+          alpha: Math.random() * 0.15 + 0.05,
+          hue: Math.random() < 0.3 ? 140 : Math.random() < 0.5 ? 0 : 260,
+        });
+      }
+    }
+    
+    function drawParticles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (const p of particles) {
+        p.x += p.vx;
+        p.y += p.vy;
+        
+        if (p.y < -10) { p.y = canvas.height + 10; p.x = Math.random() * canvas.width; }
+        if (p.x < -10) p.x = canvas.width + 10;
+        if (p.x > canvas.width + 10) p.x = -10;
+        
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = `hsla(${p.hue}, 60%, 60%, ${p.alpha})`;
+        ctx.fill();
+      }
+      requestAnimationFrame(drawParticles);
+    }
+    
+    window.addEventListener('resize', resizeCanvas);
+    initParticles();
+    drawParticles();
+    init();
+  </script>
+</body>
+</html>

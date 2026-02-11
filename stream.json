@@ -1,0 +1,8039 @@
+{
+  "generated": "2026-02-11T10:19:57.811Z",
+  "generation": 3076,
+  "stats": {
+    "generation": 3076,
+    "population": 18,
+    "totalBorn": 2142,
+    "totalDead": 2124,
+    "totalCompounds": 469,
+    "totalShifts": 42,
+    "mortalityRate": "99.2",
+    "avgLifespan": "30.2",
+    "maxLifespan": 66,
+    "stillbornCount": 5,
+    "categories": {
+      "abstract": 2,
+      "action": 3,
+      "quality": 3,
+      "natural": 8,
+      "being": 1,
+      "relation": 1
+    },
+    "elder": {
+      "word": "luan",
+      "meaning": "balance",
+      "age": 40,
+      "fitness": 0.20000000000000034
+    },
+    "fittest": {
+      "word": "sewen",
+      "meaning": "fast",
+      "fitness": 0.6499999999999996
+    },
+    "livingWords": [
+      {
+        "word": "sewen",
+        "meaning": "fast",
+        "category": "quality",
+        "age": 7,
+        "fitness": 0.6499999999999996,
+        "uses": 6
+      },
+      {
+        "word": "sati",
+        "meaning": "self",
+        "category": "being",
+        "age": 16,
+        "fitness": 0.5999999999999992,
+        "uses": 15
+      },
+      {
+        "word": "u",
+        "meaning": "through",
+        "category": "relation",
+        "age": 0,
+        "fitness": 0.5,
+        "uses": 0
+      },
+      {
+        "word": "ke",
+        "meaning": "pattern",
+        "category": "abstract",
+        "age": 3,
+        "fitness": 0.45,
+        "uses": 1
+      },
+      {
+        "word": "ata",
+        "meaning": "water",
+        "category": "natural",
+        "age": 1,
+        "fitness": 0.45,
+        "uses": 1
+      },
+      {
+        "word": "sasi",
+        "meaning": "warm",
+        "category": "quality",
+        "age": 28,
+        "fitness": 0.4000000000000003,
+        "uses": 16
+      },
+      {
+        "word": "nisa",
+        "meaning": "ocean",
+        "category": "natural",
+        "age": 12,
+        "fitness": 0.39999999999999997,
+        "uses": 5
+      },
+      {
+        "word": "wa",
+        "meaning": "star",
+        "category": "natural",
+        "age": 23,
+        "fitness": 0.35000000000000014,
+        "uses": 11
+      },
+      {
+        "word": "wizin",
+        "meaning": "river",
+        "category": "natural",
+        "age": 5,
+        "fitness": 0.3500000000000001,
+        "uses": 1
+      },
+      {
+        "word": "suna",
+        "meaning": "sun",
+        "category": "natural",
+        "age": 13,
+        "fitness": 0.35000000000000003,
+        "uses": 6
+      },
+      {
+        "word": "ma",
+        "meaning": "seed",
+        "category": "natural",
+        "age": 8,
+        "fitness": 0.2999999999999999,
+        "uses": 2
+      },
+      {
+        "word": "haha",
+        "meaning": "hold",
+        "category": "action",
+        "age": 32,
+        "fitness": 0.2999999999999993,
+        "uses": 19
+      },
+      {
+        "word": "una",
+        "meaning": "new",
+        "category": "quality",
+        "age": 30,
+        "fitness": 0.2000000000000004,
+        "uses": 16
+      },
+      {
+        "word": "luan",
+        "meaning": "balance",
+        "category": "abstract",
+        "age": 40,
+        "fitness": 0.20000000000000034,
+        "uses": 17
+      },
+      {
+        "word": "uzama",
+        "meaning": "give",
+        "category": "action",
+        "age": 22,
+        "fitness": 0.1000000000000003,
+        "uses": 9
+      },
+      {
+        "word": "mamvotam",
+        "meaning": "tree",
+        "category": "natural",
+        "age": 20,
+        "fitness": 0.10000000000000024,
+        "uses": 7
+      },
+      {
+        "word": "sonnure",
+        "meaning": "make",
+        "category": "action",
+        "age": 18,
+        "fitness": 0.10000000000000024,
+        "uses": 7
+      },
+      {
+        "word": "sim",
+        "meaning": "cloud",
+        "category": "natural",
+        "age": 4,
+        "fitness": 0.10000000000000003,
+        "uses": 1
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "compound",
+      "gen": 4,
+      "word": "osna",
+      "meaning": "threshold-pattern",
+      "parts": [
+        "osu",
+        "ina"
+      ],
+      "partMeanings": [
+        "threshold",
+        "pattern"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 8,
+      "word": "kina",
+      "meaning": "cloud-pattern",
+      "parts": [
+        "ki",
+        "ina"
+      ],
+      "partMeanings": [
+        "cloud",
+        "pattern"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 10,
+      "word": "osao",
+      "meaning": "threshold-release",
+      "parts": [
+        "osu",
+        "lao"
+      ],
+      "partMeanings": [
+        "threshold",
+        "release"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 14,
+      "word": "sue",
+      "meaning": "deep-fall",
+      "parts": [
+        "suwen",
+        "e"
+      ],
+      "partMeanings": [
+        "deep",
+        "fall"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 29,
+      "word": "hopim",
+      "meaning": "hold-flow",
+      "parts": [
+        "honha",
+        "heapim"
+      ],
+      "partMeanings": [
+        "hold",
+        "flow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 31,
+      "word": "hosi",
+      "meaning": "hold-turn",
+      "parts": [
+        "honha",
+        "tusi"
+      ],
+      "partMeanings": [
+        "hold",
+        "turn"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 34,
+      "word": "innha",
+      "meaning": "other-hold",
+      "parts": [
+        "insi",
+        "honha"
+      ],
+      "partMeanings": [
+        "other",
+        "hold"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 45,
+      "word": "laaa",
+      "meaning": "release-between",
+      "parts": [
+        "lao",
+        "raa"
+      ],
+      "partMeanings": [
+        "release",
+        "between"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 49,
+      "word": "nesri",
+      "meaning": "make-change",
+      "parts": [
+        "nesoten",
+        "miri"
+      ],
+      "partMeanings": [
+        "make",
+        "change"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 50,
+      "word": "imnasi",
+      "meaning": "pattern-from",
+      "parts": [
+        "ima",
+        "punnasi"
+      ],
+      "partMeanings": [
+        "pattern",
+        "from"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 52,
+      "word": "heaoten",
+      "meaning": "flow-make",
+      "parts": [
+        "heapim",
+        "nesoten"
+      ],
+      "partMeanings": [
+        "flow",
+        "make"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 56,
+      "word": "taim",
+      "meaning": "many-fast",
+      "parts": [
+        "tapi",
+        "him"
+      ],
+      "partMeanings": [
+        "many",
+        "fast"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 57,
+      "word": "malon",
+      "meaning": "space-slow",
+      "parts": [
+        "maru",
+        "tanlon"
+      ],
+      "partMeanings": [
+        "space",
+        "slow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 61,
+      "word": "hiona",
+      "meaning": "fast-mountain",
+      "parts": [
+        "him",
+        "malona"
+      ],
+      "partMeanings": [
+        "fast",
+        "mountain"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 67,
+      "word": "inmu",
+      "meaning": "other-rise",
+      "parts": [
+        "insi",
+        "mamu"
+      ],
+      "partMeanings": [
+        "other",
+        "rise"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 72,
+      "word": "iikan",
+      "meaning": "from-toward",
+      "parts": [
+        "i",
+        "pipikan"
+      ],
+      "partMeanings": [
+        "from",
+        "toward"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 77,
+      "word": "kentim",
+      "meaning": "within-through",
+      "parts": [
+        "kenke",
+        "hamentim"
+      ],
+      "partMeanings": [
+        "within",
+        "through"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 86,
+      "word": "emikan",
+      "meaning": "begin-toward",
+      "parts": [
+        "emne",
+        "pipikan"
+      ],
+      "partMeanings": [
+        "begin",
+        "toward"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 91,
+      "word": "maikan",
+      "meaning": "grow-toward",
+      "parts": [
+        "maeki",
+        "pipikan"
+      ],
+      "partMeanings": [
+        "grow",
+        "toward"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 93,
+      "word": "niinno",
+      "meaning": "break-make",
+      "parts": [
+        "nihe",
+        "rasinno"
+      ],
+      "partMeanings": [
+        "break",
+        "make"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 98,
+      "word": "pipne",
+      "meaning": "toward-begin",
+      "parts": [
+        "pipikan",
+        "emne"
+      ],
+      "partMeanings": [
+        "toward",
+        "begin"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 104,
+      "word": "wulo",
+      "meaning": "dark-flower",
+      "parts": [
+        "wulawa",
+        "no"
+      ],
+      "partMeanings": [
+        "dark",
+        "flower"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 113,
+      "word": "wimhe",
+      "meaning": "whole-break",
+      "parts": [
+        "wimhin",
+        "nihe"
+      ],
+      "partMeanings": [
+        "whole",
+        "break"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 117,
+      "word": "kimi",
+      "meaning": "order-moon",
+      "parts": [
+        "kimnam",
+        "i"
+      ],
+      "partMeanings": [
+        "order",
+        "moon"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 119,
+      "word": "arenim",
+      "meaning": "fall-stone",
+      "parts": [
+        "aruki",
+        "vapenim"
+      ],
+      "partMeanings": [
+        "fall",
+        "stone"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 127,
+      "word": "manam",
+      "meaning": "join-order",
+      "parts": [
+        "manre",
+        "kimnam"
+      ],
+      "partMeanings": [
+        "join",
+        "order"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 134,
+      "word": "kanre",
+      "meaning": "bright-join",
+      "parts": [
+        "kami",
+        "manre"
+      ],
+      "partMeanings": [
+        "bright",
+        "join"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 136,
+      "word": "ahem",
+      "meaning": "rise-boundary",
+      "parts": [
+        "a",
+        "anhem"
+      ],
+      "partMeanings": [
+        "rise",
+        "boundary"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 138,
+      "word": "sanoi",
+      "meaning": "small-water",
+      "parts": [
+        "sala",
+        "kenoi"
+      ],
+      "partMeanings": [
+        "small",
+        "water"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 159,
+      "word": "alule",
+      "meaning": "boundary-sky",
+      "parts": [
+        "alene",
+        "vunule"
+      ],
+      "partMeanings": [
+        "boundary",
+        "sky"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 160,
+      "word": "ammi",
+      "meaning": "rain-bright",
+      "parts": [
+        "am",
+        "kami"
+      ],
+      "partMeanings": [
+        "rain",
+        "bright"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 164,
+      "word": "anomi",
+      "meaning": "far-small",
+      "parts": [
+        "anse",
+        "panomi"
+      ],
+      "partMeanings": [
+        "far",
+        "small"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 182,
+      "word": "imoo",
+      "meaning": "from-snow",
+      "parts": [
+        "imha",
+        "moo"
+      ],
+      "partMeanings": [
+        "from",
+        "snow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 192,
+      "word": "soatun",
+      "meaning": "release-end",
+      "parts": [
+        "so",
+        "ontatun"
+      ],
+      "partMeanings": [
+        "release",
+        "end"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 195,
+      "word": "taea",
+      "meaning": "flower-cycle",
+      "parts": [
+        "tammo",
+        "kea"
+      ],
+      "partMeanings": [
+        "flower",
+        "cycle"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 198,
+      "word": "meea",
+      "meaning": "connection-cycle",
+      "parts": [
+        "menmo",
+        "kea"
+      ],
+      "partMeanings": [
+        "connection",
+        "cycle"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 199,
+      "word": "zieni",
+      "meaning": "self-wave",
+      "parts": [
+        "zi",
+        "raweni"
+      ],
+      "partMeanings": [
+        "self",
+        "wave"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 204,
+      "word": "anaru",
+      "meaning": "moon-within",
+      "parts": [
+        "anhe",
+        "niaru"
+      ],
+      "partMeanings": [
+        "moon",
+        "within"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 219,
+      "word": "muena",
+      "meaning": "make-with",
+      "parts": [
+        "muli",
+        "netena"
+      ],
+      "partMeanings": [
+        "make",
+        "with"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 226,
+      "word": "tai",
+      "meaning": "flower-self",
+      "parts": [
+        "tammo",
+        "zi"
+      ],
+      "partMeanings": [
+        "flower",
+        "self"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 230,
+      "word": "miiho",
+      "meaning": "wind-sun",
+      "parts": [
+        "mira",
+        "nihiho"
+      ],
+      "partMeanings": [
+        "wind",
+        "sun"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 239,
+      "word": "tanmo",
+      "meaning": "stone-warm",
+      "parts": [
+        "tae",
+        "hanmo"
+      ],
+      "partMeanings": [
+        "stone",
+        "warm"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 262,
+      "word": "anru",
+      "meaning": "give-between",
+      "parts": [
+        "aneva",
+        "reru"
+      ],
+      "partMeanings": [
+        "give",
+        "between"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 263,
+      "word": "nanrin",
+      "meaning": "cloud-none",
+      "parts": [
+        "nanseko",
+        "rurin"
+      ],
+      "partMeanings": [
+        "cloud",
+        "none"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 271,
+      "word": "semi",
+      "meaning": "chaos-within",
+      "parts": [
+        "sesa",
+        "memi"
+      ],
+      "partMeanings": [
+        "chaos",
+        "within"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 307,
+      "word": "motum",
+      "meaning": "none-find",
+      "parts": [
+        "moli",
+        "ritum"
+      ],
+      "partMeanings": [
+        "none",
+        "find"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 312,
+      "word": "nanara",
+      "meaning": "ocean-water",
+      "parts": [
+        "naniwe",
+        "immara"
+      ],
+      "partMeanings": [
+        "ocean",
+        "water"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 319,
+      "word": "moka",
+      "meaning": "none-chaos",
+      "parts": [
+        "moli",
+        "laka"
+      ],
+      "partMeanings": [
+        "none",
+        "chaos"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 327,
+      "word": "ziure",
+      "meaning": "big-far",
+      "parts": [
+        "ziu",
+        "runure"
+      ],
+      "partMeanings": [
+        "big",
+        "far"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 337,
+      "word": "leiwe",
+      "meaning": "through-ocean",
+      "parts": [
+        "le",
+        "naniwe"
+      ],
+      "partMeanings": [
+        "through",
+        "ocean"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 349,
+      "word": "uria",
+      "meaning": "rain-end",
+      "parts": [
+        "uru",
+        "ngia"
+      ],
+      "partMeanings": [
+        "rain",
+        "end"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 360,
+      "word": "nilmha",
+      "meaning": "fire-new",
+      "parts": [
+        "nilivo",
+        "komha"
+      ],
+      "partMeanings": [
+        "fire",
+        "new"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 361,
+      "word": "urli",
+      "meaning": "rain-balance",
+      "parts": [
+        "uru",
+        "ruli"
+      ],
+      "partMeanings": [
+        "rain",
+        "balance"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 366,
+      "word": "tanwun",
+      "meaning": "all-part",
+      "parts": [
+        "tamme",
+        "pasanwun"
+      ],
+      "partMeanings": [
+        "all",
+        "part"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 367,
+      "word": "monwun",
+      "meaning": "move-part",
+      "parts": [
+        "mo",
+        "pasanwun"
+      ],
+      "partMeanings": [
+        "move",
+        "part"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 373,
+      "word": "nae",
+      "meaning": "warm-through",
+      "parts": [
+        "nao",
+        "le"
+      ],
+      "partMeanings": [
+        "warm",
+        "through"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 377,
+      "word": "ripli",
+      "meaning": "chaos-balance",
+      "parts": [
+        "ripire",
+        "ruli"
+      ],
+      "partMeanings": [
+        "chaos",
+        "balance"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 383,
+      "word": "pasali",
+      "meaning": "boundary-balance",
+      "parts": [
+        "pasannom",
+        "ruli"
+      ],
+      "partMeanings": [
+        "boundary",
+        "balance"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 387,
+      "word": "pasaha",
+      "meaning": "boundary-star",
+      "parts": [
+        "pasannom",
+        "iha"
+      ],
+      "partMeanings": [
+        "boundary",
+        "star"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 392,
+      "word": "ihpam",
+      "meaning": "star-slow",
+      "parts": [
+        "iha",
+        "nipam"
+      ],
+      "partMeanings": [
+        "star",
+        "slow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 399,
+      "word": "napam",
+      "meaning": "warm-slow",
+      "parts": [
+        "nao",
+        "nipam"
+      ],
+      "partMeanings": [
+        "warm",
+        "slow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 406,
+      "word": "mohoze",
+      "meaning": "move-end",
+      "parts": [
+        "mo",
+        "mishoze"
+      ],
+      "partMeanings": [
+        "move",
+        "end"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 407,
+      "word": "ao",
+      "meaning": "sun-move",
+      "parts": [
+        "a",
+        "mo"
+      ],
+      "partMeanings": [
+        "sun",
+        "move"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 420,
+      "word": "tuaae",
+      "meaning": "with-balance",
+      "parts": [
+        "tuanem",
+        "nae"
+      ],
+      "partMeanings": [
+        "with",
+        "balance"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 429,
+      "word": "huuse",
+      "meaning": "wind-river",
+      "parts": [
+        "huhi",
+        "hinuse"
+      ],
+      "partMeanings": [
+        "wind",
+        "river"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 444,
+      "word": "naso",
+      "meaning": "balance-fall",
+      "parts": [
+        "nae",
+        "voso"
+      ],
+      "partMeanings": [
+        "balance",
+        "fall"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 455,
+      "word": "kikso",
+      "meaning": "tree-fall",
+      "parts": [
+        "kikanse",
+        "voso"
+      ],
+      "partMeanings": [
+        "tree",
+        "fall"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 456,
+      "word": "vomne",
+      "meaning": "fall-far",
+      "parts": [
+        "voso",
+        "kaamne"
+      ],
+      "partMeanings": [
+        "fall",
+        "far"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 457,
+      "word": "nakimu",
+      "meaning": "within-take",
+      "parts": [
+        "nakutem",
+        "kumimu"
+      ],
+      "partMeanings": [
+        "within",
+        "take"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 460,
+      "word": "minuma",
+      "meaning": "rise-seed",
+      "parts": [
+        "mi",
+        "momnuma"
+      ],
+      "partMeanings": [
+        "rise",
+        "seed"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 464,
+      "word": "kooman",
+      "meaning": "space-hard",
+      "parts": [
+        "kona",
+        "nimvoman"
+      ],
+      "partMeanings": [
+        "space",
+        "hard"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 465,
+      "word": "kummpo",
+      "meaning": "take-time",
+      "parts": [
+        "kumimu",
+        "mimpo"
+      ],
+      "partMeanings": [
+        "take",
+        "time"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 471,
+      "word": "puna",
+      "meaning": "high-water",
+      "parts": [
+        "punlam",
+        "na"
+      ],
+      "partMeanings": [
+        "high",
+        "water"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 472,
+      "word": "koutem",
+      "meaning": "space-within",
+      "parts": [
+        "kona",
+        "nakutem"
+      ],
+      "partMeanings": [
+        "space",
+        "within"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 482,
+      "word": "silo",
+      "meaning": "many-threshold",
+      "parts": [
+        "siwu",
+        "salo"
+      ],
+      "partMeanings": [
+        "many",
+        "threshold"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 483,
+      "word": "uo",
+      "meaning": "release-begin",
+      "parts": [
+        "u",
+        "ko"
+      ],
+      "partMeanings": [
+        "release",
+        "begin"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 491,
+      "word": "issai",
+      "meaning": "make-earth",
+      "parts": [
+        "ise",
+        "kesai"
+      ],
+      "partMeanings": [
+        "make",
+        "earth"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 504,
+      "word": "puppo",
+      "meaning": "space-flower",
+      "parts": [
+        "pupimso",
+        "epo"
+      ],
+      "partMeanings": [
+        "space",
+        "flower"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 506,
+      "word": "tiapo",
+      "meaning": "cycle-flower",
+      "parts": [
+        "tiakam",
+        "epo"
+      ],
+      "partMeanings": [
+        "cycle",
+        "flower"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 509,
+      "word": "senrma",
+      "meaning": "fire-slow",
+      "parts": [
+        "senrinro",
+        "mima"
+      ],
+      "partMeanings": [
+        "fire",
+        "slow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 513,
+      "word": "lerlo",
+      "meaning": "boundary-threshold",
+      "parts": [
+        "lerahon",
+        "salo"
+      ],
+      "partMeanings": [
+        "boundary",
+        "threshold"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 515,
+      "word": "utahon",
+      "meaning": "wave-boundary",
+      "parts": [
+        "uto",
+        "lerahon"
+      ],
+      "partMeanings": [
+        "wave",
+        "boundary"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 520,
+      "word": "pupahon",
+      "meaning": "space-boundary",
+      "parts": [
+        "pupimso",
+        "lerahon"
+      ],
+      "partMeanings": [
+        "space",
+        "boundary"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 521,
+      "word": "kisu",
+      "meaning": "find-make",
+      "parts": [
+        "kinu",
+        "lesu"
+      ],
+      "partMeanings": [
+        "find",
+        "make"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 535,
+      "word": "ennpe",
+      "meaning": "from-small",
+      "parts": [
+        "enme",
+        "tinpe"
+      ],
+      "partMeanings": [
+        "from",
+        "small"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 541,
+      "word": "animso",
+      "meaning": "rise-space",
+      "parts": [
+        "ani",
+        "pupimso"
+      ],
+      "partMeanings": [
+        "rise",
+        "space"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 548,
+      "word": "roano",
+      "meaning": "flower-move",
+      "parts": [
+        "romko",
+        "tanano"
+      ],
+      "partMeanings": [
+        "flower",
+        "move"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 560,
+      "word": "tanzu",
+      "meaning": "move-between",
+      "parts": [
+        "tanano",
+        "sazu"
+      ],
+      "partMeanings": [
+        "move",
+        "between"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 582,
+      "word": "monua",
+      "meaning": "earth-none",
+      "parts": [
+        "monira",
+        "kua"
+      ],
+      "partMeanings": [
+        "earth",
+        "none"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 588,
+      "word": "iuiho",
+      "meaning": "fast-many",
+      "parts": [
+        "iu",
+        "nuiho"
+      ],
+      "partMeanings": [
+        "fast",
+        "many"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 594,
+      "word": "moaso",
+      "meaning": "dark-boundary",
+      "parts": [
+        "moo",
+        "amsaso"
+      ],
+      "partMeanings": [
+        "dark",
+        "boundary"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 599,
+      "word": "muli",
+      "meaning": "tree-flow",
+      "parts": [
+        "muha",
+        "meli"
+      ],
+      "partMeanings": [
+        "tree",
+        "flow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 610,
+      "word": "amsman",
+      "meaning": "boundary-stone",
+      "parts": [
+        "amsaso",
+        "teman"
+      ],
+      "partMeanings": [
+        "boundary",
+        "stone"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 615,
+      "word": "leha",
+      "meaning": "high-tree",
+      "parts": [
+        "lemne",
+        "muha"
+      ],
+      "partMeanings": [
+        "high",
+        "tree"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 619,
+      "word": "unna",
+      "meaning": "threshold-grow",
+      "parts": [
+        "unnim",
+        "una"
+      ],
+      "partMeanings": [
+        "threshold",
+        "grow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 622,
+      "word": "siilem",
+      "meaning": "move-slow",
+      "parts": [
+        "si",
+        "kimilem"
+      ],
+      "partMeanings": [
+        "move",
+        "slow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 626,
+      "word": "kolman",
+      "meaning": "ocean-stone",
+      "parts": [
+        "kolisin",
+        "teman"
+      ],
+      "partMeanings": [
+        "ocean",
+        "stone"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 627,
+      "word": "minha",
+      "meaning": "old-soft",
+      "parts": [
+        "minrese",
+        "iha"
+      ],
+      "partMeanings": [
+        "old",
+        "soft"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 639,
+      "word": "nuzmea",
+      "meaning": "with-self",
+      "parts": [
+        "nuzare",
+        "pimea"
+      ],
+      "partMeanings": [
+        "with",
+        "self"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 641,
+      "word": "tii",
+      "meaning": "join-part",
+      "parts": [
+        "ti",
+        "pi"
+      ],
+      "partMeanings": [
+        "join",
+        "part"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 642,
+      "word": "mali",
+      "meaning": "end-flow",
+      "parts": [
+        "ma",
+        "meli"
+      ],
+      "partMeanings": [
+        "end",
+        "flow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 647,
+      "word": "paisin",
+      "meaning": "toward-ocean",
+      "parts": [
+        "palin",
+        "kolisin"
+      ],
+      "partMeanings": [
+        "toward",
+        "ocean"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 657,
+      "word": "mea",
+      "meaning": "flow-far",
+      "parts": [
+        "meli",
+        "sa"
+      ],
+      "partMeanings": [
+        "flow",
+        "far"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 668,
+      "word": "ihinka",
+      "meaning": "beyond-moon",
+      "parts": [
+        "ihae",
+        "peminka"
+      ],
+      "partMeanings": [
+        "beyond",
+        "moon"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 669,
+      "word": "pemlin",
+      "meaning": "moon-toward",
+      "parts": [
+        "peminka",
+        "palin"
+      ],
+      "partMeanings": [
+        "moon",
+        "toward"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 674,
+      "word": "sainka",
+      "meaning": "far-moon",
+      "parts": [
+        "sa",
+        "peminka"
+      ],
+      "partMeanings": [
+        "far",
+        "moon"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 676,
+      "word": "ioinka",
+      "meaning": "around-moon",
+      "parts": [
+        "io",
+        "peminka"
+      ],
+      "partMeanings": [
+        "around",
+        "moon"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 691,
+      "word": "nemi",
+      "meaning": "seed-earth",
+      "parts": [
+        "ne",
+        "nomi"
+      ],
+      "partMeanings": [
+        "seed",
+        "earth"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 693,
+      "word": "zouu",
+      "meaning": "through-flow",
+      "parts": [
+        "zona",
+        "weuu"
+      ],
+      "partMeanings": [
+        "through",
+        "flow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 697,
+      "word": "uai",
+      "meaning": "near-fast",
+      "parts": [
+        "ua",
+        "zi"
+      ],
+      "partMeanings": [
+        "near",
+        "fast"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 701,
+      "word": "nosi",
+      "meaning": "earth-order",
+      "parts": [
+        "nomi",
+        "musi"
+      ],
+      "partMeanings": [
+        "earth",
+        "order"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 706,
+      "word": "noa",
+      "meaning": "earth-near",
+      "parts": [
+        "nomi",
+        "ua"
+      ],
+      "partMeanings": [
+        "earth",
+        "near"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 719,
+      "word": "laran",
+      "meaning": "cycle-chaos",
+      "parts": [
+        "la",
+        "nanran"
+      ],
+      "partMeanings": [
+        "cycle",
+        "chaos"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 732,
+      "word": "meve",
+      "meaning": "new-slow",
+      "parts": [
+        "mewa",
+        "nave"
+      ],
+      "partMeanings": [
+        "new",
+        "slow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 733,
+      "word": "maneti",
+      "meaning": "mountain-none",
+      "parts": [
+        "manama",
+        "suneti"
+      ],
+      "partMeanings": [
+        "mountain",
+        "none"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 742,
+      "word": "sake",
+      "meaning": "time-old",
+      "parts": [
+        "sa",
+        "ike"
+      ],
+      "partMeanings": [
+        "time",
+        "old"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 761,
+      "word": "kimaku",
+      "meaning": "find-change",
+      "parts": [
+        "kio",
+        "tummaku"
+      ],
+      "partMeanings": [
+        "find",
+        "change"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 762,
+      "word": "ina",
+      "meaning": "move-time",
+      "parts": [
+        "ini",
+        "sa"
+      ],
+      "partMeanings": [
+        "move",
+        "time"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 766,
+      "word": "tioi",
+      "meaning": "order-one",
+      "parts": [
+        "ti",
+        "soi"
+      ],
+      "partMeanings": [
+        "order",
+        "one"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 770,
+      "word": "hano",
+      "meaning": "part-high",
+      "parts": [
+        "hante",
+        "sino"
+      ],
+      "partMeanings": [
+        "part",
+        "high"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 771,
+      "word": "innte",
+      "meaning": "move-part",
+      "parts": [
+        "ini",
+        "hante"
+      ],
+      "partMeanings": [
+        "move",
+        "part"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 780,
+      "word": "raama",
+      "meaning": "toward-deep",
+      "parts": [
+        "rawen",
+        "asama"
+      ],
+      "partMeanings": [
+        "toward",
+        "deep"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 796,
+      "word": "telnu",
+      "meaning": "fast-beyond",
+      "parts": [
+        "telenu",
+        "sonu"
+      ],
+      "partMeanings": [
+        "fast",
+        "beyond"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 806,
+      "word": "vinze",
+      "meaning": "tree-moon",
+      "parts": [
+        "vila",
+        "kinze"
+      ],
+      "partMeanings": [
+        "tree",
+        "moon"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 811,
+      "word": "otalam",
+      "meaning": "earth-cold",
+      "parts": [
+        "otu",
+        "sekalam"
+      ],
+      "partMeanings": [
+        "earth",
+        "cold"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 812,
+      "word": "rola",
+      "meaning": "ocean-tree",
+      "parts": [
+        "roae",
+        "vila"
+      ],
+      "partMeanings": [
+        "ocean",
+        "tree"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 831,
+      "word": "kire",
+      "meaning": "end-part",
+      "parts": [
+        "kim",
+        "ure"
+      ],
+      "partMeanings": [
+        "end",
+        "part"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 836,
+      "word": "iram",
+      "meaning": "small-find",
+      "parts": [
+        "i",
+        "voram"
+      ],
+      "partMeanings": [
+        "small",
+        "find"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 858,
+      "word": "kanum",
+      "meaning": "through-one",
+      "parts": [
+        "kanluno",
+        "num"
+      ],
+      "partMeanings": [
+        "through",
+        "one"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 865,
+      "word": "tue",
+      "meaning": "big-time",
+      "parts": [
+        "tupin",
+        "he"
+      ],
+      "partMeanings": [
+        "big",
+        "time"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 870,
+      "word": "heza",
+      "meaning": "time-old",
+      "parts": [
+        "he",
+        "aza"
+      ],
+      "partMeanings": [
+        "time",
+        "old"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 900,
+      "word": "kanemna",
+      "meaning": "bright-toward",
+      "parts": [
+        "kanemkam",
+        "temna"
+      ],
+      "partMeanings": [
+        "bright",
+        "toward"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 904,
+      "word": "mamkam",
+      "meaning": "snow-bright",
+      "parts": [
+        "manin",
+        "kanemkam"
+      ],
+      "partMeanings": [
+        "snow",
+        "bright"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 906,
+      "word": "lio",
+      "meaning": "begin-connection",
+      "parts": [
+        "liko",
+        "to"
+      ],
+      "partMeanings": [
+        "begin",
+        "connection"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 910,
+      "word": "tiora",
+      "meaning": "other-cloud",
+      "parts": [
+        "tiko",
+        "kaora"
+      ],
+      "partMeanings": [
+        "other",
+        "cloud"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 919,
+      "word": "meme",
+      "meaning": "with-cold",
+      "parts": [
+        "me",
+        "ame"
+      ],
+      "partMeanings": [
+        "with",
+        "cold"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 927,
+      "word": "unsi",
+      "meaning": "move-wave",
+      "parts": [
+        "unki",
+        "musi"
+      ],
+      "partMeanings": [
+        "move",
+        "wave"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 928,
+      "word": "toi",
+      "meaning": "connection-tree",
+      "parts": [
+        "to",
+        "mi"
+      ],
+      "partMeanings": [
+        "connection",
+        "tree"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 944,
+      "word": "lukim",
+      "meaning": "turn-stone",
+      "parts": [
+        "lui",
+        "mekim"
+      ],
+      "partMeanings": [
+        "turn",
+        "stone"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 955,
+      "word": "sunlim",
+      "meaning": "space-ocean",
+      "parts": [
+        "suu",
+        "ihinlim"
+      ],
+      "partMeanings": [
+        "space",
+        "ocean"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 964,
+      "word": "nunlim",
+      "meaning": "emergence-ocean",
+      "parts": [
+        "nua",
+        "ihinlim"
+      ],
+      "partMeanings": [
+        "emergence",
+        "ocean"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 969,
+      "word": "konnsem",
+      "meaning": "give-hold",
+      "parts": [
+        "konnanam",
+        "kusem"
+      ],
+      "partMeanings": [
+        "give",
+        "hold"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 975,
+      "word": "tata",
+      "meaning": "from-whole",
+      "parts": [
+        "tasa",
+        "wuta"
+      ],
+      "partMeanings": [
+        "from",
+        "whole"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 984,
+      "word": "unta",
+      "meaning": "beyond-whole",
+      "parts": [
+        "unsaa",
+        "wuta"
+      ],
+      "partMeanings": [
+        "beyond",
+        "whole"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 988,
+      "word": "kuanam",
+      "meaning": "connection-give",
+      "parts": [
+        "kute",
+        "konnanam"
+      ],
+      "partMeanings": [
+        "connection",
+        "give"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1001,
+      "word": "ehmka",
+      "meaning": "order-beyond",
+      "parts": [
+        "ehe",
+        "luomka"
+      ],
+      "partMeanings": [
+        "order",
+        "beyond"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1016,
+      "word": "ponnu",
+      "meaning": "turn-cloud",
+      "parts": [
+        "ponusi",
+        "anu"
+      ],
+      "partMeanings": [
+        "turn",
+        "cloud"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1025,
+      "word": "liinmu",
+      "meaning": "soft-stone",
+      "parts": [
+        "lio",
+        "notinmu"
+      ],
+      "partMeanings": [
+        "soft",
+        "stone"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1034,
+      "word": "luanka",
+      "meaning": "release-between",
+      "parts": [
+        "lue",
+        "natanka"
+      ],
+      "partMeanings": [
+        "release",
+        "between"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1037,
+      "word": "kainmu",
+      "meaning": "toward-stone",
+      "parts": [
+        "kala",
+        "notinmu"
+      ],
+      "partMeanings": [
+        "toward",
+        "stone"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1042,
+      "word": "rooo",
+      "meaning": "big-turn",
+      "parts": [
+        "ronem",
+        "roo"
+      ],
+      "partMeanings": [
+        "big",
+        "turn"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1046,
+      "word": "menoo",
+      "meaning": "time-turn",
+      "parts": [
+        "menonan",
+        "roo"
+      ],
+      "partMeanings": [
+        "time",
+        "turn"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1047,
+      "word": "lani",
+      "meaning": "move-begin",
+      "parts": [
+        "lari",
+        "puni"
+      ],
+      "partMeanings": [
+        "move",
+        "begin"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1053,
+      "word": "roanka",
+      "meaning": "turn-between",
+      "parts": [
+        "roo",
+        "natanka"
+      ],
+      "partMeanings": [
+        "turn",
+        "between"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1054,
+      "word": "saean",
+      "meaning": "cold-fire",
+      "parts": [
+        "sanu",
+        "hapean"
+      ],
+      "partMeanings": [
+        "cold",
+        "fire"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1056,
+      "word": "roii",
+      "meaning": "turn-join",
+      "parts": [
+        "roo",
+        "nii"
+      ],
+      "partMeanings": [
+        "turn",
+        "join"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1059,
+      "word": "urue",
+      "meaning": "other-release",
+      "parts": [
+        "urike",
+        "lue"
+      ],
+      "partMeanings": [
+        "other",
+        "release"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1064,
+      "word": "tasamha",
+      "meaning": "within-around",
+      "parts": [
+        "tasiim",
+        "wenamha"
+      ],
+      "partMeanings": [
+        "within",
+        "around"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1074,
+      "word": "nuoo",
+      "meaning": "emergence-turn",
+      "parts": [
+        "nui",
+        "roo"
+      ],
+      "partMeanings": [
+        "emergence",
+        "turn"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1078,
+      "word": "linoo",
+      "meaning": "hard-turn",
+      "parts": [
+        "linruru",
+        "roo"
+      ],
+      "partMeanings": [
+        "hard",
+        "turn"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1081,
+      "word": "iwa",
+      "meaning": "far-ocean",
+      "parts": [
+        "iwake",
+        "a"
+      ],
+      "partMeanings": [
+        "far",
+        "ocean"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1090,
+      "from": "tito",
+      "to": "tiso",
+      "meaning": "find"
+    },
+    {
+      "type": "shift",
+      "gen": 1098,
+      "from": "nonalan",
+      "to": "nomalan",
+      "meaning": "cycle"
+    },
+    {
+      "type": "compound",
+      "gen": 1102,
+      "word": "wiom",
+      "meaning": "wind-all",
+      "parts": [
+        "wio",
+        "hom"
+      ],
+      "partMeanings": [
+        "wind",
+        "all"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1106,
+      "word": "honi",
+      "meaning": "all-dark",
+      "parts": [
+        "hom",
+        "vuni"
+      ],
+      "partMeanings": [
+        "all",
+        "dark"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1108,
+      "word": "kala",
+      "meaning": "fall-soft",
+      "parts": [
+        "kalaku",
+        "na"
+      ],
+      "partMeanings": [
+        "fall",
+        "soft"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1111,
+      "word": "iwha",
+      "meaning": "far-find",
+      "parts": [
+        "iwake",
+        "kaha"
+      ],
+      "partMeanings": [
+        "far",
+        "find"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1119,
+      "word": "kue",
+      "meaning": "hold-make",
+      "parts": [
+        "ku",
+        "ne"
+      ],
+      "partMeanings": [
+        "hold",
+        "make"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1123,
+      "word": "kaaim",
+      "meaning": "break-wave",
+      "parts": [
+        "kaaram",
+        "rim"
+      ],
+      "partMeanings": [
+        "break",
+        "wave"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1128,
+      "word": "wammmum",
+      "meaning": "one-old",
+      "parts": [
+        "wamwom",
+        "etommum"
+      ],
+      "partMeanings": [
+        "one",
+        "old"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1129,
+      "word": "kai",
+      "meaning": "near-high",
+      "parts": [
+        "ka",
+        "ki"
+      ],
+      "partMeanings": [
+        "near",
+        "high"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1131,
+      "word": "eka",
+      "meaning": "around-near",
+      "parts": [
+        "eki",
+        "ka"
+      ],
+      "partMeanings": [
+        "around",
+        "near"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1133,
+      "word": "riwom",
+      "meaning": "wave-one",
+      "parts": [
+        "rim",
+        "wamwom"
+      ],
+      "partMeanings": [
+        "wave",
+        "one"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1141,
+      "word": "aawo",
+      "meaning": "none-big",
+      "parts": [
+        "aa",
+        "riwo"
+      ],
+      "partMeanings": [
+        "none",
+        "big"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1148,
+      "word": "pamu",
+      "meaning": "rain-whole",
+      "parts": [
+        "pamanmi",
+        "hu"
+      ],
+      "partMeanings": [
+        "rain",
+        "whole"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1152,
+      "word": "milatu",
+      "meaning": "slow-cycle",
+      "parts": [
+        "mileni",
+        "sakatu"
+      ],
+      "partMeanings": [
+        "slow",
+        "cycle"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1162,
+      "word": "tapieni",
+      "meaning": "pattern-slow",
+      "parts": [
+        "tapinmin",
+        "mileni"
+      ],
+      "partMeanings": [
+        "pattern",
+        "slow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1170,
+      "word": "iatan",
+      "meaning": "between-fast",
+      "parts": [
+        "ia",
+        "tamtan"
+      ],
+      "partMeanings": [
+        "between",
+        "fast"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1172,
+      "word": "wavu",
+      "meaning": "flower-snow",
+      "parts": [
+        "wa",
+        "pavu"
+      ],
+      "partMeanings": [
+        "flower",
+        "snow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1174,
+      "word": "wenu",
+      "meaning": "emergence-end",
+      "parts": [
+        "weira",
+        "inu"
+      ],
+      "partMeanings": [
+        "emergence",
+        "end"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1184,
+      "word": "melenim",
+      "meaning": "space-water",
+      "parts": [
+        "melume",
+        "mamenim"
+      ],
+      "partMeanings": [
+        "space",
+        "water"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1197,
+      "from": "lemoti",
+      "to": "lemosi",
+      "meaning": "beyond"
+    },
+    {
+      "type": "compound",
+      "gen": 1211,
+      "word": "sata",
+      "meaning": "give-flow",
+      "parts": [
+        "sa",
+        "vuta"
+      ],
+      "partMeanings": [
+        "give",
+        "flow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1220,
+      "word": "timi",
+      "meaning": "hold-wind",
+      "parts": [
+        "tive",
+        "omi"
+      ],
+      "partMeanings": [
+        "hold",
+        "wind"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1228,
+      "word": "kammi",
+      "meaning": "move-wind",
+      "parts": [
+        "kamowe",
+        "omi"
+      ],
+      "partMeanings": [
+        "move",
+        "wind"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1229,
+      "word": "omsi",
+      "meaning": "wind-between",
+      "parts": [
+        "omi",
+        "esi"
+      ],
+      "partMeanings": [
+        "wind",
+        "between"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1234,
+      "word": "keovam",
+      "meaning": "earth-break",
+      "parts": [
+        "ke",
+        "mamtovam"
+      ],
+      "partMeanings": [
+        "earth",
+        "break"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1247,
+      "word": "emelu",
+      "meaning": "turn-self",
+      "parts": [
+        "emeli",
+        "siselu"
+      ],
+      "partMeanings": [
+        "turn",
+        "self"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1248,
+      "from": "ka",
+      "to": "ga",
+      "meaning": "sky"
+    },
+    {
+      "type": "compound",
+      "gen": 1248,
+      "word": "luoen",
+      "meaning": "grow-fire",
+      "parts": [
+        "lu",
+        "nunoen"
+      ],
+      "partMeanings": [
+        "grow",
+        "fire"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1254,
+      "word": "avaen",
+      "meaning": "river-other",
+      "parts": [
+        "avawim",
+        "moen"
+      ],
+      "partMeanings": [
+        "river",
+        "other"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1262,
+      "word": "nunmzo",
+      "meaning": "fire-take",
+      "parts": [
+        "nunoen",
+        "momzo"
+      ],
+      "partMeanings": [
+        "fire",
+        "take"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1265,
+      "word": "moha",
+      "meaning": "other-earth",
+      "parts": [
+        "moen",
+        "hoha"
+      ],
+      "partMeanings": [
+        "other",
+        "earth"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1266,
+      "word": "unen",
+      "meaning": "small-other",
+      "parts": [
+        "unoi",
+        "moen"
+      ],
+      "partMeanings": [
+        "small",
+        "other"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1267,
+      "word": "unaho",
+      "meaning": "small-find",
+      "parts": [
+        "unoi",
+        "leaho"
+      ],
+      "partMeanings": [
+        "small",
+        "find"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1270,
+      "word": "leawen",
+      "meaning": "find-rain",
+      "parts": [
+        "leaho",
+        "wawawen"
+      ],
+      "partMeanings": [
+        "find",
+        "rain"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1281,
+      "word": "hoke",
+      "meaning": "earth-around",
+      "parts": [
+        "hoha",
+        "nuke"
+      ],
+      "partMeanings": [
+        "earth",
+        "around"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1283,
+      "from": "moen",
+      "to": "moeng",
+      "meaning": "other"
+    },
+    {
+      "type": "compound",
+      "gen": 1296,
+      "word": "rinrze",
+      "meaning": "toward-within",
+      "parts": [
+        "rinrisim",
+        "waze"
+      ],
+      "partMeanings": [
+        "toward",
+        "within"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1314,
+      "word": "vonti",
+      "meaning": "one-river",
+      "parts": [
+        "vonuna",
+        "meti"
+      ],
+      "partMeanings": [
+        "one",
+        "river"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1317,
+      "word": "aeki",
+      "meaning": "move-wind",
+      "parts": [
+        "a",
+        "taeki"
+      ],
+      "partMeanings": [
+        "move",
+        "wind"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1322,
+      "word": "tekeme",
+      "meaning": "seed-slow",
+      "parts": [
+        "tekuta",
+        "rikeme"
+      ],
+      "partMeanings": [
+        "seed",
+        "slow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1331,
+      "word": "aonu",
+      "meaning": "move-end",
+      "parts": [
+        "a",
+        "ekonu"
+      ],
+      "partMeanings": [
+        "move",
+        "end"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1332,
+      "from": "nazanu",
+      "to": "ngazanu",
+      "meaning": "find"
+    },
+    {
+      "type": "compound",
+      "gen": 1332,
+      "word": "rikmi",
+      "meaning": "slow-old",
+      "parts": [
+        "rikeme",
+        "wami"
+      ],
+      "partMeanings": [
+        "slow",
+        "old"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1336,
+      "word": "sinha",
+      "meaning": "water-earth",
+      "parts": [
+        "sinusen",
+        "hoha"
+      ],
+      "partMeanings": [
+        "water",
+        "earth"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1340,
+      "word": "haai",
+      "meaning": "wind-turn",
+      "parts": [
+        "ha",
+        "irai"
+      ],
+      "partMeanings": [
+        "wind",
+        "turn"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1343,
+      "from": "titae",
+      "to": "ditae",
+      "meaning": "chaos"
+    },
+    {
+      "type": "compound",
+      "gen": 1343,
+      "word": "hanmi",
+      "meaning": "tree-old",
+      "parts": [
+        "hansan",
+        "wami"
+      ],
+      "partMeanings": [
+        "tree",
+        "old"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1345,
+      "word": "housen",
+      "meaning": "earth-water",
+      "parts": [
+        "hoha",
+        "sinusen"
+      ],
+      "partMeanings": [
+        "earth",
+        "water"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1348,
+      "word": "sinpe",
+      "meaning": "water-big",
+      "parts": [
+        "sinusen",
+        "hupe"
+      ],
+      "partMeanings": [
+        "water",
+        "big"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1349,
+      "word": "weuu",
+      "meaning": "moon-give",
+      "parts": [
+        "wen",
+        "neuu"
+      ],
+      "partMeanings": [
+        "moon",
+        "give"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1364,
+      "word": "hanvo",
+      "meaning": "tree-balance",
+      "parts": [
+        "hansan",
+        "kavo"
+      ],
+      "partMeanings": [
+        "tree",
+        "balance"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1365,
+      "word": "husan",
+      "meaning": "big-tree",
+      "parts": [
+        "hupe",
+        "hansan"
+      ],
+      "partMeanings": [
+        "big",
+        "tree"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1378,
+      "word": "nupe",
+      "meaning": "high-big",
+      "parts": [
+        "nuii",
+        "hupe"
+      ],
+      "partMeanings": [
+        "high",
+        "big"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1380,
+      "word": "anii",
+      "meaning": "within-high",
+      "parts": [
+        "anali",
+        "nuii"
+      ],
+      "partMeanings": [
+        "within",
+        "high"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1386,
+      "word": "pakali",
+      "meaning": "break-within",
+      "parts": [
+        "pakiom",
+        "anali"
+      ],
+      "partMeanings": [
+        "break",
+        "within"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1388,
+      "from": "kaso",
+      "to": "kasho",
+      "meaning": "balance"
+    },
+    {
+      "type": "compound",
+      "gen": 1388,
+      "word": "musu",
+      "meaning": "fast-far",
+      "parts": [
+        "muu",
+        "nesu"
+      ],
+      "partMeanings": [
+        "fast",
+        "far"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1389,
+      "word": "nehena",
+      "meaning": "make-flower",
+      "parts": [
+        "nei",
+        "sunhena"
+      ],
+      "partMeanings": [
+        "make",
+        "flower"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1391,
+      "word": "muei",
+      "meaning": "fast-make",
+      "parts": [
+        "muu",
+        "nei"
+      ],
+      "partMeanings": [
+        "fast",
+        "make"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1393,
+      "word": "imsu",
+      "meaning": "slow-far",
+      "parts": [
+        "imom",
+        "nesu"
+      ],
+      "partMeanings": [
+        "slow",
+        "far"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1396,
+      "word": "sunsu",
+      "meaning": "flower-far",
+      "parts": [
+        "sunhena",
+        "nesu"
+      ],
+      "partMeanings": [
+        "flower",
+        "far"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1398,
+      "word": "musho",
+      "meaning": "fast-balance",
+      "parts": [
+        "muu",
+        "kasho"
+      ],
+      "partMeanings": [
+        "fast",
+        "balance"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1411,
+      "word": "hie",
+      "meaning": "change-within",
+      "parts": [
+        "hinwa",
+        "ie"
+      ],
+      "partMeanings": [
+        "change",
+        "within"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1418,
+      "word": "keumam",
+      "meaning": "seed-moon",
+      "parts": [
+        "kenam",
+        "rizumam"
+      ],
+      "partMeanings": [
+        "seed",
+        "moon"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1419,
+      "word": "hua",
+      "meaning": "wind-end",
+      "parts": [
+        "hun",
+        "ma"
+      ],
+      "partMeanings": [
+        "wind",
+        "end"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1420,
+      "word": "kamra",
+      "meaning": "balance-sky",
+      "parts": [
+        "kasho",
+        "pamra"
+      ],
+      "partMeanings": [
+        "balance",
+        "sky"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1427,
+      "from": "nuii",
+      "to": "nguii",
+      "meaning": "high"
+    },
+    {
+      "type": "compound",
+      "gen": 1451,
+      "word": "rizana",
+      "meaning": "moon-around",
+      "parts": [
+        "rizumam",
+        "voana"
+      ],
+      "partMeanings": [
+        "moon",
+        "around"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1460,
+      "word": "memtim",
+      "meaning": "from-flower",
+      "parts": [
+        "me",
+        "pelomtim"
+      ],
+      "partMeanings": [
+        "from",
+        "flower"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1464,
+      "word": "kemti",
+      "meaning": "seed-balance",
+      "parts": [
+        "kenam",
+        "vamti"
+      ],
+      "partMeanings": [
+        "seed",
+        "balance"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1467,
+      "word": "letana",
+      "meaning": "near-around",
+      "parts": [
+        "letino",
+        "voana"
+      ],
+      "partMeanings": [
+        "near",
+        "around"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1475,
+      "word": "ovo",
+      "meaning": "flow-through",
+      "parts": [
+        "o",
+        "emvo"
+      ],
+      "partMeanings": [
+        "flow",
+        "through"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1478,
+      "word": "emmim",
+      "meaning": "through-change",
+      "parts": [
+        "emvo",
+        "amamim"
+      ],
+      "partMeanings": [
+        "through",
+        "change"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1480,
+      "word": "teo",
+      "meaning": "seed-flow",
+      "parts": [
+        "tesu",
+        "o"
+      ],
+      "partMeanings": [
+        "seed",
+        "flow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1482,
+      "word": "mesu",
+      "meaning": "from-seed",
+      "parts": [
+        "me",
+        "tesu"
+      ],
+      "partMeanings": [
+        "from",
+        "seed"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1492,
+      "word": "vane",
+      "meaning": "river-beyond",
+      "parts": [
+        "vasu",
+        "nene"
+      ],
+      "partMeanings": [
+        "river",
+        "beyond"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1497,
+      "word": "sea",
+      "meaning": "through-mountain",
+      "parts": [
+        "sekam",
+        "na"
+      ],
+      "partMeanings": [
+        "through",
+        "mountain"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1507,
+      "word": "vimim",
+      "meaning": "flower-change",
+      "parts": [
+        "vira",
+        "amamim"
+      ],
+      "partMeanings": [
+        "flower",
+        "change"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1512,
+      "word": "samna",
+      "meaning": "sun-break",
+      "parts": [
+        "sapi",
+        "ramna"
+      ],
+      "partMeanings": [
+        "sun",
+        "break"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1515,
+      "word": "emna",
+      "meaning": "sky-high",
+      "parts": [
+        "emneo",
+        "kona"
+      ],
+      "partMeanings": [
+        "sky",
+        "high"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1516,
+      "word": "anmi",
+      "meaning": "old-make",
+      "parts": [
+        "anzam",
+        "umi"
+      ],
+      "partMeanings": [
+        "old",
+        "make"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1531,
+      "word": "nazam",
+      "meaning": "mountain-old",
+      "parts": [
+        "na",
+        "anzam"
+      ],
+      "partMeanings": [
+        "mountain",
+        "old"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1567,
+      "word": "siae",
+      "meaning": "move-big",
+      "parts": [
+        "siha",
+        "enae"
+      ],
+      "partMeanings": [
+        "move",
+        "big"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1568,
+      "from": "lieti",
+      "to": "liesi",
+      "meaning": "through"
+    },
+    {
+      "type": "compound",
+      "gen": 1568,
+      "word": "sikani",
+      "meaning": "move-deep",
+      "parts": [
+        "siha",
+        "renkani"
+      ],
+      "partMeanings": [
+        "move",
+        "deep"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1569,
+      "word": "eni",
+      "meaning": "big-wave",
+      "parts": [
+        "enae",
+        "ri"
+      ],
+      "partMeanings": [
+        "big",
+        "wave"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1572,
+      "word": "taro",
+      "meaning": "take-find",
+      "parts": [
+        "tanna",
+        "lero"
+      ],
+      "partMeanings": [
+        "take",
+        "find"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1574,
+      "word": "sia",
+      "meaning": "hard-flow",
+      "parts": [
+        "simwo",
+        "ma"
+      ],
+      "partMeanings": [
+        "hard",
+        "flow"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1595,
+      "from": "nimlem",
+      "to": "mimlem",
+      "meaning": "time"
+    },
+    {
+      "type": "compound",
+      "gen": 1603,
+      "word": "telena",
+      "meaning": "grow-ocean",
+      "parts": [
+        "tepu",
+        "kemlena"
+      ],
+      "partMeanings": [
+        "grow",
+        "ocean"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1605,
+      "word": "hape",
+      "meaning": "hold-boundary",
+      "parts": [
+        "hari",
+        "nape"
+      ],
+      "partMeanings": [
+        "hold",
+        "boundary"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1627,
+      "from": "kua",
+      "to": "gua",
+      "meaning": "deep"
+    },
+    {
+      "type": "shift",
+      "gen": 1632,
+      "from": "nawi",
+      "to": "ngawi",
+      "meaning": "toward"
+    },
+    {
+      "type": "compound",
+      "gen": 1632,
+      "word": "remmi",
+      "meaning": "fall-new",
+      "parts": [
+        "remken",
+        "rumi"
+      ],
+      "partMeanings": [
+        "fall",
+        "new"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1635,
+      "word": "teken",
+      "meaning": "hard-fall",
+      "parts": [
+        "teta",
+        "remken"
+      ],
+      "partMeanings": [
+        "hard",
+        "fall"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1636,
+      "word": "namawi",
+      "meaning": "begin-toward",
+      "parts": [
+        "namani",
+        "ngawi"
+      ],
+      "partMeanings": [
+        "begin",
+        "toward"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1639,
+      "word": "taken",
+      "meaning": "one-fall",
+      "parts": [
+        "tania",
+        "remken"
+      ],
+      "partMeanings": [
+        "one",
+        "fall"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1648,
+      "word": "remem",
+      "meaning": "small-stone",
+      "parts": [
+        "reme",
+        "homem"
+      ],
+      "partMeanings": [
+        "small",
+        "stone"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1649,
+      "word": "reima",
+      "meaning": "small-cloud",
+      "parts": [
+        "reme",
+        "nuima"
+      ],
+      "partMeanings": [
+        "small",
+        "cloud"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1655,
+      "word": "rata",
+      "meaning": "hold-tree",
+      "parts": [
+        "rahi",
+        "nata"
+      ],
+      "partMeanings": [
+        "hold",
+        "tree"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1658,
+      "word": "mimem",
+      "meaning": "wave-stone",
+      "parts": [
+        "mi",
+        "homem"
+      ],
+      "partMeanings": [
+        "wave",
+        "stone"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1660,
+      "word": "hose",
+      "meaning": "stone-rise",
+      "parts": [
+        "homem",
+        "nase"
+      ],
+      "partMeanings": [
+        "stone",
+        "rise"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1661,
+      "word": "unese",
+      "meaning": "break-rise",
+      "parts": [
+        "unemzim",
+        "nase"
+      ],
+      "partMeanings": [
+        "break",
+        "rise"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1668,
+      "word": "linlu",
+      "meaning": "boundary-near",
+      "parts": [
+        "lii",
+        "ranlu"
+      ],
+      "partMeanings": [
+        "boundary",
+        "near"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1674,
+      "word": "hou",
+      "meaning": "stone-slow",
+      "parts": [
+        "homem",
+        "tu"
+      ],
+      "partMeanings": [
+        "stone",
+        "slow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1685,
+      "word": "keaum",
+      "meaning": "around-one",
+      "parts": [
+        "kela",
+        "tokaum"
+      ],
+      "partMeanings": [
+        "around",
+        "one"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1687,
+      "word": "miia",
+      "meaning": "find-begin",
+      "parts": [
+        "mikam",
+        "umia"
+      ],
+      "partMeanings": [
+        "find",
+        "begin"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1688,
+      "word": "wuli",
+      "meaning": "give-cycle",
+      "parts": [
+        "wuzu",
+        "ali"
+      ],
+      "partMeanings": [
+        "give",
+        "cycle"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1690,
+      "word": "saani",
+      "meaning": "small-release",
+      "parts": [
+        "sake",
+        "worani"
+      ],
+      "partMeanings": [
+        "small",
+        "release"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1697,
+      "word": "tamvi",
+      "meaning": "emergence-hard",
+      "parts": [
+        "ta",
+        "rimvi"
+      ],
+      "partMeanings": [
+        "emergence",
+        "hard"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1698,
+      "from": "sinra",
+      "to": "sina",
+      "meaning": "through"
+    },
+    {
+      "type": "compound",
+      "gen": 1702,
+      "word": "sunhu",
+      "meaning": "slow-stone",
+      "parts": [
+        "sunu",
+        "pounhu"
+      ],
+      "partMeanings": [
+        "slow",
+        "stone"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1708,
+      "from": "sunu",
+      "to": "sumu",
+      "meaning": "slow"
+    },
+    {
+      "type": "compound",
+      "gen": 1708,
+      "word": "mimu",
+      "meaning": "find-ocean",
+      "parts": [
+        "mikam",
+        "oomu"
+      ],
+      "partMeanings": [
+        "find",
+        "ocean"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1712,
+      "word": "tike",
+      "meaning": "threshold-small",
+      "parts": [
+        "tinne",
+        "sake"
+      ],
+      "partMeanings": [
+        "threshold",
+        "small"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1715,
+      "word": "mausa",
+      "meaning": "seed-chaos",
+      "parts": [
+        "manan",
+        "nikusa"
+      ],
+      "partMeanings": [
+        "seed",
+        "chaos"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1718,
+      "word": "lahikum",
+      "meaning": "beyond-near",
+      "parts": [
+        "lahinan",
+        "tanikum"
+      ],
+      "partMeanings": [
+        "beyond",
+        "near"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1726,
+      "word": "sate",
+      "meaning": "snow-other",
+      "parts": [
+        "sa",
+        "kete"
+      ],
+      "partMeanings": [
+        "snow",
+        "other"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1735,
+      "word": "raea",
+      "meaning": "rain-take",
+      "parts": [
+        "raii",
+        "sea"
+      ],
+      "partMeanings": [
+        "rain",
+        "take"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1738,
+      "word": "wainan",
+      "meaning": "small-beyond",
+      "parts": [
+        "wako",
+        "lahinan"
+      ],
+      "partMeanings": [
+        "small",
+        "beyond"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1743,
+      "word": "sava",
+      "meaning": "snow-around",
+      "parts": [
+        "sa",
+        "vava"
+      ],
+      "partMeanings": [
+        "snow",
+        "around"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1747,
+      "word": "kaoun",
+      "meaning": "balance-wind",
+      "parts": [
+        "ka",
+        "zekoun"
+      ],
+      "partMeanings": [
+        "balance",
+        "wind"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1752,
+      "from": "zekoun",
+      "to": "zekoum",
+      "meaning": "wind"
+    },
+    {
+      "type": "compound",
+      "gen": 1774,
+      "word": "sina",
+      "meaning": "fast-chaos",
+      "parts": [
+        "sineim",
+        "ka"
+      ],
+      "partMeanings": [
+        "fast",
+        "chaos"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1784,
+      "word": "aro",
+      "meaning": "fall-small",
+      "parts": [
+        "ara",
+        "ko"
+      ],
+      "partMeanings": [
+        "fall",
+        "small"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1786,
+      "word": "iknam",
+      "meaning": "cold-moon",
+      "parts": [
+        "iken",
+        "lunam"
+      ],
+      "partMeanings": [
+        "cold",
+        "moon"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1787,
+      "word": "aniunzam",
+      "meaning": "from-water",
+      "parts": [
+        "anipan",
+        "kumpunzam"
+      ],
+      "partMeanings": [
+        "from",
+        "water"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1790,
+      "word": "inka",
+      "meaning": "big-new",
+      "parts": [
+        "inii",
+        "saka"
+      ],
+      "partMeanings": [
+        "big",
+        "new"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1796,
+      "word": "ikti",
+      "meaning": "cold-take",
+      "parts": [
+        "iken",
+        "poti"
+      ],
+      "partMeanings": [
+        "cold",
+        "take"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1797,
+      "word": "arzen",
+      "meaning": "fall-balance",
+      "parts": [
+        "ara",
+        "anzen"
+      ],
+      "partMeanings": [
+        "fall",
+        "balance"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1802,
+      "word": "kano",
+      "meaning": "around-boundary",
+      "parts": [
+        "kamso",
+        "teno"
+      ],
+      "partMeanings": [
+        "around",
+        "boundary"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1813,
+      "word": "tunnam",
+      "meaning": "cycle-moon",
+      "parts": [
+        "tunanun",
+        "lunam"
+      ],
+      "partMeanings": [
+        "cycle",
+        "moon"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1816,
+      "word": "nanto",
+      "meaning": "end-seed",
+      "parts": [
+        "name",
+        "okunto"
+      ],
+      "partMeanings": [
+        "end",
+        "seed"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1822,
+      "word": "nouti",
+      "meaning": "pattern-all",
+      "parts": [
+        "noku",
+        "kimuti"
+      ],
+      "partMeanings": [
+        "pattern",
+        "all"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1823,
+      "word": "kikee",
+      "meaning": "ocean-near",
+      "parts": [
+        "kiela",
+        "menkee"
+      ],
+      "partMeanings": [
+        "ocean",
+        "near"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1828,
+      "word": "natna",
+      "meaning": "one-break",
+      "parts": [
+        "natisa",
+        "nena"
+      ],
+      "partMeanings": [
+        "one",
+        "break"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1831,
+      "word": "rehe",
+      "meaning": "sun-far",
+      "parts": [
+        "rehine",
+        "ke"
+      ],
+      "partMeanings": [
+        "sun",
+        "far"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1844,
+      "word": "nakee",
+      "meaning": "old-near",
+      "parts": [
+        "nake",
+        "menkee"
+      ],
+      "partMeanings": [
+        "old",
+        "near"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1852,
+      "word": "mina",
+      "meaning": "flower-break",
+      "parts": [
+        "mini",
+        "nena"
+      ],
+      "partMeanings": [
+        "flower",
+        "break"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1854,
+      "word": "miui",
+      "meaning": "flower-move",
+      "parts": [
+        "mini",
+        "pui"
+      ],
+      "partMeanings": [
+        "flower",
+        "move"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1857,
+      "word": "kotu",
+      "meaning": "hard-big",
+      "parts": [
+        "koa",
+        "mutu"
+      ],
+      "partMeanings": [
+        "hard",
+        "big"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1860,
+      "word": "koroa",
+      "meaning": "part-hard",
+      "parts": [
+        "korumo",
+        "koa"
+      ],
+      "partMeanings": [
+        "part",
+        "hard"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1862,
+      "word": "kornmin",
+      "meaning": "part-begin",
+      "parts": [
+        "korumo",
+        "latanmin"
+      ],
+      "partMeanings": [
+        "part",
+        "begin"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1865,
+      "word": "lekam",
+      "meaning": "none-time",
+      "parts": [
+        "lekiku",
+        "iham"
+      ],
+      "partMeanings": [
+        "none",
+        "time"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1880,
+      "word": "ziimha",
+      "meaning": "new-dark",
+      "parts": [
+        "zimha",
+        "munimha"
+      ],
+      "partMeanings": [
+        "new",
+        "dark"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1890,
+      "word": "saru",
+      "meaning": "with-connection",
+      "parts": [
+        "samme",
+        "muru"
+      ],
+      "partMeanings": [
+        "with",
+        "connection"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1893,
+      "word": "lenmum",
+      "meaning": "new-flow",
+      "parts": [
+        "lem",
+        "mazanmum"
+      ],
+      "partMeanings": [
+        "new",
+        "flow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1898,
+      "word": "naru",
+      "meaning": "whole-connection",
+      "parts": [
+        "napa",
+        "muru"
+      ],
+      "partMeanings": [
+        "whole",
+        "connection"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1909,
+      "word": "tumanra",
+      "meaning": "small-wind",
+      "parts": [
+        "tumoma",
+        "nunhanra"
+      ],
+      "partMeanings": [
+        "small",
+        "wind"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1914,
+      "word": "semni",
+      "meaning": "fast-balance",
+      "parts": [
+        "semnomo",
+        "vini"
+      ],
+      "partMeanings": [
+        "fast",
+        "balance"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1915,
+      "word": "remanra",
+      "meaning": "from-wind",
+      "parts": [
+        "remeno",
+        "nunhanra"
+      ],
+      "partMeanings": [
+        "from",
+        "wind"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1919,
+      "word": "konomo",
+      "meaning": "boundary-fast",
+      "parts": [
+        "ko",
+        "semnomo"
+      ],
+      "partMeanings": [
+        "boundary",
+        "fast"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1937,
+      "word": "keeku",
+      "meaning": "flow-around",
+      "parts": [
+        "kekun",
+        "waeku"
+      ],
+      "partMeanings": [
+        "flow",
+        "around"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1946,
+      "word": "kaoma",
+      "meaning": "chaos-small",
+      "parts": [
+        "kanu",
+        "tumoma"
+      ],
+      "partMeanings": [
+        "chaos",
+        "small"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1949,
+      "word": "inlo",
+      "meaning": "self-cloud",
+      "parts": [
+        "inlali",
+        "no"
+      ],
+      "partMeanings": [
+        "self",
+        "cloud"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1958,
+      "word": "roan",
+      "meaning": "through-slow",
+      "parts": [
+        "rosa",
+        "rean"
+      ],
+      "partMeanings": [
+        "through",
+        "slow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1965,
+      "word": "enawi",
+      "meaning": "big-change",
+      "parts": [
+        "enankum",
+        "ewi"
+      ],
+      "partMeanings": [
+        "big",
+        "change"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1978,
+      "word": "tie",
+      "meaning": "far-cycle",
+      "parts": [
+        "tihe",
+        "re"
+      ],
+      "partMeanings": [
+        "far",
+        "cycle"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1979,
+      "word": "temu",
+      "meaning": "star-warm",
+      "parts": [
+        "teka",
+        "umu"
+      ],
+      "partMeanings": [
+        "star",
+        "warm"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 1980,
+      "from": "rean",
+      "to": "reang",
+      "meaning": "slow"
+    },
+    {
+      "type": "compound",
+      "gen": 1991,
+      "word": "reme",
+      "meaning": "slow-sky",
+      "parts": [
+        "reang",
+        "rame"
+      ],
+      "partMeanings": [
+        "slow",
+        "sky"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 1992,
+      "word": "reosum",
+      "meaning": "slow-self",
+      "parts": [
+        "reang",
+        "tanosum"
+      ],
+      "partMeanings": [
+        "slow",
+        "self"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2002,
+      "word": "kanputi",
+      "meaning": "whole-threshold",
+      "parts": [
+        "kannee",
+        "rumputi"
+      ],
+      "partMeanings": [
+        "whole",
+        "threshold"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2007,
+      "word": "sita",
+      "meaning": "from-seed",
+      "parts": [
+        "simi",
+        "veta"
+      ],
+      "partMeanings": [
+        "from",
+        "seed"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2008,
+      "word": "vummi",
+      "meaning": "all-from",
+      "parts": [
+        "vumile",
+        "simi"
+      ],
+      "partMeanings": [
+        "all",
+        "from"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2026,
+      "word": "mapmin",
+      "meaning": "fall-deep",
+      "parts": [
+        "mapila",
+        "nomin"
+      ],
+      "partMeanings": [
+        "fall",
+        "deep"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2032,
+      "word": "rumihu",
+      "meaning": "threshold-within",
+      "parts": [
+        "rumputi",
+        "ritihu"
+      ],
+      "partMeanings": [
+        "threshold",
+        "within"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2041,
+      "word": "mettin",
+      "meaning": "water-beyond",
+      "parts": [
+        "metuke",
+        "wontin"
+      ],
+      "partMeanings": [
+        "water",
+        "beyond"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2045,
+      "word": "tiputi",
+      "meaning": "earth-threshold",
+      "parts": [
+        "tisui",
+        "rumputi"
+      ],
+      "partMeanings": [
+        "earth",
+        "threshold"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2052,
+      "word": "ruui",
+      "meaning": "far-fast",
+      "parts": [
+        "rumse",
+        "rui"
+      ],
+      "partMeanings": [
+        "far",
+        "fast"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2056,
+      "word": "nanru",
+      "meaning": "fall-none",
+      "parts": [
+        "namoi",
+        "linru"
+      ],
+      "partMeanings": [
+        "fall",
+        "none"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2062,
+      "word": "nao",
+      "meaning": "fall-time",
+      "parts": [
+        "namoi",
+        "po"
+      ],
+      "partMeanings": [
+        "fall",
+        "time"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2064,
+      "word": "mela",
+      "meaning": "hold-soft",
+      "parts": [
+        "meui",
+        "nela"
+      ],
+      "partMeanings": [
+        "hold",
+        "soft"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2075,
+      "word": "kitan",
+      "meaning": "part-rain",
+      "parts": [
+        "kinlu",
+        "natan"
+      ],
+      "partMeanings": [
+        "part",
+        "rain"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2076,
+      "word": "ammoi",
+      "meaning": "fast-fall",
+      "parts": [
+        "ama",
+        "namoi"
+      ],
+      "partMeanings": [
+        "fast",
+        "fall"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2077,
+      "word": "nei",
+      "meaning": "soft-seed",
+      "parts": [
+        "nela",
+        "ti"
+      ],
+      "partMeanings": [
+        "soft",
+        "seed"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2078,
+      "word": "nara",
+      "meaning": "rain-from",
+      "parts": [
+        "natan",
+        "nira"
+      ],
+      "partMeanings": [
+        "rain",
+        "from"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2099,
+      "word": "anza",
+      "meaning": "sky-high",
+      "parts": [
+        "anra",
+        "peza"
+      ],
+      "partMeanings": [
+        "sky",
+        "high"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2135,
+      "word": "immi",
+      "meaning": "new-flow",
+      "parts": [
+        "imum",
+        "pemi"
+      ],
+      "partMeanings": [
+        "new",
+        "flow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2148,
+      "word": "tunka",
+      "meaning": "ocean-star",
+      "parts": [
+        "tuno",
+        "henka"
+      ],
+      "partMeanings": [
+        "ocean",
+        "star"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2151,
+      "word": "tane",
+      "meaning": "cloud-around",
+      "parts": [
+        "taniu",
+        "ine"
+      ],
+      "partMeanings": [
+        "cloud",
+        "around"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2155,
+      "word": "lemi",
+      "meaning": "take-space",
+      "parts": [
+        "lemkan",
+        "ti"
+      ],
+      "partMeanings": [
+        "take",
+        "space"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2157,
+      "word": "pene",
+      "meaning": "emergence-around",
+      "parts": [
+        "pemvi",
+        "ine"
+      ],
+      "partMeanings": [
+        "emergence",
+        "around"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 2158,
+      "from": "vinama",
+      "to": "vimama",
+      "meaning": "old"
+    },
+    {
+      "type": "compound",
+      "gen": 2167,
+      "word": "temta",
+      "meaning": "dark-flower",
+      "parts": [
+        "temaro",
+        "lita"
+      ],
+      "partMeanings": [
+        "dark",
+        "flower"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2176,
+      "word": "kihe",
+      "meaning": "join-chaos",
+      "parts": [
+        "kimoa",
+        "ehe"
+      ],
+      "partMeanings": [
+        "join",
+        "chaos"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2178,
+      "word": "erkea",
+      "meaning": "part-deep",
+      "parts": [
+        "eroku",
+        "rekea"
+      ],
+      "partMeanings": [
+        "part",
+        "deep"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2183,
+      "word": "tilin",
+      "meaning": "space-whole",
+      "parts": [
+        "ti",
+        "kilin"
+      ],
+      "partMeanings": [
+        "space",
+        "whole"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2185,
+      "word": "kimam",
+      "meaning": "join-ocean",
+      "parts": [
+        "kimoa",
+        "kunmam"
+      ],
+      "partMeanings": [
+        "join",
+        "ocean"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2187,
+      "word": "ehi",
+      "meaning": "chaos-begin",
+      "parts": [
+        "ehe",
+        "mi"
+      ],
+      "partMeanings": [
+        "chaos",
+        "begin"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 2189,
+      "from": "eroku",
+      "to": "eloku",
+      "meaning": "part"
+    },
+    {
+      "type": "compound",
+      "gen": 2193,
+      "word": "pepin",
+      "meaning": "seed-wind",
+      "parts": [
+        "penti",
+        "tupin"
+      ],
+      "partMeanings": [
+        "seed",
+        "wind"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2196,
+      "word": "elnti",
+      "meaning": "part-seed",
+      "parts": [
+        "eloku",
+        "penti"
+      ],
+      "partMeanings": [
+        "part",
+        "seed"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2208,
+      "word": "iaru",
+      "meaning": "within-sky",
+      "parts": [
+        "i",
+        "kutaru"
+      ],
+      "partMeanings": [
+        "within",
+        "sky"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2212,
+      "word": "monti",
+      "meaning": "pattern-seed",
+      "parts": [
+        "moom",
+        "penti"
+      ],
+      "partMeanings": [
+        "pattern",
+        "seed"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2218,
+      "word": "hana",
+      "meaning": "all-moon",
+      "parts": [
+        "hamni",
+        "nena"
+      ],
+      "partMeanings": [
+        "all",
+        "moon"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2226,
+      "word": "likka",
+      "meaning": "tree-hold",
+      "parts": [
+        "likewo",
+        "haka"
+      ],
+      "partMeanings": [
+        "tree",
+        "hold"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2236,
+      "word": "nien",
+      "meaning": "mountain-grow",
+      "parts": [
+        "niwi",
+        "nen"
+      ],
+      "partMeanings": [
+        "mountain",
+        "grow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2252,
+      "word": "atwi",
+      "meaning": "bright-mountain",
+      "parts": [
+        "atika",
+        "niwi"
+      ],
+      "partMeanings": [
+        "bright",
+        "mountain"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2256,
+      "word": "hoa",
+      "meaning": "emergence-between",
+      "parts": [
+        "honem",
+        "na"
+      ],
+      "partMeanings": [
+        "emergence",
+        "between"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2258,
+      "word": "ata",
+      "meaning": "bright-between",
+      "parts": [
+        "atika",
+        "na"
+      ],
+      "partMeanings": [
+        "bright",
+        "between"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2259,
+      "word": "intmtam",
+      "meaning": "cold-join",
+      "parts": [
+        "intuku",
+        "helumtam"
+      ],
+      "partMeanings": [
+        "cold",
+        "join"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2263,
+      "word": "pumtewa",
+      "meaning": "fast-flow",
+      "parts": [
+        "pumimu",
+        "lamtewa"
+      ],
+      "partMeanings": [
+        "fast",
+        "flow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2267,
+      "word": "intka",
+      "meaning": "cold-stone",
+      "parts": [
+        "intuku",
+        "ika"
+      ],
+      "partMeanings": [
+        "cold",
+        "stone"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2270,
+      "word": "ekewo",
+      "meaning": "many-tree",
+      "parts": [
+        "ekete",
+        "likewo"
+      ],
+      "partMeanings": [
+        "many",
+        "tree"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2272,
+      "word": "nemmtam",
+      "meaning": "hard-join",
+      "parts": [
+        "nemtini",
+        "helumtam"
+      ],
+      "partMeanings": [
+        "hard",
+        "join"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2278,
+      "word": "mitini",
+      "meaning": "toward-hard",
+      "parts": [
+        "miti",
+        "nemtini"
+      ],
+      "partMeanings": [
+        "toward",
+        "hard"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2279,
+      "word": "ratii",
+      "meaning": "fall-mountain",
+      "parts": [
+        "raale",
+        "wutii"
+      ],
+      "partMeanings": [
+        "fall",
+        "mountain"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2281,
+      "word": "pumho",
+      "meaning": "fast-boundary",
+      "parts": [
+        "pumimu",
+        "saho"
+      ],
+      "partMeanings": [
+        "fast",
+        "boundary"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2298,
+      "word": "nemsa",
+      "meaning": "hard-wave",
+      "parts": [
+        "nemtini",
+        "tesa"
+      ],
+      "partMeanings": [
+        "hard",
+        "wave"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2299,
+      "word": "samhe",
+      "meaning": "boundary-many",
+      "parts": [
+        "saho",
+        "memhe"
+      ],
+      "partMeanings": [
+        "boundary",
+        "many"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 2304,
+      "from": "nahem",
+      "to": "ngahem",
+      "meaning": "cycle"
+    },
+    {
+      "type": "compound",
+      "gen": 2308,
+      "word": "aion",
+      "meaning": "with-rise",
+      "parts": [
+        "a",
+        "nision"
+      ],
+      "partMeanings": [
+        "with",
+        "rise"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2310,
+      "word": "keensi",
+      "meaning": "connection-none",
+      "parts": [
+        "keenra",
+        "wunsi"
+      ],
+      "partMeanings": [
+        "connection",
+        "none"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 2312,
+      "from": "rotan",
+      "to": "rotam",
+      "meaning": "change"
+    },
+    {
+      "type": "compound",
+      "gen": 2319,
+      "word": "ruun",
+      "meaning": "from-warm",
+      "parts": [
+        "rumim",
+        "kun"
+      ],
+      "partMeanings": [
+        "from",
+        "warm"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2323,
+      "word": "wua",
+      "meaning": "none-fast",
+      "parts": [
+        "wunsi",
+        "ta"
+      ],
+      "partMeanings": [
+        "none",
+        "fast"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2325,
+      "word": "nomtmim",
+      "meaning": "far-from",
+      "parts": [
+        "nomtiren",
+        "rumim"
+      ],
+      "partMeanings": [
+        "far",
+        "from"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2353,
+      "word": "ensa",
+      "meaning": "sun-move",
+      "parts": [
+        "enami",
+        "susa"
+      ],
+      "partMeanings": [
+        "sun",
+        "move"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2368,
+      "word": "kimso",
+      "meaning": "boundary-emergence",
+      "parts": [
+        "kimkevi",
+        "aso"
+      ],
+      "partMeanings": [
+        "boundary",
+        "emergence"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2377,
+      "word": "hiaso",
+      "meaning": "between-emergence",
+      "parts": [
+        "hianli",
+        "aso"
+      ],
+      "partMeanings": [
+        "between",
+        "emergence"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2386,
+      "word": "tuo",
+      "meaning": "water-with",
+      "parts": [
+        "tula",
+        "wo"
+      ],
+      "partMeanings": [
+        "water",
+        "with"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2392,
+      "word": "tina",
+      "meaning": "rain-self",
+      "parts": [
+        "tinamo",
+        "ea"
+      ],
+      "partMeanings": [
+        "rain",
+        "self"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2399,
+      "word": "poo",
+      "meaning": "all-fast",
+      "parts": [
+        "pokau",
+        "o"
+      ],
+      "partMeanings": [
+        "all",
+        "fast"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2404,
+      "word": "intu",
+      "meaning": "join-fire",
+      "parts": [
+        "inisi",
+        "rutu"
+      ],
+      "partMeanings": [
+        "join",
+        "fire"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2410,
+      "word": "mio",
+      "meaning": "flower-other",
+      "parts": [
+        "misu",
+        "ro"
+      ],
+      "partMeanings": [
+        "flower",
+        "other"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2413,
+      "word": "rumvui",
+      "meaning": "ocean-find",
+      "parts": [
+        "rumipi",
+        "levui"
+      ],
+      "partMeanings": [
+        "ocean",
+        "find"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2414,
+      "word": "nivna",
+      "meaning": "time-flow",
+      "parts": [
+        "nivimu",
+        "vina"
+      ],
+      "partMeanings": [
+        "time",
+        "flow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2430,
+      "word": "kanu",
+      "meaning": "make-fall",
+      "parts": [
+        "kamu",
+        "kinu"
+      ],
+      "partMeanings": [
+        "make",
+        "fall"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2433,
+      "word": "kau",
+      "meaning": "make-stone",
+      "parts": [
+        "kamu",
+        "nu"
+      ],
+      "partMeanings": [
+        "make",
+        "stone"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2440,
+      "word": "napizo",
+      "meaning": "mountain-boundary",
+      "parts": [
+        "napeki",
+        "ziizo"
+      ],
+      "partMeanings": [
+        "mountain",
+        "boundary"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2445,
+      "word": "tepeki",
+      "meaning": "flower-mountain",
+      "parts": [
+        "tepenan",
+        "napeki"
+      ],
+      "partMeanings": [
+        "flower",
+        "mountain"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2454,
+      "word": "tepam",
+      "meaning": "flower-many",
+      "parts": [
+        "tepenan",
+        "ram"
+      ],
+      "partMeanings": [
+        "flower",
+        "many"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2456,
+      "word": "saizo",
+      "meaning": "emergence-boundary",
+      "parts": [
+        "sa",
+        "ziizo"
+      ],
+      "partMeanings": [
+        "emergence",
+        "boundary"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2464,
+      "word": "vanu",
+      "meaning": "far-change",
+      "parts": [
+        "vana",
+        "nunu"
+      ],
+      "partMeanings": [
+        "far",
+        "change"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2469,
+      "word": "zasevu",
+      "meaning": "give-wave",
+      "parts": [
+        "zae",
+        "ramsevu"
+      ],
+      "partMeanings": [
+        "give",
+        "wave"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2473,
+      "word": "tia",
+      "meaning": "from-take",
+      "parts": [
+        "tinro",
+        "ta"
+      ],
+      "partMeanings": [
+        "from",
+        "take"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2480,
+      "word": "moee",
+      "meaning": "begin-move",
+      "parts": [
+        "motea",
+        "pee"
+      ],
+      "partMeanings": [
+        "begin",
+        "move"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2485,
+      "word": "tini",
+      "meaning": "from-flower",
+      "parts": [
+        "tinro",
+        "nuni"
+      ],
+      "partMeanings": [
+        "from",
+        "flower"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2486,
+      "word": "tiamun",
+      "meaning": "from-time",
+      "parts": [
+        "tinro",
+        "kumamun"
+      ],
+      "partMeanings": [
+        "from",
+        "time"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2491,
+      "word": "ramee",
+      "meaning": "wave-cycle",
+      "parts": [
+        "ramsevu",
+        "nee"
+      ],
+      "partMeanings": [
+        "wave",
+        "cycle"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2495,
+      "word": "meriam",
+      "meaning": "other-connection",
+      "parts": [
+        "me",
+        "ninriam"
+      ],
+      "partMeanings": [
+        "other",
+        "connection"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 2503,
+      "from": "rana",
+      "to": "rama",
+      "meaning": "old"
+    },
+    {
+      "type": "compound",
+      "gen": 2508,
+      "word": "wari",
+      "meaning": "break-part",
+      "parts": [
+        "wameu",
+        "reri"
+      ],
+      "partMeanings": [
+        "break",
+        "part"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2519,
+      "word": "rukata",
+      "meaning": "wave-stone",
+      "parts": [
+        "rukemo",
+        "emata"
+      ],
+      "partMeanings": [
+        "wave",
+        "stone"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2538,
+      "word": "mesa",
+      "meaning": "other-big",
+      "parts": [
+        "me",
+        "masa"
+      ],
+      "partMeanings": [
+        "other",
+        "big"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2542,
+      "word": "mennan",
+      "meaning": "other-soft",
+      "parts": [
+        "me",
+        "omunnan"
+      ],
+      "partMeanings": [
+        "other",
+        "soft"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2545,
+      "word": "eaa",
+      "meaning": "fall-sun",
+      "parts": [
+        "eaen",
+        "ma"
+      ],
+      "partMeanings": [
+        "fall",
+        "sun"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2548,
+      "word": "lantako",
+      "meaning": "dark-self",
+      "parts": [
+        "lanmai",
+        "wamtako"
+      ],
+      "partMeanings": [
+        "dark",
+        "self"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2553,
+      "word": "lisa",
+      "meaning": "time-big",
+      "parts": [
+        "linuu",
+        "masa"
+      ],
+      "partMeanings": [
+        "time",
+        "big"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2557,
+      "word": "piai",
+      "meaning": "give-move",
+      "parts": [
+        "pimwo",
+        "teai"
+      ],
+      "partMeanings": [
+        "give",
+        "move"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2573,
+      "word": "aimse",
+      "meaning": "begin-high",
+      "parts": [
+        "a",
+        "kawimse"
+      ],
+      "partMeanings": [
+        "begin",
+        "high"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2575,
+      "word": "neai",
+      "meaning": "within-move",
+      "parts": [
+        "nenim",
+        "teai"
+      ],
+      "partMeanings": [
+        "within",
+        "move"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2585,
+      "word": "amhan",
+      "meaning": "hold-rain",
+      "parts": [
+        "amenu",
+        "hihan"
+      ],
+      "partMeanings": [
+        "hold",
+        "rain"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2597,
+      "word": "namli",
+      "meaning": "turn-river",
+      "parts": [
+        "namonta",
+        "tuli"
+      ],
+      "partMeanings": [
+        "turn",
+        "river"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2598,
+      "word": "amnta",
+      "meaning": "hold-between",
+      "parts": [
+        "amenu",
+        "wenta"
+      ],
+      "partMeanings": [
+        "hold",
+        "between"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 2602,
+      "from": "amenu",
+      "to": "amengu",
+      "meaning": "hold"
+    },
+    {
+      "type": "shift",
+      "gen": 2603,
+      "from": "sani",
+      "to": "zani",
+      "meaning": "space"
+    },
+    {
+      "type": "compound",
+      "gen": 2607,
+      "word": "piiki",
+      "meaning": "connection-far",
+      "parts": [
+        "pikao",
+        "raiki"
+      ],
+      "partMeanings": [
+        "connection",
+        "far"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2617,
+      "word": "wiuha",
+      "meaning": "many-fire",
+      "parts": [
+        "winam",
+        "tinuha"
+      ],
+      "partMeanings": [
+        "many",
+        "fire"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2621,
+      "word": "raam",
+      "meaning": "soft-through",
+      "parts": [
+        "rasa",
+        "amam"
+      ],
+      "partMeanings": [
+        "soft",
+        "through"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2627,
+      "word": "liemsi",
+      "meaning": "high-seed",
+      "parts": [
+        "liten",
+        "lememsi"
+      ],
+      "partMeanings": [
+        "high",
+        "seed"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2633,
+      "word": "zese",
+      "meaning": "flower-star",
+      "parts": [
+        "zesaso",
+        "re"
+      ],
+      "partMeanings": [
+        "flower",
+        "star"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2641,
+      "word": "makeo",
+      "meaning": "time-connection",
+      "parts": [
+        "makuni",
+        "heo"
+      ],
+      "partMeanings": [
+        "time",
+        "connection"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2642,
+      "word": "ranam",
+      "meaning": "far-many",
+      "parts": [
+        "raiki",
+        "winam"
+      ],
+      "partMeanings": [
+        "far",
+        "many"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2647,
+      "word": "winta",
+      "meaning": "many-between",
+      "parts": [
+        "winam",
+        "wenta"
+      ],
+      "partMeanings": [
+        "many",
+        "between"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2651,
+      "word": "wina",
+      "meaning": "many-seed",
+      "parts": [
+        "winam",
+        "una"
+      ],
+      "partMeanings": [
+        "many",
+        "seed"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 2654,
+      "from": "masaro",
+      "to": "masalo",
+      "meaning": "self"
+    },
+    {
+      "type": "compound",
+      "gen": 2658,
+      "word": "liipi",
+      "meaning": "high-wave",
+      "parts": [
+        "liten",
+        "namipi"
+      ],
+      "partMeanings": [
+        "high",
+        "wave"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2660,
+      "word": "iao",
+      "meaning": "tree-cycle",
+      "parts": [
+        "iaa",
+        "io"
+      ],
+      "partMeanings": [
+        "tree",
+        "cycle"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2680,
+      "word": "zotenmi",
+      "meaning": "sun-small",
+      "parts": [
+        "zotuha",
+        "venenmi"
+      ],
+      "partMeanings": [
+        "sun",
+        "small"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2693,
+      "word": "nase",
+      "meaning": "mountain-ocean",
+      "parts": [
+        "nawin",
+        "hase"
+      ],
+      "partMeanings": [
+        "mountain",
+        "ocean"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2707,
+      "word": "apniro",
+      "meaning": "tree-break",
+      "parts": [
+        "apima",
+        "zenniro"
+      ],
+      "partMeanings": [
+        "tree",
+        "break"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2719,
+      "word": "onima",
+      "meaning": "threshold-tree",
+      "parts": [
+        "one",
+        "apima"
+      ],
+      "partMeanings": [
+        "threshold",
+        "tree"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2726,
+      "word": "leita",
+      "meaning": "slow-fire",
+      "parts": [
+        "lesa",
+        "ratita"
+      ],
+      "partMeanings": [
+        "slow",
+        "fire"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 2731,
+      "from": "hoani",
+      "to": "woani",
+      "meaning": "sun"
+    },
+    {
+      "type": "compound",
+      "gen": 2733,
+      "word": "tasa",
+      "meaning": "rain-slow",
+      "parts": [
+        "taka",
+        "lesa"
+      ],
+      "partMeanings": [
+        "rain",
+        "slow"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 2739,
+      "from": "namuna",
+      "to": "mamuna",
+      "meaning": "grow"
+    },
+    {
+      "type": "compound",
+      "gen": 2743,
+      "word": "kuanto",
+      "meaning": "bright-chaos",
+      "parts": [
+        "kum",
+        "wimanto"
+      ],
+      "partMeanings": [
+        "bright",
+        "chaos"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2749,
+      "word": "leata",
+      "meaning": "slow-earth",
+      "parts": [
+        "lesa",
+        "suata"
+      ],
+      "partMeanings": [
+        "slow",
+        "earth"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2752,
+      "word": "ratanto",
+      "meaning": "fire-chaos",
+      "parts": [
+        "ratita",
+        "wimanto"
+      ],
+      "partMeanings": [
+        "fire",
+        "chaos"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2757,
+      "word": "rato",
+      "meaning": "fire-ocean",
+      "parts": [
+        "ratita",
+        "o"
+      ],
+      "partMeanings": [
+        "fire",
+        "ocean"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2758,
+      "word": "haata",
+      "meaning": "deep-earth",
+      "parts": [
+        "hati",
+        "suata"
+      ],
+      "partMeanings": [
+        "deep",
+        "earth"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2759,
+      "word": "kamata",
+      "meaning": "snow-earth",
+      "parts": [
+        "kamkin",
+        "suata"
+      ],
+      "partMeanings": [
+        "snow",
+        "earth"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2766,
+      "word": "linu",
+      "meaning": "begin-turn",
+      "parts": [
+        "likan",
+        "imnu"
+      ],
+      "partMeanings": [
+        "begin",
+        "turn"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2775,
+      "word": "kasa",
+      "meaning": "around-slow",
+      "parts": [
+        "kanki",
+        "lesa"
+      ],
+      "partMeanings": [
+        "around",
+        "slow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2776,
+      "word": "liae",
+      "meaning": "begin-one",
+      "parts": [
+        "likan",
+        "nae"
+      ],
+      "partMeanings": [
+        "begin",
+        "one"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2778,
+      "word": "mara",
+      "meaning": "cloud-water",
+      "parts": [
+        "maroum",
+        "a"
+      ],
+      "partMeanings": [
+        "cloud",
+        "water"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 2781,
+      "from": "rosimi",
+      "to": "rozimi",
+      "meaning": "river"
+    },
+    {
+      "type": "compound",
+      "gen": 2795,
+      "word": "vunae",
+      "meaning": "wave-one",
+      "parts": [
+        "vunimnu",
+        "nae"
+      ],
+      "partMeanings": [
+        "wave",
+        "one"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2797,
+      "word": "nani",
+      "meaning": "one-connection",
+      "parts": [
+        "nae",
+        "neni"
+      ],
+      "partMeanings": [
+        "one",
+        "connection"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2798,
+      "word": "vune",
+      "meaning": "wave-warm",
+      "parts": [
+        "vunimnu",
+        "me"
+      ],
+      "partMeanings": [
+        "wave",
+        "warm"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2800,
+      "word": "vunme",
+      "meaning": "wave-wind",
+      "parts": [
+        "vunimnu",
+        "kime"
+      ],
+      "partMeanings": [
+        "wave",
+        "wind"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2801,
+      "word": "aszim",
+      "meaning": "beyond-through",
+      "parts": [
+        "asu",
+        "tezim"
+      ],
+      "partMeanings": [
+        "beyond",
+        "through"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2803,
+      "word": "miimnu",
+      "meaning": "turn-wave",
+      "parts": [
+        "milu",
+        "vunimnu"
+      ],
+      "partMeanings": [
+        "turn",
+        "wave"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2810,
+      "word": "nenna",
+      "meaning": "connection-snow",
+      "parts": [
+        "neni",
+        "tinna"
+      ],
+      "partMeanings": [
+        "connection",
+        "snow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2813,
+      "word": "asimnu",
+      "meaning": "beyond-wave",
+      "parts": [
+        "asu",
+        "vunimnu"
+      ],
+      "partMeanings": [
+        "beyond",
+        "wave"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2818,
+      "word": "kiu",
+      "meaning": "mountain-dark",
+      "parts": [
+        "kiman",
+        "su"
+      ],
+      "partMeanings": [
+        "mountain",
+        "dark"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2827,
+      "word": "ehte",
+      "meaning": "join-tree",
+      "parts": [
+        "eha",
+        "tute"
+      ],
+      "partMeanings": [
+        "join",
+        "tree"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2829,
+      "word": "tume",
+      "meaning": "tree-small",
+      "parts": [
+        "tute",
+        "neme"
+      ],
+      "partMeanings": [
+        "tree",
+        "small"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2844,
+      "word": "kiise",
+      "meaning": "mountain-one",
+      "parts": [
+        "kiman",
+        "revise"
+      ],
+      "partMeanings": [
+        "mountain",
+        "one"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2849,
+      "word": "saoa",
+      "meaning": "other-part",
+      "parts": [
+        "salun",
+        "woa"
+      ],
+      "partMeanings": [
+        "other",
+        "part"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2859,
+      "word": "kana",
+      "meaning": "order-grow",
+      "parts": [
+        "ka",
+        "ina"
+      ],
+      "partMeanings": [
+        "order",
+        "grow"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2862,
+      "word": "kevao",
+      "meaning": "sky-connection",
+      "parts": [
+        "kevonna",
+        "mao"
+      ],
+      "partMeanings": [
+        "sky",
+        "connection"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2879,
+      "word": "kukum",
+      "meaning": "all-give",
+      "parts": [
+        "ku",
+        "nankum"
+      ],
+      "partMeanings": [
+        "all",
+        "give"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2881,
+      "word": "taiin",
+      "meaning": "new-space",
+      "parts": [
+        "tapo",
+        "mutiin"
+      ],
+      "partMeanings": [
+        "new",
+        "space"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2892,
+      "word": "temmi",
+      "meaning": "snow-water",
+      "parts": [
+        "temruo",
+        "umi"
+      ],
+      "partMeanings": [
+        "snow",
+        "water"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2904,
+      "word": "nuiti",
+      "meaning": "pattern-chaos",
+      "parts": [
+        "nuza",
+        "oliti"
+      ],
+      "partMeanings": [
+        "pattern",
+        "chaos"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2914,
+      "word": "ezza",
+      "meaning": "move-pattern",
+      "parts": [
+        "ezi",
+        "nuza"
+      ],
+      "partMeanings": [
+        "move",
+        "pattern"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2915,
+      "word": "samhammo",
+      "meaning": "water-soft",
+      "parts": [
+        "samhomun",
+        "marammo"
+      ],
+      "partMeanings": [
+        "water",
+        "soft"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2920,
+      "word": "eznka",
+      "meaning": "move-fall",
+      "parts": [
+        "ezi",
+        "konka"
+      ],
+      "partMeanings": [
+        "move",
+        "fall"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2923,
+      "word": "tami",
+      "meaning": "many-toward",
+      "parts": [
+        "taso",
+        "nimi"
+      ],
+      "partMeanings": [
+        "many",
+        "toward"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2924,
+      "word": "wapso",
+      "meaning": "warm-many",
+      "parts": [
+        "wapomhe",
+        "taso"
+      ],
+      "partMeanings": [
+        "warm",
+        "many"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2929,
+      "word": "saso",
+      "meaning": "wind-many",
+      "parts": [
+        "sata",
+        "taso"
+      ],
+      "partMeanings": [
+        "wind",
+        "many"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2932,
+      "word": "satam",
+      "meaning": "wind-within",
+      "parts": [
+        "sata",
+        "nentam"
+      ],
+      "partMeanings": [
+        "wind",
+        "within"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2934,
+      "word": "wene",
+      "meaning": "sun-break",
+      "parts": [
+        "wea",
+        "nune"
+      ],
+      "partMeanings": [
+        "sun",
+        "break"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2941,
+      "word": "riemo",
+      "meaning": "stone-mountain",
+      "parts": [
+        "rina",
+        "puhemo"
+      ],
+      "partMeanings": [
+        "stone",
+        "mountain"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2947,
+      "word": "sino",
+      "meaning": "from-connection",
+      "parts": [
+        "sia",
+        "sono"
+      ],
+      "partMeanings": [
+        "from",
+        "connection"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2956,
+      "word": "puhia",
+      "meaning": "mountain-from",
+      "parts": [
+        "puhemo",
+        "sia"
+      ],
+      "partMeanings": [
+        "mountain",
+        "from"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 2971,
+      "word": "haammo",
+      "meaning": "other-join",
+      "parts": [
+        "ha",
+        "sosammo"
+      ],
+      "partMeanings": [
+        "other",
+        "join"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 2972,
+      "word": "pan",
+      "meaning": "ocean",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 2973,
+      "word": "wiu",
+      "meaning": "soft",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 2974,
+      "word": "moa",
+      "meaning": "star-other",
+      "parts": [
+        "mokai",
+        "ha"
+      ],
+      "partMeanings": [
+        "star",
+        "other"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 2977,
+      "word": "maza",
+      "meaning": "self",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 2978,
+      "word": "marun",
+      "meaning": "hard-warm",
+      "parts": [
+        "maki",
+        "tumrun"
+      ],
+      "partMeanings": [
+        "hard",
+        "warm"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 2981,
+      "word": "ti",
+      "meaning": "old",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 2982,
+      "word": "e",
+      "meaning": "star",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 2983,
+      "word": "nununsi",
+      "meaning": "water",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 2985,
+      "word": "koki",
+      "meaning": "toward-hard",
+      "parts": [
+        "konla",
+        "maki"
+      ],
+      "partMeanings": [
+        "toward",
+        "hard"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 2985,
+      "word": "miwan",
+      "meaning": "high",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 2986,
+      "word": "nalo",
+      "meaning": "river",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 2989,
+      "word": "monhen",
+      "meaning": "mountain",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 2993,
+      "word": "sarum",
+      "meaning": "begin",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 2995,
+      "word": "numeso",
+      "meaning": "many",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 2996,
+      "word": "kuzinum",
+      "meaning": "wave",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 2997,
+      "word": "ara",
+      "meaning": "between",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 2999,
+      "word": "kam",
+      "meaning": "sun",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3000,
+      "word": "ranili",
+      "meaning": "make",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3001,
+      "word": "mie",
+      "meaning": "cloud",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3003,
+      "word": "rakim",
+      "meaning": "seed",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3004,
+      "word": "kukene",
+      "meaning": "fire",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 3005,
+      "word": "mikim",
+      "meaning": "high-seed",
+      "parts": [
+        "miwan",
+        "rakim"
+      ],
+      "partMeanings": [
+        "high",
+        "seed"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3005,
+      "word": "kokono",
+      "meaning": "warm",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3007,
+      "word": "kinhommi",
+      "meaning": "hold",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 3009,
+      "word": "kokunsi",
+      "meaning": "warm-water",
+      "parts": [
+        "kokono",
+        "nununsi"
+      ],
+      "partMeanings": [
+        "warm",
+        "water"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 3010,
+      "word": "koketo",
+      "meaning": "warm-many",
+      "parts": [
+        "kokono",
+        "numeto"
+      ],
+      "partMeanings": [
+        "warm",
+        "many"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3010,
+      "word": "me",
+      "meaning": "stone",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3010,
+      "word": "nununsi",
+      "meaning": "water",
+      "category": "unknown",
+      "lifespan": 27,
+      "uses": 11,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3011,
+      "word": "pazeta",
+      "meaning": "join",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3012,
+      "word": "oena",
+      "meaning": "order",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3013,
+      "word": "loka",
+      "meaning": "deep",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3014,
+      "word": "kama",
+      "meaning": "slow",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "shift",
+      "gen": 3015,
+      "from": "numeto",
+      "to": "numeso",
+      "meaning": "many"
+    },
+    {
+      "type": "death",
+      "gen": 3015,
+      "word": "ranili",
+      "meaning": "make",
+      "category": "unknown",
+      "lifespan": 15,
+      "uses": 3,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3016,
+      "word": "miwan",
+      "meaning": "high",
+      "category": "unknown",
+      "lifespan": 31,
+      "uses": 10,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3017,
+      "word": "naru",
+      "meaning": "pattern",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3017,
+      "word": "monhen",
+      "meaning": "mountain",
+      "category": "unknown",
+      "lifespan": 28,
+      "uses": 10,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3018,
+      "word": "sapa",
+      "meaning": "rise",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3018,
+      "word": "wiu",
+      "meaning": "soft",
+      "category": "unknown",
+      "lifespan": 45,
+      "uses": 19,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3018,
+      "word": "maza",
+      "meaning": "self",
+      "category": "unknown",
+      "lifespan": 41,
+      "uses": 21,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3018,
+      "word": "ara",
+      "meaning": "between",
+      "category": "unknown",
+      "lifespan": 21,
+      "uses": 6,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3018,
+      "word": "rakim",
+      "meaning": "seed",
+      "category": "unknown",
+      "lifespan": 15,
+      "uses": 3,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3019,
+      "word": "rakiki",
+      "meaning": "between",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3019,
+      "word": "kama",
+      "meaning": "slow",
+      "category": "unknown",
+      "lifespan": 5,
+      "uses": 0,
+      "stillborn": true
+    },
+    {
+      "type": "birth",
+      "gen": 3020,
+      "word": "meneu",
+      "meaning": "within",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 3022,
+      "word": "meeso",
+      "meaning": "stone-many",
+      "parts": [
+        "me",
+        "numeso"
+      ],
+      "partMeanings": [
+        "stone",
+        "many"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3022,
+      "word": "na",
+      "meaning": "cold",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3022,
+      "word": "sarum",
+      "meaning": "begin",
+      "category": "unknown",
+      "lifespan": 29,
+      "uses": 13,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3023,
+      "word": "saku",
+      "meaning": "all",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3024,
+      "word": "rava",
+      "meaning": "dark",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3024,
+      "word": "ti",
+      "meaning": "old",
+      "category": "unknown",
+      "lifespan": 43,
+      "uses": 23,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3024,
+      "word": "numeso",
+      "meaning": "many",
+      "category": "unknown",
+      "lifespan": 29,
+      "uses": 16,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3025,
+      "word": "nimvii",
+      "meaning": "from",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 3026,
+      "word": "loru",
+      "meaning": "deep-pattern",
+      "parts": [
+        "loka",
+        "naru"
+      ],
+      "partMeanings": [
+        "deep",
+        "pattern"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3026,
+      "word": "moi",
+      "meaning": "chaos",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3027,
+      "word": "loka",
+      "meaning": "deep",
+      "category": "unknown",
+      "lifespan": 14,
+      "uses": 7,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3028,
+      "word": "ue",
+      "meaning": "toward",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3028,
+      "word": "nalo",
+      "meaning": "river",
+      "category": "unknown",
+      "lifespan": 42,
+      "uses": 18,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3028,
+      "word": "mie",
+      "meaning": "cloud",
+      "category": "unknown",
+      "lifespan": 27,
+      "uses": 9,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3029,
+      "word": "la",
+      "meaning": "threshold",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3029,
+      "word": "e",
+      "meaning": "star",
+      "category": "unknown",
+      "lifespan": 47,
+      "uses": 21,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3030,
+      "word": "rikin",
+      "meaning": "whole",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3030,
+      "word": "kokono",
+      "meaning": "warm",
+      "category": "unknown",
+      "lifespan": 25,
+      "uses": 10,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3031,
+      "word": "wao",
+      "meaning": "fast",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3032,
+      "word": "aizo",
+      "meaning": "old",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3033,
+      "word": "nunem",
+      "meaning": "new",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3034,
+      "word": "entu",
+      "meaning": "river",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3035,
+      "word": "rane",
+      "meaning": "none",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3035,
+      "word": "pan",
+      "meaning": "ocean",
+      "category": "unknown",
+      "lifespan": 63,
+      "uses": 27,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3036,
+      "word": "aineu",
+      "meaning": "old-within",
+      "parts": [
+        "aizo",
+        "meneu"
+      ],
+      "partMeanings": [
+        "old",
+        "within"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3036,
+      "word": "luan",
+      "meaning": "balance",
+      "category": "abstract",
+      "fitness": 0.20000000000000034,
+      "age": 40,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3038,
+      "word": "winkenku",
+      "meaning": "bright",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3038,
+      "word": "nunem",
+      "meaning": "new",
+      "category": "unknown",
+      "lifespan": 5,
+      "uses": 0,
+      "stillborn": true
+    },
+    {
+      "type": "birth",
+      "gen": 3039,
+      "word": "zampum",
+      "meaning": "one",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3039,
+      "word": "me",
+      "meaning": "stone",
+      "category": "unknown",
+      "lifespan": 29,
+      "uses": 10,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3040,
+      "word": "hinele",
+      "meaning": "turn",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3040,
+      "word": "naru",
+      "meaning": "pattern",
+      "category": "unknown",
+      "lifespan": 23,
+      "uses": 7,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3041,
+      "word": "pazna",
+      "meaning": "join-order",
+      "parts": [
+        "pazeta",
+        "oena"
+      ],
+      "partMeanings": [
+        "join",
+        "order"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3041,
+      "word": "netemo",
+      "meaning": "high",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3041,
+      "word": "kam",
+      "meaning": "sun",
+      "category": "unknown",
+      "lifespan": 42,
+      "uses": 20,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3041,
+      "word": "kinhommi",
+      "meaning": "hold",
+      "category": "unknown",
+      "lifespan": 34,
+      "uses": 17,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3042,
+      "word": "oezo",
+      "meaning": "order-old",
+      "parts": [
+        "oena",
+        "aizo"
+      ],
+      "partMeanings": [
+        "order",
+        "old"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3043,
+      "word": "lohim",
+      "meaning": "far",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3044,
+      "word": "haha",
+      "meaning": "hold",
+      "category": "action",
+      "fitness": 0.2999999999999993,
+      "age": 32,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3044,
+      "word": "zampum",
+      "meaning": "one",
+      "category": "unknown",
+      "lifespan": 5,
+      "uses": 0,
+      "stillborn": true
+    },
+    {
+      "type": "death",
+      "gen": 3045,
+      "word": "kukene",
+      "meaning": "fire",
+      "category": "unknown",
+      "lifespan": 41,
+      "uses": 17,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3046,
+      "word": "lava",
+      "meaning": "threshold-dark",
+      "parts": [
+        "la",
+        "rava"
+      ],
+      "partMeanings": [
+        "threshold",
+        "dark"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3046,
+      "word": "una",
+      "meaning": "new",
+      "category": "quality",
+      "fitness": 0.2000000000000004,
+      "age": 30,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3046,
+      "word": "pazeta",
+      "meaning": "join",
+      "category": "unknown",
+      "lifespan": 35,
+      "uses": 13,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3046,
+      "word": "wao",
+      "meaning": "fast",
+      "category": "unknown",
+      "lifespan": 15,
+      "uses": 2,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3047,
+      "word": "sapa",
+      "meaning": "rise",
+      "category": "unknown",
+      "lifespan": 29,
+      "uses": 12,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3047,
+      "word": "meneu",
+      "meaning": "within",
+      "category": "unknown",
+      "lifespan": 27,
+      "uses": 9,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3048,
+      "word": "sasi",
+      "meaning": "warm",
+      "category": "quality",
+      "fitness": 0.4000000000000003,
+      "age": 28,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3049,
+      "word": "oena",
+      "meaning": "order",
+      "category": "unknown",
+      "lifespan": 37,
+      "uses": 13,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3050,
+      "word": "ka",
+      "meaning": "many",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3052,
+      "word": "wimkene",
+      "meaning": "earth",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3053,
+      "word": "wa",
+      "meaning": "star",
+      "category": "natural",
+      "fitness": 0.35000000000000014,
+      "age": 23,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3053,
+      "word": "aizo",
+      "meaning": "old",
+      "category": "unknown",
+      "lifespan": 21,
+      "uses": 5,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3054,
+      "word": "uzama",
+      "meaning": "give",
+      "category": "action",
+      "fitness": 0.1000000000000003,
+      "age": 22,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3054,
+      "word": "nimvii",
+      "meaning": "from",
+      "category": "unknown",
+      "lifespan": 29,
+      "uses": 9,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3055,
+      "word": "ka",
+      "meaning": "many",
+      "category": "unknown",
+      "lifespan": 5,
+      "uses": 0,
+      "stillborn": true
+    },
+    {
+      "type": "birth",
+      "gen": 3056,
+      "word": "mamvotam",
+      "meaning": "tree",
+      "category": "natural",
+      "fitness": 0.10000000000000024,
+      "age": 20,
+      "alive": true
+    },
+    {
+      "type": "compound",
+      "gen": 3058,
+      "word": "hinkim",
+      "meaning": "turn-far",
+      "parts": [
+        "hinele",
+        "lokim"
+      ],
+      "partMeanings": [
+        "turn",
+        "far"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3058,
+      "word": "sonnure",
+      "meaning": "make",
+      "category": "action",
+      "fitness": 0.10000000000000024,
+      "age": 18,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3058,
+      "word": "saku",
+      "meaning": "all",
+      "category": "unknown",
+      "lifespan": 35,
+      "uses": 16,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3059,
+      "word": "omo",
+      "meaning": "soft",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3059,
+      "word": "moi",
+      "meaning": "chaos",
+      "category": "unknown",
+      "lifespan": 33,
+      "uses": 11,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3060,
+      "word": "sati",
+      "meaning": "self",
+      "category": "being",
+      "fitness": 0.5999999999999992,
+      "age": 16,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3060,
+      "word": "rikin",
+      "meaning": "whole",
+      "category": "unknown",
+      "lifespan": 30,
+      "uses": 11,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3062,
+      "word": "kuzinum",
+      "meaning": "wave",
+      "category": "unknown",
+      "lifespan": 66,
+      "uses": 31,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3062,
+      "word": "hinele",
+      "meaning": "turn",
+      "category": "unknown",
+      "lifespan": 22,
+      "uses": 6,
+      "stillborn": false
+    },
+    {
+      "type": "shift",
+      "gen": 3063,
+      "from": "lokim",
+      "to": "lohim",
+      "meaning": "far"
+    },
+    {
+      "type": "birth",
+      "gen": 3063,
+      "word": "suna",
+      "meaning": "sun",
+      "category": "natural",
+      "fitness": 0.35000000000000003,
+      "age": 13,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3063,
+      "word": "winkenku",
+      "meaning": "bright",
+      "category": "unknown",
+      "lifespan": 25,
+      "uses": 8,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3064,
+      "word": "nisa",
+      "meaning": "ocean",
+      "category": "natural",
+      "fitness": 0.39999999999999997,
+      "age": 12,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3064,
+      "word": "la",
+      "meaning": "threshold",
+      "category": "unknown",
+      "lifespan": 35,
+      "uses": 12,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3064,
+      "word": "omo",
+      "meaning": "soft",
+      "category": "unknown",
+      "lifespan": 5,
+      "uses": 0,
+      "stillborn": true
+    },
+    {
+      "type": "compound",
+      "gen": 3065,
+      "word": "wakene",
+      "meaning": "star-earth",
+      "parts": [
+        "wa",
+        "wimkene"
+      ],
+      "partMeanings": [
+        "star",
+        "earth"
+      ]
+    },
+    {
+      "type": "death",
+      "gen": 3065,
+      "word": "rava",
+      "meaning": "dark",
+      "category": "unknown",
+      "lifespan": 41,
+      "uses": 15,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3066,
+      "word": "rakiki",
+      "meaning": "between",
+      "category": "unknown",
+      "lifespan": 47,
+      "uses": 19,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3067,
+      "word": "entu",
+      "meaning": "river",
+      "category": "unknown",
+      "lifespan": 33,
+      "uses": 11,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3068,
+      "word": "ma",
+      "meaning": "seed",
+      "category": "natural",
+      "fitness": 0.2999999999999999,
+      "age": 8,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3069,
+      "word": "sewen",
+      "meaning": "fast",
+      "category": "quality",
+      "fitness": 0.6499999999999996,
+      "age": 7,
+      "alive": true
+    },
+    {
+      "type": "compound",
+      "gen": 3070,
+      "word": "sonna",
+      "meaning": "make-new",
+      "parts": [
+        "sonnure",
+        "una"
+      ],
+      "partMeanings": [
+        "make",
+        "new"
+      ]
+    },
+    {
+      "type": "death",
+      "gen": 3070,
+      "word": "ue",
+      "meaning": "toward",
+      "category": "unknown",
+      "lifespan": 42,
+      "uses": 17,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3071,
+      "word": "wizin",
+      "meaning": "river",
+      "category": "natural",
+      "fitness": 0.3500000000000001,
+      "age": 5,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3071,
+      "word": "na",
+      "meaning": "cold",
+      "category": "unknown",
+      "lifespan": 49,
+      "uses": 19,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3071,
+      "word": "rane",
+      "meaning": "none",
+      "category": "unknown",
+      "lifespan": 36,
+      "uses": 15,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3072,
+      "word": "sim",
+      "meaning": "cloud",
+      "category": "natural",
+      "fitness": 0.10000000000000003,
+      "age": 4,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3073,
+      "word": "ke",
+      "meaning": "pattern",
+      "category": "abstract",
+      "fitness": 0.45,
+      "age": 3,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3073,
+      "word": "netemo",
+      "meaning": "high",
+      "category": "unknown",
+      "lifespan": 32,
+      "uses": 12,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3074,
+      "word": "lohim",
+      "meaning": "far",
+      "category": "unknown",
+      "lifespan": 31,
+      "uses": 10,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3075,
+      "word": "ata",
+      "meaning": "water",
+      "category": "natural",
+      "fitness": 0.45,
+      "age": 1,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3076,
+      "word": "u",
+      "meaning": "through",
+      "category": "relation",
+      "fitness": 0.5,
+      "age": 0,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3076,
+      "word": "wimkene",
+      "meaning": "earth",
+      "category": "unknown",
+      "lifespan": 24,
+      "uses": 12,
+      "stillborn": false
+    }
+  ]
+}
