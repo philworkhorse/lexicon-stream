@@ -1,188 +1,204 @@
 {
-  "generated": "2026-02-11T11:01:14.092Z",
-  "generation": 3092,
+  "generated": "2026-02-11T11:04:04.668Z",
+  "generation": 3097,
   "stats": {
-    "generation": 3092,
-    "population": 19,
-    "totalBorn": 2153,
-    "totalDead": 2134,
+    "generation": 3097,
+    "population": 21,
+    "totalBorn": 2157,
+    "totalDead": 2136,
     "totalCompounds": 470,
     "totalShifts": 43,
-    "mortalityRate": "99.1",
-    "avgLifespan": "30.4",
+    "mortalityRate": "99.0",
+    "avgLifespan": "30.1",
     "maxLifespan": 66,
     "stillbornCount": 4,
     "categories": {
-      "quality": 4,
-      "being": 3,
-      "natural": 5,
-      "abstract": 1,
+      "quality": 5,
+      "being": 5,
+      "natural": 3,
+      "abstract": 2,
       "relation": 2,
       "action": 4
     },
     "elder": {
       "word": "sasi",
       "meaning": "warm",
-      "age": 44,
-      "fitness": 4.579669976578771e-16
+      "age": 49,
+      "fitness": 0.05000000000000046
     },
     "fittest": {
       "word": "perani",
       "meaning": "find",
-      "fitness": 0.7999999999999993
+      "fitness": 0.849999999999999
     },
     "livingWords": [
       {
         "word": "perani",
         "meaning": "find",
         "category": "action",
-        "age": 12,
-        "fitness": 0.7999999999999993,
-        "uses": 11
+        "age": 17,
+        "fitness": 0.849999999999999,
+        "uses": 23
       },
       {
-        "word": "maran",
-        "meaning": "whole",
+        "word": "liti",
+        "meaning": "none",
         "category": "being",
-        "age": 5,
-        "fitness": 0.6499999999999997,
-        "uses": 4
-      },
-      {
-        "word": "nurain",
-        "meaning": "rise",
-        "category": "action",
-        "age": 4,
-        "fitness": 0.5999999999999998,
-        "uses": 3
-      },
-      {
-        "word": "kimunon",
-        "meaning": "flow",
-        "category": "action",
         "age": 0,
-        "fitness": 0.5,
-        "uses": 1
-      },
-      {
-        "word": "iu",
-        "meaning": "move",
-        "category": "action",
-        "age": 2,
-        "fitness": 0.49999999999999994,
-        "uses": 1
-      },
-      {
-        "word": "zuhone",
-        "meaning": "big",
-        "category": "quality",
-        "age": 1,
-        "fitness": 0.45,
-        "uses": 0
-      },
-      {
-        "word": "takomi",
-        "meaning": "with",
-        "category": "relation",
-        "age": 15,
-        "fitness": 0.4499999999999998,
+        "fitness": 0.6,
         "uses": 9
       },
       {
-        "word": "u",
-        "meaning": "through",
-        "category": "relation",
-        "age": 16,
-        "fitness": 0.40000000000000013,
-        "uses": 7
+        "word": "kunaem",
+        "meaning": "new",
+        "category": "quality",
+        "age": 2,
+        "fitness": 0.5999999999999999,
+        "uses": 5
       },
       {
         "word": "ke",
         "meaning": "pattern",
         "category": "abstract",
-        "age": 19,
-        "fitness": 0.35000000000000037,
-        "uses": 8
+        "age": 24,
+        "fitness": 0.5000000000000004,
+        "uses": 14
       },
       {
-        "word": "miroro",
-        "meaning": "part",
+        "word": "ki",
+        "meaning": "chaos",
+        "category": "abstract",
+        "age": 1,
+        "fitness": 0.45,
+        "uses": 5
+      },
+      {
+        "word": "iu",
+        "meaning": "move",
+        "category": "action",
+        "age": 7,
+        "fitness": 0.44999999999999996,
+        "uses": 10
+      },
+      {
+        "word": "kimunon",
+        "meaning": "flow",
+        "category": "action",
+        "age": 5,
+        "fitness": 0.44999999999999996,
+        "uses": 11
+      },
+      {
+        "word": "nurain",
+        "meaning": "rise",
+        "category": "action",
+        "age": 9,
+        "fitness": 0.44999999999999973,
+        "uses": 12
+      },
+      {
+        "word": "zuhone",
+        "meaning": "big",
+        "category": "quality",
+        "age": 6,
+        "fitness": 0.4,
+        "uses": 11
+      },
+      {
+        "word": "takomi",
+        "meaning": "with",
+        "category": "relation",
+        "age": 20,
+        "fitness": 0.39999999999999986,
+        "uses": 16
+      },
+      {
+        "word": "maran",
+        "meaning": "whole",
         "category": "being",
-        "age": 11,
+        "age": 10,
+        "fitness": 0.39999999999999963,
+        "uses": 10
+      },
+      {
+        "word": "roka",
+        "meaning": "all",
+        "category": "being",
+        "age": 3,
         "fitness": 0.35000000000000003,
-        "uses": 7
+        "uses": 2
       },
       {
         "word": "ume",
         "meaning": "tree",
         "category": "natural",
-        "age": 3,
-        "fitness": 0.35000000000000003,
-        "uses": 0
-      },
-      {
-        "word": "sewen",
-        "meaning": "fast",
-        "category": "quality",
-        "age": 23,
-        "fitness": 0.34999999999999953,
-        "uses": 13
+        "age": 8,
+        "fitness": 0.20000000000000007,
+        "uses": 5
       },
       {
         "word": "lamko",
         "meaning": "bright",
         "category": "quality",
-        "age": 13,
-        "fitness": 0.34999999999999953,
-        "uses": 5
+        "age": 18,
+        "fitness": 0.19999999999999962,
+        "uses": 14
+      },
+      {
+        "word": "sewen",
+        "meaning": "fast",
+        "category": "quality",
+        "age": 28,
+        "fitness": 0.19999999999999957,
+        "uses": 24
+      },
+      {
+        "word": "u",
+        "meaning": "through",
+        "category": "relation",
+        "age": 21,
+        "fitness": 0.1500000000000002,
+        "uses": 9
       },
       {
         "word": "sati",
         "meaning": "self",
         "category": "being",
-        "age": 32,
-        "fitness": 0.19999999999999923,
-        "uses": 21
+        "age": 37,
+        "fitness": 0.14999999999999925,
+        "uses": 31
       },
       {
         "word": "suna",
         "meaning": "sun",
         "category": "natural",
-        "age": 29,
-        "fitness": 0.1500000000000003,
-        "uses": 12
+        "age": 34,
+        "fitness": 0.10000000000000035,
+        "uses": 18
       },
       {
         "word": "ata",
         "meaning": "water",
         "category": "natural",
-        "age": 17,
-        "fitness": 0.1500000000000002,
-        "uses": 7
+        "age": 22,
+        "fitness": 0.10000000000000019,
+        "uses": 12
       },
       {
-        "word": "ma",
-        "meaning": "seed",
-        "category": "natural",
-        "age": 24,
-        "fitness": 0.10000000000000013,
-        "uses": 9
+        "word": "miroro",
+        "meaning": "part",
+        "category": "being",
+        "age": 16,
+        "fitness": 0.10000000000000007,
+        "uses": 18
       },
       {
         "word": "sasi",
         "meaning": "warm",
         "category": "quality",
-        "age": 44,
-        "fitness": 4.579669976578771e-16,
-        "uses": 21
-      },
-      {
-        "word": "ngisa",
-        "meaning": "ocean",
-        "category": "natural",
-        "age": 28,
-        "fitness": 6.938893903907228e-17,
-        "uses": 9
+        "age": 49,
+        "fitness": 0.05000000000000046,
+        "uses": 29
       }
     ]
   },
@@ -6770,14 +6786,6 @@
     },
     {
       "type": "birth",
-      "gen": 2981,
-      "word": "ti",
-      "meaning": "old",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
       "gen": 2982,
       "word": "e",
       "meaning": "star",
@@ -6803,14 +6811,6 @@
       "gen": 2986,
       "word": "nalo",
       "meaning": "river",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 2995,
-      "word": "numeso",
-      "meaning": "many",
       "category": "unknown",
       "alive": false
     },
@@ -7012,26 +7012,6 @@
       "meaning": "dark",
       "category": "unknown",
       "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3024,
-      "word": "ti",
-      "meaning": "old",
-      "category": "unknown",
-      "lifespan": 43,
-      "uses": 23,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3024,
-      "word": "numeso",
-      "meaning": "many",
-      "category": "unknown",
-      "lifespan": 29,
-      "uses": 16,
-      "stillborn": false
     },
     {
       "type": "birth",
@@ -7423,8 +7403,8 @@
       "word": "sasi",
       "meaning": "warm",
       "category": "quality",
-      "fitness": 4.579669976578771e-16,
-      "age": 44,
+      "fitness": 0.05000000000000046,
+      "age": 49,
       "alive": true
     },
     {
@@ -7563,8 +7543,8 @@
       "word": "sati",
       "meaning": "self",
       "category": "being",
-      "fitness": 0.19999999999999923,
-      "age": 32,
+      "fitness": 0.14999999999999925,
+      "age": 37,
       "alive": true
     },
     {
@@ -7610,8 +7590,8 @@
       "word": "suna",
       "meaning": "sun",
       "category": "natural",
-      "fitness": 0.1500000000000003,
-      "age": 29,
+      "fitness": 0.10000000000000035,
+      "age": 34,
       "alive": true
     },
     {
@@ -7629,10 +7609,8 @@
       "gen": 3064,
       "word": "ngisa",
       "meaning": "ocean",
-      "category": "natural",
-      "fitness": 6.938893903907228e-17,
-      "age": 28,
-      "alive": true
+      "category": "unknown",
+      "alive": false
     },
     {
       "type": "death",
@@ -7703,10 +7681,8 @@
       "gen": 3068,
       "word": "ma",
       "meaning": "seed",
-      "category": "natural",
-      "fitness": 0.10000000000000013,
-      "age": 24,
-      "alive": true
+      "category": "unknown",
+      "alive": false
     },
     {
       "type": "birth",
@@ -7714,8 +7690,8 @@
       "word": "sewen",
       "meaning": "fast",
       "category": "quality",
-      "fitness": 0.34999999999999953,
-      "age": 23,
+      "fitness": 0.19999999999999957,
+      "age": 28,
       "alive": true
     },
     {
@@ -7784,8 +7760,8 @@
       "word": "ke",
       "meaning": "pattern",
       "category": "abstract",
-      "fitness": 0.35000000000000037,
-      "age": 19,
+      "fitness": 0.5000000000000004,
+      "age": 24,
       "alive": true
     },
     {
@@ -7814,8 +7790,8 @@
       "word": "ata",
       "meaning": "water",
       "category": "natural",
-      "fitness": 0.1500000000000002,
-      "age": 17,
+      "fitness": 0.10000000000000019,
+      "age": 22,
       "alive": true
     },
     {
@@ -7824,8 +7800,8 @@
       "word": "u",
       "meaning": "through",
       "category": "relation",
-      "fitness": 0.40000000000000013,
-      "age": 16,
+      "fitness": 0.1500000000000002,
+      "age": 21,
       "alive": true
     },
     {
@@ -7844,8 +7820,8 @@
       "word": "takomi",
       "meaning": "with",
       "category": "relation",
-      "fitness": 0.4499999999999998,
-      "age": 15,
+      "fitness": 0.39999999999999986,
+      "age": 20,
       "alive": true
     },
     {
@@ -7854,8 +7830,8 @@
       "word": "lamko",
       "meaning": "bright",
       "category": "quality",
-      "fitness": 0.34999999999999953,
-      "age": 13,
+      "fitness": 0.19999999999999962,
+      "age": 18,
       "alive": true
     },
     {
@@ -7884,8 +7860,8 @@
       "word": "perani",
       "meaning": "find",
       "category": "action",
-      "fitness": 0.7999999999999993,
-      "age": 12,
+      "fitness": 0.849999999999999,
+      "age": 17,
       "alive": true
     },
     {
@@ -7894,8 +7870,8 @@
       "word": "miroro",
       "meaning": "part",
       "category": "being",
-      "fitness": 0.35000000000000003,
-      "age": 11,
+      "fitness": 0.10000000000000007,
+      "age": 16,
       "alive": true
     },
     {
@@ -7979,8 +7955,8 @@
       "word": "maran",
       "meaning": "whole",
       "category": "being",
-      "fitness": 0.6499999999999997,
-      "age": 5,
+      "fitness": 0.39999999999999963,
+      "age": 10,
       "alive": true
     },
     {
@@ -7999,8 +7975,8 @@
       "word": "nurain",
       "meaning": "rise",
       "category": "action",
-      "fitness": 0.5999999999999998,
-      "age": 4,
+      "fitness": 0.44999999999999973,
+      "age": 9,
       "alive": true
     },
     {
@@ -8009,8 +7985,8 @@
       "word": "ume",
       "meaning": "tree",
       "category": "natural",
-      "fitness": 0.35000000000000003,
-      "age": 3,
+      "fitness": 0.20000000000000007,
+      "age": 8,
       "alive": true
     },
     {
@@ -8033,8 +8009,8 @@
       "word": "iu",
       "meaning": "move",
       "category": "action",
-      "fitness": 0.49999999999999994,
-      "age": 2,
+      "fitness": 0.44999999999999996,
+      "age": 7,
       "alive": true
     },
     {
@@ -8043,8 +8019,8 @@
       "word": "zuhone",
       "meaning": "big",
       "category": "quality",
-      "fitness": 0.45,
-      "age": 1,
+      "fitness": 0.4,
+      "age": 6,
       "alive": true
     },
     {
@@ -8063,7 +8039,67 @@
       "word": "kimunon",
       "meaning": "flow",
       "category": "action",
-      "fitness": 0.5,
+      "fitness": 0.44999999999999996,
+      "age": 5,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3093,
+      "word": "ngisa",
+      "meaning": "ocean",
+      "category": "unknown",
+      "lifespan": 29,
+      "uses": 11,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3094,
+      "word": "roka",
+      "meaning": "all",
+      "category": "being",
+      "fitness": 0.35000000000000003,
+      "age": 3,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3095,
+      "word": "kunaem",
+      "meaning": "new",
+      "category": "quality",
+      "fitness": 0.5999999999999999,
+      "age": 2,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3095,
+      "word": "ma",
+      "meaning": "seed",
+      "category": "unknown",
+      "lifespan": 27,
+      "uses": 10,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3096,
+      "word": "ki",
+      "meaning": "chaos",
+      "category": "abstract",
+      "fitness": 0.45,
+      "age": 1,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3097,
+      "word": "liti",
+      "meaning": "none",
+      "category": "being",
+      "fitness": 0.6,
       "age": 0,
       "alive": true
     }
