@@ -1,0 +1,6497 @@
+{
+  "words": {
+    "lakuri": {
+      "meaning": "high",
+      "category": "quality",
+      "born": 3107,
+      "uses": 22,
+      "fitness": 0.19999999999999885,
+      "history": [
+        "lakuri"
+      ]
+    },
+    "kiori": {
+      "meaning": "self",
+      "category": "being",
+      "born": 3119,
+      "uses": 17,
+      "fitness": 0.2999999999999995,
+      "history": [
+        "kiori"
+      ]
+    },
+    "okena": {
+      "meaning": "sun",
+      "category": "natural",
+      "born": 3126,
+      "uses": 10,
+      "fitness": 0.2500000000000001,
+      "history": [
+        "okena"
+      ]
+    },
+    "nisevi": {
+      "meaning": "connection",
+      "category": "abstract",
+      "born": 3127,
+      "uses": 9,
+      "fitness": 0.10000000000000013,
+      "history": [
+        "nisevi"
+      ]
+    },
+    "netu": {
+      "meaning": "fall",
+      "category": "action",
+      "born": 3128,
+      "uses": 12,
+      "fitness": 0.15000000000000008,
+      "history": [
+        "netu"
+      ]
+    },
+    "wuroe": {
+      "meaning": "cold",
+      "category": "quality",
+      "born": 3129,
+      "uses": 14,
+      "fitness": 0.6999999999999993,
+      "history": [
+        "wuroe"
+      ]
+    },
+    "eimme": {
+      "meaning": "sky",
+      "category": "natural",
+      "born": 3132,
+      "uses": 6,
+      "fitness": 0.049999999999999906,
+      "history": [
+        "eimme"
+      ]
+    },
+    "otom": {
+      "meaning": "between",
+      "category": "relation",
+      "born": 3133,
+      "uses": 11,
+      "fitness": 0.39999999999999997,
+      "history": [
+        "otom"
+      ]
+    },
+    "mi": {
+      "meaning": "near",
+      "category": "quality",
+      "born": 3136,
+      "uses": 6,
+      "fitness": 0.35000000000000003,
+      "history": [
+        "mi"
+      ]
+    },
+    "nuhane": {
+      "meaning": "rise",
+      "category": "action",
+      "born": 3137,
+      "uses": 8,
+      "fitness": 0.49999999999999994,
+      "history": [
+        "nuhane"
+      ]
+    },
+    "reeke": {
+      "meaning": "move",
+      "category": "action",
+      "born": 3139,
+      "uses": 3,
+      "fitness": 0.09999999999999991,
+      "history": [
+        "reeke"
+      ]
+    },
+    "tinurem": {
+      "meaning": "stone",
+      "category": "natural",
+      "born": 3140,
+      "uses": 7,
+      "fitness": 0.5499999999999994,
+      "history": [
+        "tinurem"
+      ]
+    },
+    "nu": {
+      "meaning": "new",
+      "category": "quality",
+      "born": 3141,
+      "uses": 7,
+      "fitness": 0.39999999999999986,
+      "history": [
+        "nu"
+      ]
+    },
+    "weali": {
+      "meaning": "moon",
+      "category": "natural",
+      "born": 3144,
+      "uses": 6,
+      "fitness": 0.44999999999999996,
+      "history": [
+        "weali"
+      ]
+    },
+    "runi": {
+      "meaning": "release",
+      "category": "action",
+      "born": 3145,
+      "uses": 5,
+      "fitness": 0.5999999999999996,
+      "history": [
+        "runi"
+      ]
+    },
+    "rimeke": {
+      "meaning": "whole",
+      "category": "being",
+      "born": 3146,
+      "uses": 6,
+      "fitness": 0.15000000000000002,
+      "history": [
+        "rimeke"
+      ]
+    },
+    "navoma": {
+      "meaning": "none",
+      "category": "being",
+      "born": 3147,
+      "uses": 6,
+      "fitness": 0.5999999999999998,
+      "history": [
+        "navoma"
+      ]
+    },
+    "pukeni": {
+      "meaning": "break",
+      "category": "action",
+      "born": 3148,
+      "uses": 2,
+      "fitness": 0.35000000000000003,
+      "history": [
+        "pukeni"
+      ]
+    },
+    "vilaka": {
+      "meaning": "dark",
+      "category": "quality",
+      "born": 3149,
+      "uses": 4,
+      "fitness": 0.4,
+      "history": [
+        "vilaka"
+      ]
+    },
+    "heli": {
+      "meaning": "star",
+      "category": "natural",
+      "born": 3150,
+      "uses": 3,
+      "fitness": 0.5499999999999999,
+      "history": [
+        "heli"
+      ]
+    }
+  },
+  "compounds": {
+    "osna": {
+      "parts": [
+        "osu",
+        "ina"
+      ],
+      "meanings": [
+        "threshold",
+        "pattern"
+      ],
+      "compound_meaning": "threshold-pattern",
+      "born": 4
+    },
+    "kina": {
+      "parts": [
+        "ki",
+        "ina"
+      ],
+      "meanings": [
+        "cloud",
+        "pattern"
+      ],
+      "compound_meaning": "cloud-pattern",
+      "born": 8
+    },
+    "osao": {
+      "parts": [
+        "osu",
+        "lao"
+      ],
+      "meanings": [
+        "threshold",
+        "release"
+      ],
+      "compound_meaning": "threshold-release",
+      "born": 10
+    },
+    "sue": {
+      "parts": [
+        "suwen",
+        "e"
+      ],
+      "meanings": [
+        "deep",
+        "fall"
+      ],
+      "compound_meaning": "deep-fall",
+      "born": 14
+    },
+    "hopim": {
+      "parts": [
+        "honha",
+        "heapim"
+      ],
+      "meanings": [
+        "hold",
+        "flow"
+      ],
+      "compound_meaning": "hold-flow",
+      "born": 29
+    },
+    "hosi": {
+      "parts": [
+        "honha",
+        "tusi"
+      ],
+      "meanings": [
+        "hold",
+        "turn"
+      ],
+      "compound_meaning": "hold-turn",
+      "born": 31
+    },
+    "innha": {
+      "parts": [
+        "insi",
+        "honha"
+      ],
+      "meanings": [
+        "other",
+        "hold"
+      ],
+      "compound_meaning": "other-hold",
+      "born": 34
+    },
+    "laaa": {
+      "parts": [
+        "lao",
+        "raa"
+      ],
+      "meanings": [
+        "release",
+        "between"
+      ],
+      "compound_meaning": "release-between",
+      "born": 45
+    },
+    "nesri": {
+      "parts": [
+        "nesoten",
+        "miri"
+      ],
+      "meanings": [
+        "make",
+        "change"
+      ],
+      "compound_meaning": "make-change",
+      "born": 49
+    },
+    "imnasi": {
+      "parts": [
+        "ima",
+        "punnasi"
+      ],
+      "meanings": [
+        "pattern",
+        "from"
+      ],
+      "compound_meaning": "pattern-from",
+      "born": 50
+    },
+    "heaoten": {
+      "parts": [
+        "heapim",
+        "nesoten"
+      ],
+      "meanings": [
+        "flow",
+        "make"
+      ],
+      "compound_meaning": "flow-make",
+      "born": 52
+    },
+    "taim": {
+      "parts": [
+        "tapi",
+        "him"
+      ],
+      "meanings": [
+        "many",
+        "fast"
+      ],
+      "compound_meaning": "many-fast",
+      "born": 56
+    },
+    "malon": {
+      "parts": [
+        "maru",
+        "tanlon"
+      ],
+      "meanings": [
+        "space",
+        "slow"
+      ],
+      "compound_meaning": "space-slow",
+      "born": 57
+    },
+    "hiona": {
+      "parts": [
+        "him",
+        "malona"
+      ],
+      "meanings": [
+        "fast",
+        "mountain"
+      ],
+      "compound_meaning": "fast-mountain",
+      "born": 61
+    },
+    "inmu": {
+      "parts": [
+        "insi",
+        "mamu"
+      ],
+      "meanings": [
+        "other",
+        "rise"
+      ],
+      "compound_meaning": "other-rise",
+      "born": 67
+    },
+    "iikan": {
+      "parts": [
+        "i",
+        "pipikan"
+      ],
+      "meanings": [
+        "from",
+        "toward"
+      ],
+      "compound_meaning": "from-toward",
+      "born": 72
+    },
+    "kentim": {
+      "parts": [
+        "kenke",
+        "hamentim"
+      ],
+      "meanings": [
+        "within",
+        "through"
+      ],
+      "compound_meaning": "within-through",
+      "born": 77
+    },
+    "emikan": {
+      "parts": [
+        "emne",
+        "pipikan"
+      ],
+      "meanings": [
+        "begin",
+        "toward"
+      ],
+      "compound_meaning": "begin-toward",
+      "born": 86
+    },
+    "maikan": {
+      "parts": [
+        "maeki",
+        "pipikan"
+      ],
+      "meanings": [
+        "grow",
+        "toward"
+      ],
+      "compound_meaning": "grow-toward",
+      "born": 91
+    },
+    "niinno": {
+      "parts": [
+        "nihe",
+        "rasinno"
+      ],
+      "meanings": [
+        "break",
+        "make"
+      ],
+      "compound_meaning": "break-make",
+      "born": 93
+    },
+    "pipne": {
+      "parts": [
+        "pipikan",
+        "emne"
+      ],
+      "meanings": [
+        "toward",
+        "begin"
+      ],
+      "compound_meaning": "toward-begin",
+      "born": 98
+    },
+    "wulo": {
+      "parts": [
+        "wulawa",
+        "no"
+      ],
+      "meanings": [
+        "dark",
+        "flower"
+      ],
+      "compound_meaning": "dark-flower",
+      "born": 104
+    },
+    "wimhe": {
+      "parts": [
+        "wimhin",
+        "nihe"
+      ],
+      "meanings": [
+        "whole",
+        "break"
+      ],
+      "compound_meaning": "whole-break",
+      "born": 113
+    },
+    "kimi": {
+      "parts": [
+        "kimnam",
+        "i"
+      ],
+      "meanings": [
+        "order",
+        "moon"
+      ],
+      "compound_meaning": "order-moon",
+      "born": 117
+    },
+    "arenim": {
+      "parts": [
+        "aruki",
+        "vapenim"
+      ],
+      "meanings": [
+        "fall",
+        "stone"
+      ],
+      "compound_meaning": "fall-stone",
+      "born": 119
+    },
+    "manam": {
+      "parts": [
+        "manre",
+        "kimnam"
+      ],
+      "meanings": [
+        "join",
+        "order"
+      ],
+      "compound_meaning": "join-order",
+      "born": 127
+    },
+    "kanre": {
+      "parts": [
+        "kami",
+        "manre"
+      ],
+      "meanings": [
+        "bright",
+        "join"
+      ],
+      "compound_meaning": "bright-join",
+      "born": 134
+    },
+    "ahem": {
+      "parts": [
+        "a",
+        "anhem"
+      ],
+      "meanings": [
+        "rise",
+        "boundary"
+      ],
+      "compound_meaning": "rise-boundary",
+      "born": 136
+    },
+    "sanoi": {
+      "parts": [
+        "sala",
+        "kenoi"
+      ],
+      "meanings": [
+        "small",
+        "water"
+      ],
+      "compound_meaning": "small-water",
+      "born": 138
+    },
+    "alule": {
+      "parts": [
+        "alene",
+        "vunule"
+      ],
+      "meanings": [
+        "boundary",
+        "sky"
+      ],
+      "compound_meaning": "boundary-sky",
+      "born": 159
+    },
+    "ammi": {
+      "parts": [
+        "am",
+        "kami"
+      ],
+      "meanings": [
+        "rain",
+        "bright"
+      ],
+      "compound_meaning": "rain-bright",
+      "born": 160
+    },
+    "anomi": {
+      "parts": [
+        "anse",
+        "panomi"
+      ],
+      "meanings": [
+        "far",
+        "small"
+      ],
+      "compound_meaning": "far-small",
+      "born": 164
+    },
+    "imoo": {
+      "parts": [
+        "imha",
+        "moo"
+      ],
+      "meanings": [
+        "from",
+        "snow"
+      ],
+      "compound_meaning": "from-snow",
+      "born": 182
+    },
+    "soatun": {
+      "parts": [
+        "so",
+        "ontatun"
+      ],
+      "meanings": [
+        "release",
+        "end"
+      ],
+      "compound_meaning": "release-end",
+      "born": 192
+    },
+    "taea": {
+      "parts": [
+        "tammo",
+        "kea"
+      ],
+      "meanings": [
+        "flower",
+        "cycle"
+      ],
+      "compound_meaning": "flower-cycle",
+      "born": 195
+    },
+    "meea": {
+      "parts": [
+        "menmo",
+        "kea"
+      ],
+      "meanings": [
+        "connection",
+        "cycle"
+      ],
+      "compound_meaning": "connection-cycle",
+      "born": 198
+    },
+    "zieni": {
+      "parts": [
+        "zi",
+        "raweni"
+      ],
+      "meanings": [
+        "self",
+        "wave"
+      ],
+      "compound_meaning": "self-wave",
+      "born": 199
+    },
+    "anaru": {
+      "parts": [
+        "anhe",
+        "niaru"
+      ],
+      "meanings": [
+        "moon",
+        "within"
+      ],
+      "compound_meaning": "moon-within",
+      "born": 204
+    },
+    "muena": {
+      "parts": [
+        "muli",
+        "netena"
+      ],
+      "meanings": [
+        "make",
+        "with"
+      ],
+      "compound_meaning": "make-with",
+      "born": 219
+    },
+    "tai": {
+      "parts": [
+        "tammo",
+        "zi"
+      ],
+      "meanings": [
+        "flower",
+        "self"
+      ],
+      "compound_meaning": "flower-self",
+      "born": 226
+    },
+    "miiho": {
+      "parts": [
+        "mira",
+        "nihiho"
+      ],
+      "meanings": [
+        "wind",
+        "sun"
+      ],
+      "compound_meaning": "wind-sun",
+      "born": 230
+    },
+    "tanmo": {
+      "parts": [
+        "tae",
+        "hanmo"
+      ],
+      "meanings": [
+        "stone",
+        "warm"
+      ],
+      "compound_meaning": "stone-warm",
+      "born": 239
+    },
+    "anru": {
+      "parts": [
+        "aneva",
+        "reru"
+      ],
+      "meanings": [
+        "give",
+        "between"
+      ],
+      "compound_meaning": "give-between",
+      "born": 262
+    },
+    "nanrin": {
+      "parts": [
+        "nanseko",
+        "rurin"
+      ],
+      "meanings": [
+        "cloud",
+        "none"
+      ],
+      "compound_meaning": "cloud-none",
+      "born": 263
+    },
+    "semi": {
+      "parts": [
+        "sesa",
+        "memi"
+      ],
+      "meanings": [
+        "chaos",
+        "within"
+      ],
+      "compound_meaning": "chaos-within",
+      "born": 271
+    },
+    "motum": {
+      "parts": [
+        "moli",
+        "ritum"
+      ],
+      "meanings": [
+        "none",
+        "find"
+      ],
+      "compound_meaning": "none-find",
+      "born": 307
+    },
+    "nanara": {
+      "parts": [
+        "naniwe",
+        "immara"
+      ],
+      "meanings": [
+        "ocean",
+        "water"
+      ],
+      "compound_meaning": "ocean-water",
+      "born": 312
+    },
+    "moka": {
+      "parts": [
+        "moli",
+        "laka"
+      ],
+      "meanings": [
+        "none",
+        "chaos"
+      ],
+      "compound_meaning": "none-chaos",
+      "born": 319
+    },
+    "ziure": {
+      "parts": [
+        "ziu",
+        "runure"
+      ],
+      "meanings": [
+        "big",
+        "far"
+      ],
+      "compound_meaning": "big-far",
+      "born": 327
+    },
+    "leiwe": {
+      "parts": [
+        "le",
+        "naniwe"
+      ],
+      "meanings": [
+        "through",
+        "ocean"
+      ],
+      "compound_meaning": "through-ocean",
+      "born": 337
+    },
+    "uria": {
+      "parts": [
+        "uru",
+        "ngia"
+      ],
+      "meanings": [
+        "rain",
+        "end"
+      ],
+      "compound_meaning": "rain-end",
+      "born": 349
+    },
+    "nilmha": {
+      "parts": [
+        "nilivo",
+        "komha"
+      ],
+      "meanings": [
+        "fire",
+        "new"
+      ],
+      "compound_meaning": "fire-new",
+      "born": 360
+    },
+    "urli": {
+      "parts": [
+        "uru",
+        "ruli"
+      ],
+      "meanings": [
+        "rain",
+        "balance"
+      ],
+      "compound_meaning": "rain-balance",
+      "born": 361
+    },
+    "tanwun": {
+      "parts": [
+        "tamme",
+        "pasanwun"
+      ],
+      "meanings": [
+        "all",
+        "part"
+      ],
+      "compound_meaning": "all-part",
+      "born": 366
+    },
+    "monwun": {
+      "parts": [
+        "mo",
+        "pasanwun"
+      ],
+      "meanings": [
+        "move",
+        "part"
+      ],
+      "compound_meaning": "move-part",
+      "born": 367
+    },
+    "nae": {
+      "parts": [
+        "nao",
+        "le"
+      ],
+      "meanings": [
+        "warm",
+        "through"
+      ],
+      "compound_meaning": "warm-through",
+      "born": 373
+    },
+    "ripli": {
+      "parts": [
+        "ripire",
+        "ruli"
+      ],
+      "meanings": [
+        "chaos",
+        "balance"
+      ],
+      "compound_meaning": "chaos-balance",
+      "born": 377
+    },
+    "pasali": {
+      "parts": [
+        "pasannom",
+        "ruli"
+      ],
+      "meanings": [
+        "boundary",
+        "balance"
+      ],
+      "compound_meaning": "boundary-balance",
+      "born": 383
+    },
+    "pasaha": {
+      "parts": [
+        "pasannom",
+        "iha"
+      ],
+      "meanings": [
+        "boundary",
+        "star"
+      ],
+      "compound_meaning": "boundary-star",
+      "born": 387
+    },
+    "ihpam": {
+      "parts": [
+        "iha",
+        "nipam"
+      ],
+      "meanings": [
+        "star",
+        "slow"
+      ],
+      "compound_meaning": "star-slow",
+      "born": 392
+    },
+    "napam": {
+      "parts": [
+        "nao",
+        "nipam"
+      ],
+      "meanings": [
+        "warm",
+        "slow"
+      ],
+      "compound_meaning": "warm-slow",
+      "born": 399
+    },
+    "mohoze": {
+      "parts": [
+        "mo",
+        "mishoze"
+      ],
+      "meanings": [
+        "move",
+        "end"
+      ],
+      "compound_meaning": "move-end",
+      "born": 406
+    },
+    "ao": {
+      "parts": [
+        "a",
+        "mo"
+      ],
+      "meanings": [
+        "sun",
+        "move"
+      ],
+      "compound_meaning": "sun-move",
+      "born": 407
+    },
+    "tuaae": {
+      "parts": [
+        "tuanem",
+        "nae"
+      ],
+      "meanings": [
+        "with",
+        "balance"
+      ],
+      "compound_meaning": "with-balance",
+      "born": 420
+    },
+    "huuse": {
+      "parts": [
+        "huhi",
+        "hinuse"
+      ],
+      "meanings": [
+        "wind",
+        "river"
+      ],
+      "compound_meaning": "wind-river",
+      "born": 429
+    },
+    "naso": {
+      "parts": [
+        "nae",
+        "voso"
+      ],
+      "meanings": [
+        "balance",
+        "fall"
+      ],
+      "compound_meaning": "balance-fall",
+      "born": 444
+    },
+    "kikso": {
+      "parts": [
+        "kikanse",
+        "voso"
+      ],
+      "meanings": [
+        "tree",
+        "fall"
+      ],
+      "compound_meaning": "tree-fall",
+      "born": 455
+    },
+    "vomne": {
+      "parts": [
+        "voso",
+        "kaamne"
+      ],
+      "meanings": [
+        "fall",
+        "far"
+      ],
+      "compound_meaning": "fall-far",
+      "born": 456
+    },
+    "nakimu": {
+      "parts": [
+        "nakutem",
+        "kumimu"
+      ],
+      "meanings": [
+        "within",
+        "take"
+      ],
+      "compound_meaning": "within-take",
+      "born": 457
+    },
+    "minuma": {
+      "parts": [
+        "mi",
+        "momnuma"
+      ],
+      "meanings": [
+        "rise",
+        "seed"
+      ],
+      "compound_meaning": "rise-seed",
+      "born": 460
+    },
+    "kooman": {
+      "parts": [
+        "kona",
+        "nimvoman"
+      ],
+      "meanings": [
+        "space",
+        "hard"
+      ],
+      "compound_meaning": "space-hard",
+      "born": 464
+    },
+    "kummpo": {
+      "parts": [
+        "kumimu",
+        "mimpo"
+      ],
+      "meanings": [
+        "take",
+        "time"
+      ],
+      "compound_meaning": "take-time",
+      "born": 465
+    },
+    "puna": {
+      "parts": [
+        "punlam",
+        "na"
+      ],
+      "meanings": [
+        "high",
+        "water"
+      ],
+      "compound_meaning": "high-water",
+      "born": 471
+    },
+    "koutem": {
+      "parts": [
+        "kona",
+        "nakutem"
+      ],
+      "meanings": [
+        "space",
+        "within"
+      ],
+      "compound_meaning": "space-within",
+      "born": 472
+    },
+    "silo": {
+      "parts": [
+        "siwu",
+        "salo"
+      ],
+      "meanings": [
+        "many",
+        "threshold"
+      ],
+      "compound_meaning": "many-threshold",
+      "born": 482
+    },
+    "uo": {
+      "parts": [
+        "u",
+        "ko"
+      ],
+      "meanings": [
+        "release",
+        "begin"
+      ],
+      "compound_meaning": "release-begin",
+      "born": 483
+    },
+    "issai": {
+      "parts": [
+        "ise",
+        "kesai"
+      ],
+      "meanings": [
+        "make",
+        "earth"
+      ],
+      "compound_meaning": "make-earth",
+      "born": 491
+    },
+    "puppo": {
+      "parts": [
+        "pupimso",
+        "epo"
+      ],
+      "meanings": [
+        "space",
+        "flower"
+      ],
+      "compound_meaning": "space-flower",
+      "born": 504
+    },
+    "tiapo": {
+      "parts": [
+        "tiakam",
+        "epo"
+      ],
+      "meanings": [
+        "cycle",
+        "flower"
+      ],
+      "compound_meaning": "cycle-flower",
+      "born": 506
+    },
+    "senrma": {
+      "parts": [
+        "senrinro",
+        "mima"
+      ],
+      "meanings": [
+        "fire",
+        "slow"
+      ],
+      "compound_meaning": "fire-slow",
+      "born": 509
+    },
+    "lerlo": {
+      "parts": [
+        "lerahon",
+        "salo"
+      ],
+      "meanings": [
+        "boundary",
+        "threshold"
+      ],
+      "compound_meaning": "boundary-threshold",
+      "born": 513
+    },
+    "utahon": {
+      "parts": [
+        "uto",
+        "lerahon"
+      ],
+      "meanings": [
+        "wave",
+        "boundary"
+      ],
+      "compound_meaning": "wave-boundary",
+      "born": 515
+    },
+    "pupahon": {
+      "parts": [
+        "pupimso",
+        "lerahon"
+      ],
+      "meanings": [
+        "space",
+        "boundary"
+      ],
+      "compound_meaning": "space-boundary",
+      "born": 520
+    },
+    "kisu": {
+      "parts": [
+        "kinu",
+        "lesu"
+      ],
+      "meanings": [
+        "find",
+        "make"
+      ],
+      "compound_meaning": "find-make",
+      "born": 521
+    },
+    "ennpe": {
+      "parts": [
+        "enme",
+        "tinpe"
+      ],
+      "meanings": [
+        "from",
+        "small"
+      ],
+      "compound_meaning": "from-small",
+      "born": 535
+    },
+    "animso": {
+      "parts": [
+        "ani",
+        "pupimso"
+      ],
+      "meanings": [
+        "rise",
+        "space"
+      ],
+      "compound_meaning": "rise-space",
+      "born": 541
+    },
+    "roano": {
+      "parts": [
+        "romko",
+        "tanano"
+      ],
+      "meanings": [
+        "flower",
+        "move"
+      ],
+      "compound_meaning": "flower-move",
+      "born": 548
+    },
+    "tanzu": {
+      "parts": [
+        "tanano",
+        "sazu"
+      ],
+      "meanings": [
+        "move",
+        "between"
+      ],
+      "compound_meaning": "move-between",
+      "born": 560
+    },
+    "monua": {
+      "parts": [
+        "monira",
+        "kua"
+      ],
+      "meanings": [
+        "earth",
+        "none"
+      ],
+      "compound_meaning": "earth-none",
+      "born": 582
+    },
+    "iuiho": {
+      "parts": [
+        "iu",
+        "nuiho"
+      ],
+      "meanings": [
+        "fast",
+        "many"
+      ],
+      "compound_meaning": "fast-many",
+      "born": 588
+    },
+    "moaso": {
+      "parts": [
+        "moo",
+        "amsaso"
+      ],
+      "meanings": [
+        "dark",
+        "boundary"
+      ],
+      "compound_meaning": "dark-boundary",
+      "born": 594
+    },
+    "muli": {
+      "parts": [
+        "muha",
+        "meli"
+      ],
+      "meanings": [
+        "tree",
+        "flow"
+      ],
+      "compound_meaning": "tree-flow",
+      "born": 599
+    },
+    "amsman": {
+      "parts": [
+        "amsaso",
+        "teman"
+      ],
+      "meanings": [
+        "boundary",
+        "stone"
+      ],
+      "compound_meaning": "boundary-stone",
+      "born": 610
+    },
+    "leha": {
+      "parts": [
+        "lemne",
+        "muha"
+      ],
+      "meanings": [
+        "high",
+        "tree"
+      ],
+      "compound_meaning": "high-tree",
+      "born": 615
+    },
+    "unna": {
+      "parts": [
+        "unnim",
+        "una"
+      ],
+      "meanings": [
+        "threshold",
+        "grow"
+      ],
+      "compound_meaning": "threshold-grow",
+      "born": 619
+    },
+    "siilem": {
+      "parts": [
+        "si",
+        "kimilem"
+      ],
+      "meanings": [
+        "move",
+        "slow"
+      ],
+      "compound_meaning": "move-slow",
+      "born": 622
+    },
+    "kolman": {
+      "parts": [
+        "kolisin",
+        "teman"
+      ],
+      "meanings": [
+        "ocean",
+        "stone"
+      ],
+      "compound_meaning": "ocean-stone",
+      "born": 626
+    },
+    "minha": {
+      "parts": [
+        "minrese",
+        "iha"
+      ],
+      "meanings": [
+        "old",
+        "soft"
+      ],
+      "compound_meaning": "old-soft",
+      "born": 627
+    },
+    "nuzmea": {
+      "parts": [
+        "nuzare",
+        "pimea"
+      ],
+      "meanings": [
+        "with",
+        "self"
+      ],
+      "compound_meaning": "with-self",
+      "born": 639
+    },
+    "tii": {
+      "parts": [
+        "ti",
+        "pi"
+      ],
+      "meanings": [
+        "join",
+        "part"
+      ],
+      "compound_meaning": "join-part",
+      "born": 641
+    },
+    "mali": {
+      "parts": [
+        "ma",
+        "meli"
+      ],
+      "meanings": [
+        "end",
+        "flow"
+      ],
+      "compound_meaning": "end-flow",
+      "born": 642
+    },
+    "paisin": {
+      "parts": [
+        "palin",
+        "kolisin"
+      ],
+      "meanings": [
+        "toward",
+        "ocean"
+      ],
+      "compound_meaning": "toward-ocean",
+      "born": 647
+    },
+    "mea": {
+      "parts": [
+        "meli",
+        "sa"
+      ],
+      "meanings": [
+        "flow",
+        "far"
+      ],
+      "compound_meaning": "flow-far",
+      "born": 657
+    },
+    "ihinka": {
+      "parts": [
+        "ihae",
+        "peminka"
+      ],
+      "meanings": [
+        "beyond",
+        "moon"
+      ],
+      "compound_meaning": "beyond-moon",
+      "born": 668
+    },
+    "pemlin": {
+      "parts": [
+        "peminka",
+        "palin"
+      ],
+      "meanings": [
+        "moon",
+        "toward"
+      ],
+      "compound_meaning": "moon-toward",
+      "born": 669
+    },
+    "sainka": {
+      "parts": [
+        "sa",
+        "peminka"
+      ],
+      "meanings": [
+        "far",
+        "moon"
+      ],
+      "compound_meaning": "far-moon",
+      "born": 674
+    },
+    "ioinka": {
+      "parts": [
+        "io",
+        "peminka"
+      ],
+      "meanings": [
+        "around",
+        "moon"
+      ],
+      "compound_meaning": "around-moon",
+      "born": 676
+    },
+    "nemi": {
+      "parts": [
+        "ne",
+        "nomi"
+      ],
+      "meanings": [
+        "seed",
+        "earth"
+      ],
+      "compound_meaning": "seed-earth",
+      "born": 691
+    },
+    "zouu": {
+      "parts": [
+        "zona",
+        "weuu"
+      ],
+      "meanings": [
+        "through",
+        "flow"
+      ],
+      "compound_meaning": "through-flow",
+      "born": 693
+    },
+    "uai": {
+      "parts": [
+        "ua",
+        "zi"
+      ],
+      "meanings": [
+        "near",
+        "fast"
+      ],
+      "compound_meaning": "near-fast",
+      "born": 697
+    },
+    "nosi": {
+      "parts": [
+        "nomi",
+        "musi"
+      ],
+      "meanings": [
+        "earth",
+        "order"
+      ],
+      "compound_meaning": "earth-order",
+      "born": 701
+    },
+    "noa": {
+      "parts": [
+        "nomi",
+        "ua"
+      ],
+      "meanings": [
+        "earth",
+        "near"
+      ],
+      "compound_meaning": "earth-near",
+      "born": 706
+    },
+    "laran": {
+      "parts": [
+        "la",
+        "nanran"
+      ],
+      "meanings": [
+        "cycle",
+        "chaos"
+      ],
+      "compound_meaning": "cycle-chaos",
+      "born": 719
+    },
+    "meve": {
+      "parts": [
+        "mewa",
+        "nave"
+      ],
+      "meanings": [
+        "new",
+        "slow"
+      ],
+      "compound_meaning": "new-slow",
+      "born": 732
+    },
+    "maneti": {
+      "parts": [
+        "manama",
+        "suneti"
+      ],
+      "meanings": [
+        "mountain",
+        "none"
+      ],
+      "compound_meaning": "mountain-none",
+      "born": 733
+    },
+    "sake": {
+      "parts": [
+        "sa",
+        "ike"
+      ],
+      "meanings": [
+        "time",
+        "old"
+      ],
+      "compound_meaning": "time-old",
+      "born": 742
+    },
+    "kimaku": {
+      "parts": [
+        "kio",
+        "tummaku"
+      ],
+      "meanings": [
+        "find",
+        "change"
+      ],
+      "compound_meaning": "find-change",
+      "born": 761
+    },
+    "ina": {
+      "parts": [
+        "ini",
+        "sa"
+      ],
+      "meanings": [
+        "move",
+        "time"
+      ],
+      "compound_meaning": "move-time",
+      "born": 762
+    },
+    "tioi": {
+      "parts": [
+        "ti",
+        "soi"
+      ],
+      "meanings": [
+        "order",
+        "one"
+      ],
+      "compound_meaning": "order-one",
+      "born": 766
+    },
+    "hano": {
+      "parts": [
+        "hante",
+        "sino"
+      ],
+      "meanings": [
+        "part",
+        "high"
+      ],
+      "compound_meaning": "part-high",
+      "born": 770
+    },
+    "innte": {
+      "parts": [
+        "ini",
+        "hante"
+      ],
+      "meanings": [
+        "move",
+        "part"
+      ],
+      "compound_meaning": "move-part",
+      "born": 771
+    },
+    "raama": {
+      "parts": [
+        "rawen",
+        "asama"
+      ],
+      "meanings": [
+        "toward",
+        "deep"
+      ],
+      "compound_meaning": "toward-deep",
+      "born": 780
+    },
+    "telnu": {
+      "parts": [
+        "telenu",
+        "sonu"
+      ],
+      "meanings": [
+        "fast",
+        "beyond"
+      ],
+      "compound_meaning": "fast-beyond",
+      "born": 796
+    },
+    "vinze": {
+      "parts": [
+        "vila",
+        "kinze"
+      ],
+      "meanings": [
+        "tree",
+        "moon"
+      ],
+      "compound_meaning": "tree-moon",
+      "born": 806
+    },
+    "otalam": {
+      "parts": [
+        "otu",
+        "sekalam"
+      ],
+      "meanings": [
+        "earth",
+        "cold"
+      ],
+      "compound_meaning": "earth-cold",
+      "born": 811
+    },
+    "rola": {
+      "parts": [
+        "roae",
+        "vila"
+      ],
+      "meanings": [
+        "ocean",
+        "tree"
+      ],
+      "compound_meaning": "ocean-tree",
+      "born": 812
+    },
+    "kire": {
+      "parts": [
+        "kim",
+        "ure"
+      ],
+      "meanings": [
+        "end",
+        "part"
+      ],
+      "compound_meaning": "end-part",
+      "born": 831
+    },
+    "iram": {
+      "parts": [
+        "i",
+        "voram"
+      ],
+      "meanings": [
+        "small",
+        "find"
+      ],
+      "compound_meaning": "small-find",
+      "born": 836
+    },
+    "kanum": {
+      "parts": [
+        "kanluno",
+        "num"
+      ],
+      "meanings": [
+        "through",
+        "one"
+      ],
+      "compound_meaning": "through-one",
+      "born": 858
+    },
+    "tue": {
+      "parts": [
+        "tupin",
+        "he"
+      ],
+      "meanings": [
+        "big",
+        "time"
+      ],
+      "compound_meaning": "big-time",
+      "born": 865
+    },
+    "heza": {
+      "parts": [
+        "he",
+        "aza"
+      ],
+      "meanings": [
+        "time",
+        "old"
+      ],
+      "compound_meaning": "time-old",
+      "born": 870
+    },
+    "kanemna": {
+      "parts": [
+        "kanemkam",
+        "temna"
+      ],
+      "meanings": [
+        "bright",
+        "toward"
+      ],
+      "compound_meaning": "bright-toward",
+      "born": 900
+    },
+    "mamkam": {
+      "parts": [
+        "manin",
+        "kanemkam"
+      ],
+      "meanings": [
+        "snow",
+        "bright"
+      ],
+      "compound_meaning": "snow-bright",
+      "born": 904
+    },
+    "lio": {
+      "parts": [
+        "liko",
+        "to"
+      ],
+      "meanings": [
+        "begin",
+        "connection"
+      ],
+      "compound_meaning": "begin-connection",
+      "born": 906
+    },
+    "tiora": {
+      "parts": [
+        "tiko",
+        "kaora"
+      ],
+      "meanings": [
+        "other",
+        "cloud"
+      ],
+      "compound_meaning": "other-cloud",
+      "born": 910
+    },
+    "meme": {
+      "parts": [
+        "me",
+        "ame"
+      ],
+      "meanings": [
+        "with",
+        "cold"
+      ],
+      "compound_meaning": "with-cold",
+      "born": 919
+    },
+    "unsi": {
+      "parts": [
+        "unki",
+        "musi"
+      ],
+      "meanings": [
+        "move",
+        "wave"
+      ],
+      "compound_meaning": "move-wave",
+      "born": 927
+    },
+    "toi": {
+      "parts": [
+        "to",
+        "mi"
+      ],
+      "meanings": [
+        "connection",
+        "tree"
+      ],
+      "compound_meaning": "connection-tree",
+      "born": 928
+    },
+    "lukim": {
+      "parts": [
+        "lui",
+        "mekim"
+      ],
+      "meanings": [
+        "turn",
+        "stone"
+      ],
+      "compound_meaning": "turn-stone",
+      "born": 944
+    },
+    "sunlim": {
+      "parts": [
+        "suu",
+        "ihinlim"
+      ],
+      "meanings": [
+        "space",
+        "ocean"
+      ],
+      "compound_meaning": "space-ocean",
+      "born": 955
+    },
+    "nunlim": {
+      "parts": [
+        "nua",
+        "ihinlim"
+      ],
+      "meanings": [
+        "emergence",
+        "ocean"
+      ],
+      "compound_meaning": "emergence-ocean",
+      "born": 964
+    },
+    "konnsem": {
+      "parts": [
+        "konnanam",
+        "kusem"
+      ],
+      "meanings": [
+        "give",
+        "hold"
+      ],
+      "compound_meaning": "give-hold",
+      "born": 969
+    },
+    "tata": {
+      "parts": [
+        "tasa",
+        "wuta"
+      ],
+      "meanings": [
+        "from",
+        "whole"
+      ],
+      "compound_meaning": "from-whole",
+      "born": 975
+    },
+    "unta": {
+      "parts": [
+        "unsaa",
+        "wuta"
+      ],
+      "meanings": [
+        "beyond",
+        "whole"
+      ],
+      "compound_meaning": "beyond-whole",
+      "born": 984
+    },
+    "kuanam": {
+      "parts": [
+        "kute",
+        "konnanam"
+      ],
+      "meanings": [
+        "connection",
+        "give"
+      ],
+      "compound_meaning": "connection-give",
+      "born": 988
+    },
+    "ehmka": {
+      "parts": [
+        "ehe",
+        "luomka"
+      ],
+      "meanings": [
+        "order",
+        "beyond"
+      ],
+      "compound_meaning": "order-beyond",
+      "born": 1001
+    },
+    "ponnu": {
+      "parts": [
+        "ponusi",
+        "anu"
+      ],
+      "meanings": [
+        "turn",
+        "cloud"
+      ],
+      "compound_meaning": "turn-cloud",
+      "born": 1016
+    },
+    "liinmu": {
+      "parts": [
+        "lio",
+        "notinmu"
+      ],
+      "meanings": [
+        "soft",
+        "stone"
+      ],
+      "compound_meaning": "soft-stone",
+      "born": 1025
+    },
+    "luanka": {
+      "parts": [
+        "lue",
+        "natanka"
+      ],
+      "meanings": [
+        "release",
+        "between"
+      ],
+      "compound_meaning": "release-between",
+      "born": 1034
+    },
+    "kainmu": {
+      "parts": [
+        "kala",
+        "notinmu"
+      ],
+      "meanings": [
+        "toward",
+        "stone"
+      ],
+      "compound_meaning": "toward-stone",
+      "born": 1037
+    },
+    "rooo": {
+      "parts": [
+        "ronem",
+        "roo"
+      ],
+      "meanings": [
+        "big",
+        "turn"
+      ],
+      "compound_meaning": "big-turn",
+      "born": 1042
+    },
+    "menoo": {
+      "parts": [
+        "menonan",
+        "roo"
+      ],
+      "meanings": [
+        "time",
+        "turn"
+      ],
+      "compound_meaning": "time-turn",
+      "born": 1046
+    },
+    "lani": {
+      "parts": [
+        "lari",
+        "puni"
+      ],
+      "meanings": [
+        "move",
+        "begin"
+      ],
+      "compound_meaning": "move-begin",
+      "born": 1047
+    },
+    "roanka": {
+      "parts": [
+        "roo",
+        "natanka"
+      ],
+      "meanings": [
+        "turn",
+        "between"
+      ],
+      "compound_meaning": "turn-between",
+      "born": 1053
+    },
+    "saean": {
+      "parts": [
+        "sanu",
+        "hapean"
+      ],
+      "meanings": [
+        "cold",
+        "fire"
+      ],
+      "compound_meaning": "cold-fire",
+      "born": 1054
+    },
+    "roii": {
+      "parts": [
+        "roo",
+        "nii"
+      ],
+      "meanings": [
+        "turn",
+        "join"
+      ],
+      "compound_meaning": "turn-join",
+      "born": 1056
+    },
+    "urue": {
+      "parts": [
+        "urike",
+        "lue"
+      ],
+      "meanings": [
+        "other",
+        "release"
+      ],
+      "compound_meaning": "other-release",
+      "born": 1059
+    },
+    "tasamha": {
+      "parts": [
+        "tasiim",
+        "wenamha"
+      ],
+      "meanings": [
+        "within",
+        "around"
+      ],
+      "compound_meaning": "within-around",
+      "born": 1064
+    },
+    "nuoo": {
+      "parts": [
+        "nui",
+        "roo"
+      ],
+      "meanings": [
+        "emergence",
+        "turn"
+      ],
+      "compound_meaning": "emergence-turn",
+      "born": 1074
+    },
+    "linoo": {
+      "parts": [
+        "linruru",
+        "roo"
+      ],
+      "meanings": [
+        "hard",
+        "turn"
+      ],
+      "compound_meaning": "hard-turn",
+      "born": 1078
+    },
+    "iwa": {
+      "parts": [
+        "iwake",
+        "a"
+      ],
+      "meanings": [
+        "far",
+        "ocean"
+      ],
+      "compound_meaning": "far-ocean",
+      "born": 1081
+    },
+    "wiom": {
+      "parts": [
+        "wio",
+        "hom"
+      ],
+      "meanings": [
+        "wind",
+        "all"
+      ],
+      "compound_meaning": "wind-all",
+      "born": 1102
+    },
+    "honi": {
+      "parts": [
+        "hom",
+        "vuni"
+      ],
+      "meanings": [
+        "all",
+        "dark"
+      ],
+      "compound_meaning": "all-dark",
+      "born": 1106
+    },
+    "kala": {
+      "parts": [
+        "kalaku",
+        "na"
+      ],
+      "meanings": [
+        "fall",
+        "soft"
+      ],
+      "compound_meaning": "fall-soft",
+      "born": 1108
+    },
+    "iwha": {
+      "parts": [
+        "iwake",
+        "kaha"
+      ],
+      "meanings": [
+        "far",
+        "find"
+      ],
+      "compound_meaning": "far-find",
+      "born": 1111
+    },
+    "kue": {
+      "parts": [
+        "ku",
+        "ne"
+      ],
+      "meanings": [
+        "hold",
+        "make"
+      ],
+      "compound_meaning": "hold-make",
+      "born": 1119
+    },
+    "kaaim": {
+      "parts": [
+        "kaaram",
+        "rim"
+      ],
+      "meanings": [
+        "break",
+        "wave"
+      ],
+      "compound_meaning": "break-wave",
+      "born": 1123
+    },
+    "wammmum": {
+      "parts": [
+        "wamwom",
+        "etommum"
+      ],
+      "meanings": [
+        "one",
+        "old"
+      ],
+      "compound_meaning": "one-old",
+      "born": 1128
+    },
+    "kai": {
+      "parts": [
+        "ka",
+        "ki"
+      ],
+      "meanings": [
+        "near",
+        "high"
+      ],
+      "compound_meaning": "near-high",
+      "born": 1129
+    },
+    "eka": {
+      "parts": [
+        "eki",
+        "ka"
+      ],
+      "meanings": [
+        "around",
+        "near"
+      ],
+      "compound_meaning": "around-near",
+      "born": 1131
+    },
+    "riwom": {
+      "parts": [
+        "rim",
+        "wamwom"
+      ],
+      "meanings": [
+        "wave",
+        "one"
+      ],
+      "compound_meaning": "wave-one",
+      "born": 1133
+    },
+    "aawo": {
+      "parts": [
+        "aa",
+        "riwo"
+      ],
+      "meanings": [
+        "none",
+        "big"
+      ],
+      "compound_meaning": "none-big",
+      "born": 1141
+    },
+    "pamu": {
+      "parts": [
+        "pamanmi",
+        "hu"
+      ],
+      "meanings": [
+        "rain",
+        "whole"
+      ],
+      "compound_meaning": "rain-whole",
+      "born": 1148
+    },
+    "milatu": {
+      "parts": [
+        "mileni",
+        "sakatu"
+      ],
+      "meanings": [
+        "slow",
+        "cycle"
+      ],
+      "compound_meaning": "slow-cycle",
+      "born": 1152
+    },
+    "tapieni": {
+      "parts": [
+        "tapinmin",
+        "mileni"
+      ],
+      "meanings": [
+        "pattern",
+        "slow"
+      ],
+      "compound_meaning": "pattern-slow",
+      "born": 1162
+    },
+    "iatan": {
+      "parts": [
+        "ia",
+        "tamtan"
+      ],
+      "meanings": [
+        "between",
+        "fast"
+      ],
+      "compound_meaning": "between-fast",
+      "born": 1170
+    },
+    "wavu": {
+      "parts": [
+        "wa",
+        "pavu"
+      ],
+      "meanings": [
+        "flower",
+        "snow"
+      ],
+      "compound_meaning": "flower-snow",
+      "born": 1172
+    },
+    "wenu": {
+      "parts": [
+        "weira",
+        "inu"
+      ],
+      "meanings": [
+        "emergence",
+        "end"
+      ],
+      "compound_meaning": "emergence-end",
+      "born": 1174
+    },
+    "melenim": {
+      "parts": [
+        "melume",
+        "mamenim"
+      ],
+      "meanings": [
+        "space",
+        "water"
+      ],
+      "compound_meaning": "space-water",
+      "born": 1184
+    },
+    "sata": {
+      "parts": [
+        "sa",
+        "vuta"
+      ],
+      "meanings": [
+        "give",
+        "flow"
+      ],
+      "compound_meaning": "give-flow",
+      "born": 1211
+    },
+    "timi": {
+      "parts": [
+        "tive",
+        "omi"
+      ],
+      "meanings": [
+        "hold",
+        "wind"
+      ],
+      "compound_meaning": "hold-wind",
+      "born": 1220
+    },
+    "kammi": {
+      "parts": [
+        "kamowe",
+        "omi"
+      ],
+      "meanings": [
+        "move",
+        "wind"
+      ],
+      "compound_meaning": "move-wind",
+      "born": 1228
+    },
+    "omsi": {
+      "parts": [
+        "omi",
+        "esi"
+      ],
+      "meanings": [
+        "wind",
+        "between"
+      ],
+      "compound_meaning": "wind-between",
+      "born": 1229
+    },
+    "keovam": {
+      "parts": [
+        "ke",
+        "mamtovam"
+      ],
+      "meanings": [
+        "earth",
+        "break"
+      ],
+      "compound_meaning": "earth-break",
+      "born": 1234
+    },
+    "emelu": {
+      "parts": [
+        "emeli",
+        "siselu"
+      ],
+      "meanings": [
+        "turn",
+        "self"
+      ],
+      "compound_meaning": "turn-self",
+      "born": 1247
+    },
+    "luoen": {
+      "parts": [
+        "lu",
+        "nunoen"
+      ],
+      "meanings": [
+        "grow",
+        "fire"
+      ],
+      "compound_meaning": "grow-fire",
+      "born": 1248
+    },
+    "avaen": {
+      "parts": [
+        "avawim",
+        "moen"
+      ],
+      "meanings": [
+        "river",
+        "other"
+      ],
+      "compound_meaning": "river-other",
+      "born": 1254
+    },
+    "nunmzo": {
+      "parts": [
+        "nunoen",
+        "momzo"
+      ],
+      "meanings": [
+        "fire",
+        "take"
+      ],
+      "compound_meaning": "fire-take",
+      "born": 1262
+    },
+    "moha": {
+      "parts": [
+        "moen",
+        "hoha"
+      ],
+      "meanings": [
+        "other",
+        "earth"
+      ],
+      "compound_meaning": "other-earth",
+      "born": 1265
+    },
+    "unen": {
+      "parts": [
+        "unoi",
+        "moen"
+      ],
+      "meanings": [
+        "small",
+        "other"
+      ],
+      "compound_meaning": "small-other",
+      "born": 1266
+    },
+    "unaho": {
+      "parts": [
+        "unoi",
+        "leaho"
+      ],
+      "meanings": [
+        "small",
+        "find"
+      ],
+      "compound_meaning": "small-find",
+      "born": 1267
+    },
+    "leawen": {
+      "parts": [
+        "leaho",
+        "wawawen"
+      ],
+      "meanings": [
+        "find",
+        "rain"
+      ],
+      "compound_meaning": "find-rain",
+      "born": 1270
+    },
+    "hoke": {
+      "parts": [
+        "hoha",
+        "nuke"
+      ],
+      "meanings": [
+        "earth",
+        "around"
+      ],
+      "compound_meaning": "earth-around",
+      "born": 1281
+    },
+    "rinrze": {
+      "parts": [
+        "rinrisim",
+        "waze"
+      ],
+      "meanings": [
+        "toward",
+        "within"
+      ],
+      "compound_meaning": "toward-within",
+      "born": 1296
+    },
+    "vonti": {
+      "parts": [
+        "vonuna",
+        "meti"
+      ],
+      "meanings": [
+        "one",
+        "river"
+      ],
+      "compound_meaning": "one-river",
+      "born": 1314
+    },
+    "aeki": {
+      "parts": [
+        "a",
+        "taeki"
+      ],
+      "meanings": [
+        "move",
+        "wind"
+      ],
+      "compound_meaning": "move-wind",
+      "born": 1317
+    },
+    "tekeme": {
+      "parts": [
+        "tekuta",
+        "rikeme"
+      ],
+      "meanings": [
+        "seed",
+        "slow"
+      ],
+      "compound_meaning": "seed-slow",
+      "born": 1322
+    },
+    "aonu": {
+      "parts": [
+        "a",
+        "ekonu"
+      ],
+      "meanings": [
+        "move",
+        "end"
+      ],
+      "compound_meaning": "move-end",
+      "born": 1331
+    },
+    "rikmi": {
+      "parts": [
+        "rikeme",
+        "wami"
+      ],
+      "meanings": [
+        "slow",
+        "old"
+      ],
+      "compound_meaning": "slow-old",
+      "born": 1332
+    },
+    "sinha": {
+      "parts": [
+        "sinusen",
+        "hoha"
+      ],
+      "meanings": [
+        "water",
+        "earth"
+      ],
+      "compound_meaning": "water-earth",
+      "born": 1336
+    },
+    "haai": {
+      "parts": [
+        "ha",
+        "irai"
+      ],
+      "meanings": [
+        "wind",
+        "turn"
+      ],
+      "compound_meaning": "wind-turn",
+      "born": 1340
+    },
+    "hanmi": {
+      "parts": [
+        "hansan",
+        "wami"
+      ],
+      "meanings": [
+        "tree",
+        "old"
+      ],
+      "compound_meaning": "tree-old",
+      "born": 1343
+    },
+    "housen": {
+      "parts": [
+        "hoha",
+        "sinusen"
+      ],
+      "meanings": [
+        "earth",
+        "water"
+      ],
+      "compound_meaning": "earth-water",
+      "born": 1345
+    },
+    "sinpe": {
+      "parts": [
+        "sinusen",
+        "hupe"
+      ],
+      "meanings": [
+        "water",
+        "big"
+      ],
+      "compound_meaning": "water-big",
+      "born": 1348
+    },
+    "weuu": {
+      "parts": [
+        "wen",
+        "neuu"
+      ],
+      "meanings": [
+        "moon",
+        "give"
+      ],
+      "compound_meaning": "moon-give",
+      "born": 1349
+    },
+    "hanvo": {
+      "parts": [
+        "hansan",
+        "kavo"
+      ],
+      "meanings": [
+        "tree",
+        "balance"
+      ],
+      "compound_meaning": "tree-balance",
+      "born": 1364
+    },
+    "husan": {
+      "parts": [
+        "hupe",
+        "hansan"
+      ],
+      "meanings": [
+        "big",
+        "tree"
+      ],
+      "compound_meaning": "big-tree",
+      "born": 1365
+    },
+    "nupe": {
+      "parts": [
+        "nuii",
+        "hupe"
+      ],
+      "meanings": [
+        "high",
+        "big"
+      ],
+      "compound_meaning": "high-big",
+      "born": 1378
+    },
+    "anii": {
+      "parts": [
+        "anali",
+        "nuii"
+      ],
+      "meanings": [
+        "within",
+        "high"
+      ],
+      "compound_meaning": "within-high",
+      "born": 1380
+    },
+    "pakali": {
+      "parts": [
+        "pakiom",
+        "anali"
+      ],
+      "meanings": [
+        "break",
+        "within"
+      ],
+      "compound_meaning": "break-within",
+      "born": 1386
+    },
+    "musu": {
+      "parts": [
+        "muu",
+        "nesu"
+      ],
+      "meanings": [
+        "fast",
+        "far"
+      ],
+      "compound_meaning": "fast-far",
+      "born": 1388
+    },
+    "nehena": {
+      "parts": [
+        "nei",
+        "sunhena"
+      ],
+      "meanings": [
+        "make",
+        "flower"
+      ],
+      "compound_meaning": "make-flower",
+      "born": 1389
+    },
+    "muei": {
+      "parts": [
+        "muu",
+        "nei"
+      ],
+      "meanings": [
+        "fast",
+        "make"
+      ],
+      "compound_meaning": "fast-make",
+      "born": 1391
+    },
+    "imsu": {
+      "parts": [
+        "imom",
+        "nesu"
+      ],
+      "meanings": [
+        "slow",
+        "far"
+      ],
+      "compound_meaning": "slow-far",
+      "born": 1393
+    },
+    "sunsu": {
+      "parts": [
+        "sunhena",
+        "nesu"
+      ],
+      "meanings": [
+        "flower",
+        "far"
+      ],
+      "compound_meaning": "flower-far",
+      "born": 1396
+    },
+    "musho": {
+      "parts": [
+        "muu",
+        "kasho"
+      ],
+      "meanings": [
+        "fast",
+        "balance"
+      ],
+      "compound_meaning": "fast-balance",
+      "born": 1398
+    },
+    "hie": {
+      "parts": [
+        "hinwa",
+        "ie"
+      ],
+      "meanings": [
+        "change",
+        "within"
+      ],
+      "compound_meaning": "change-within",
+      "born": 1411
+    },
+    "keumam": {
+      "parts": [
+        "kenam",
+        "rizumam"
+      ],
+      "meanings": [
+        "seed",
+        "moon"
+      ],
+      "compound_meaning": "seed-moon",
+      "born": 1418
+    },
+    "hua": {
+      "parts": [
+        "hun",
+        "ma"
+      ],
+      "meanings": [
+        "wind",
+        "end"
+      ],
+      "compound_meaning": "wind-end",
+      "born": 1419
+    },
+    "kamra": {
+      "parts": [
+        "kasho",
+        "pamra"
+      ],
+      "meanings": [
+        "balance",
+        "sky"
+      ],
+      "compound_meaning": "balance-sky",
+      "born": 1420
+    },
+    "rizana": {
+      "parts": [
+        "rizumam",
+        "voana"
+      ],
+      "meanings": [
+        "moon",
+        "around"
+      ],
+      "compound_meaning": "moon-around",
+      "born": 1451
+    },
+    "memtim": {
+      "parts": [
+        "me",
+        "pelomtim"
+      ],
+      "meanings": [
+        "from",
+        "flower"
+      ],
+      "compound_meaning": "from-flower",
+      "born": 1460
+    },
+    "kemti": {
+      "parts": [
+        "kenam",
+        "vamti"
+      ],
+      "meanings": [
+        "seed",
+        "balance"
+      ],
+      "compound_meaning": "seed-balance",
+      "born": 1464
+    },
+    "letana": {
+      "parts": [
+        "letino",
+        "voana"
+      ],
+      "meanings": [
+        "near",
+        "around"
+      ],
+      "compound_meaning": "near-around",
+      "born": 1467
+    },
+    "ovo": {
+      "parts": [
+        "o",
+        "emvo"
+      ],
+      "meanings": [
+        "flow",
+        "through"
+      ],
+      "compound_meaning": "flow-through",
+      "born": 1475
+    },
+    "emmim": {
+      "parts": [
+        "emvo",
+        "amamim"
+      ],
+      "meanings": [
+        "through",
+        "change"
+      ],
+      "compound_meaning": "through-change",
+      "born": 1478
+    },
+    "teo": {
+      "parts": [
+        "tesu",
+        "o"
+      ],
+      "meanings": [
+        "seed",
+        "flow"
+      ],
+      "compound_meaning": "seed-flow",
+      "born": 1480
+    },
+    "mesu": {
+      "parts": [
+        "me",
+        "tesu"
+      ],
+      "meanings": [
+        "from",
+        "seed"
+      ],
+      "compound_meaning": "from-seed",
+      "born": 1482
+    },
+    "vane": {
+      "parts": [
+        "vasu",
+        "nene"
+      ],
+      "meanings": [
+        "river",
+        "beyond"
+      ],
+      "compound_meaning": "river-beyond",
+      "born": 1492
+    },
+    "sea": {
+      "parts": [
+        "sekam",
+        "na"
+      ],
+      "meanings": [
+        "through",
+        "mountain"
+      ],
+      "compound_meaning": "through-mountain",
+      "born": 1497
+    },
+    "vimim": {
+      "parts": [
+        "vira",
+        "amamim"
+      ],
+      "meanings": [
+        "flower",
+        "change"
+      ],
+      "compound_meaning": "flower-change",
+      "born": 1507
+    },
+    "samna": {
+      "parts": [
+        "sapi",
+        "ramna"
+      ],
+      "meanings": [
+        "sun",
+        "break"
+      ],
+      "compound_meaning": "sun-break",
+      "born": 1512
+    },
+    "emna": {
+      "parts": [
+        "emneo",
+        "kona"
+      ],
+      "meanings": [
+        "sky",
+        "high"
+      ],
+      "compound_meaning": "sky-high",
+      "born": 1515
+    },
+    "anmi": {
+      "parts": [
+        "anzam",
+        "umi"
+      ],
+      "meanings": [
+        "old",
+        "make"
+      ],
+      "compound_meaning": "old-make",
+      "born": 1516
+    },
+    "nazam": {
+      "parts": [
+        "na",
+        "anzam"
+      ],
+      "meanings": [
+        "mountain",
+        "old"
+      ],
+      "compound_meaning": "mountain-old",
+      "born": 1531
+    },
+    "siae": {
+      "parts": [
+        "siha",
+        "enae"
+      ],
+      "meanings": [
+        "move",
+        "big"
+      ],
+      "compound_meaning": "move-big",
+      "born": 1567
+    },
+    "sikani": {
+      "parts": [
+        "siha",
+        "renkani"
+      ],
+      "meanings": [
+        "move",
+        "deep"
+      ],
+      "compound_meaning": "move-deep",
+      "born": 1568
+    },
+    "eni": {
+      "parts": [
+        "enae",
+        "ri"
+      ],
+      "meanings": [
+        "big",
+        "wave"
+      ],
+      "compound_meaning": "big-wave",
+      "born": 1569
+    },
+    "taro": {
+      "parts": [
+        "tanna",
+        "lero"
+      ],
+      "meanings": [
+        "take",
+        "find"
+      ],
+      "compound_meaning": "take-find",
+      "born": 1572
+    },
+    "sia": {
+      "parts": [
+        "simwo",
+        "ma"
+      ],
+      "meanings": [
+        "hard",
+        "flow"
+      ],
+      "compound_meaning": "hard-flow",
+      "born": 1574
+    },
+    "telena": {
+      "parts": [
+        "tepu",
+        "kemlena"
+      ],
+      "meanings": [
+        "grow",
+        "ocean"
+      ],
+      "compound_meaning": "grow-ocean",
+      "born": 1603
+    },
+    "hape": {
+      "parts": [
+        "hari",
+        "nape"
+      ],
+      "meanings": [
+        "hold",
+        "boundary"
+      ],
+      "compound_meaning": "hold-boundary",
+      "born": 1605
+    },
+    "remmi": {
+      "parts": [
+        "remken",
+        "rumi"
+      ],
+      "meanings": [
+        "fall",
+        "new"
+      ],
+      "compound_meaning": "fall-new",
+      "born": 1632
+    },
+    "teken": {
+      "parts": [
+        "teta",
+        "remken"
+      ],
+      "meanings": [
+        "hard",
+        "fall"
+      ],
+      "compound_meaning": "hard-fall",
+      "born": 1635
+    },
+    "namawi": {
+      "parts": [
+        "namani",
+        "ngawi"
+      ],
+      "meanings": [
+        "begin",
+        "toward"
+      ],
+      "compound_meaning": "begin-toward",
+      "born": 1636
+    },
+    "taken": {
+      "parts": [
+        "tania",
+        "remken"
+      ],
+      "meanings": [
+        "one",
+        "fall"
+      ],
+      "compound_meaning": "one-fall",
+      "born": 1639
+    },
+    "remem": {
+      "parts": [
+        "reme",
+        "homem"
+      ],
+      "meanings": [
+        "small",
+        "stone"
+      ],
+      "compound_meaning": "small-stone",
+      "born": 1648
+    },
+    "reima": {
+      "parts": [
+        "reme",
+        "nuima"
+      ],
+      "meanings": [
+        "small",
+        "cloud"
+      ],
+      "compound_meaning": "small-cloud",
+      "born": 1649
+    },
+    "rata": {
+      "parts": [
+        "rahi",
+        "nata"
+      ],
+      "meanings": [
+        "hold",
+        "tree"
+      ],
+      "compound_meaning": "hold-tree",
+      "born": 1655
+    },
+    "mimem": {
+      "parts": [
+        "mi",
+        "homem"
+      ],
+      "meanings": [
+        "wave",
+        "stone"
+      ],
+      "compound_meaning": "wave-stone",
+      "born": 1658
+    },
+    "hose": {
+      "parts": [
+        "homem",
+        "nase"
+      ],
+      "meanings": [
+        "stone",
+        "rise"
+      ],
+      "compound_meaning": "stone-rise",
+      "born": 1660
+    },
+    "unese": {
+      "parts": [
+        "unemzim",
+        "nase"
+      ],
+      "meanings": [
+        "break",
+        "rise"
+      ],
+      "compound_meaning": "break-rise",
+      "born": 1661
+    },
+    "linlu": {
+      "parts": [
+        "lii",
+        "ranlu"
+      ],
+      "meanings": [
+        "boundary",
+        "near"
+      ],
+      "compound_meaning": "boundary-near",
+      "born": 1668
+    },
+    "hou": {
+      "parts": [
+        "homem",
+        "tu"
+      ],
+      "meanings": [
+        "stone",
+        "slow"
+      ],
+      "compound_meaning": "stone-slow",
+      "born": 1674
+    },
+    "keaum": {
+      "parts": [
+        "kela",
+        "tokaum"
+      ],
+      "meanings": [
+        "around",
+        "one"
+      ],
+      "compound_meaning": "around-one",
+      "born": 1685
+    },
+    "miia": {
+      "parts": [
+        "mikam",
+        "umia"
+      ],
+      "meanings": [
+        "find",
+        "begin"
+      ],
+      "compound_meaning": "find-begin",
+      "born": 1687
+    },
+    "wuli": {
+      "parts": [
+        "wuzu",
+        "ali"
+      ],
+      "meanings": [
+        "give",
+        "cycle"
+      ],
+      "compound_meaning": "give-cycle",
+      "born": 1688
+    },
+    "saani": {
+      "parts": [
+        "sake",
+        "worani"
+      ],
+      "meanings": [
+        "small",
+        "release"
+      ],
+      "compound_meaning": "small-release",
+      "born": 1690
+    },
+    "tamvi": {
+      "parts": [
+        "ta",
+        "rimvi"
+      ],
+      "meanings": [
+        "emergence",
+        "hard"
+      ],
+      "compound_meaning": "emergence-hard",
+      "born": 1697
+    },
+    "sunhu": {
+      "parts": [
+        "sunu",
+        "pounhu"
+      ],
+      "meanings": [
+        "slow",
+        "stone"
+      ],
+      "compound_meaning": "slow-stone",
+      "born": 1702
+    },
+    "mimu": {
+      "parts": [
+        "mikam",
+        "oomu"
+      ],
+      "meanings": [
+        "find",
+        "ocean"
+      ],
+      "compound_meaning": "find-ocean",
+      "born": 1708
+    },
+    "tike": {
+      "parts": [
+        "tinne",
+        "sake"
+      ],
+      "meanings": [
+        "threshold",
+        "small"
+      ],
+      "compound_meaning": "threshold-small",
+      "born": 1712
+    },
+    "mausa": {
+      "parts": [
+        "manan",
+        "nikusa"
+      ],
+      "meanings": [
+        "seed",
+        "chaos"
+      ],
+      "compound_meaning": "seed-chaos",
+      "born": 1715
+    },
+    "lahikum": {
+      "parts": [
+        "lahinan",
+        "tanikum"
+      ],
+      "meanings": [
+        "beyond",
+        "near"
+      ],
+      "compound_meaning": "beyond-near",
+      "born": 1718
+    },
+    "sate": {
+      "parts": [
+        "sa",
+        "kete"
+      ],
+      "meanings": [
+        "snow",
+        "other"
+      ],
+      "compound_meaning": "snow-other",
+      "born": 1726
+    },
+    "raea": {
+      "parts": [
+        "raii",
+        "sea"
+      ],
+      "meanings": [
+        "rain",
+        "take"
+      ],
+      "compound_meaning": "rain-take",
+      "born": 1735
+    },
+    "wainan": {
+      "parts": [
+        "wako",
+        "lahinan"
+      ],
+      "meanings": [
+        "small",
+        "beyond"
+      ],
+      "compound_meaning": "small-beyond",
+      "born": 1738
+    },
+    "sava": {
+      "parts": [
+        "sa",
+        "vava"
+      ],
+      "meanings": [
+        "snow",
+        "around"
+      ],
+      "compound_meaning": "snow-around",
+      "born": 1743
+    },
+    "kaoun": {
+      "parts": [
+        "ka",
+        "zekoun"
+      ],
+      "meanings": [
+        "balance",
+        "wind"
+      ],
+      "compound_meaning": "balance-wind",
+      "born": 1747
+    },
+    "sina": {
+      "parts": [
+        "sineim",
+        "ka"
+      ],
+      "meanings": [
+        "fast",
+        "chaos"
+      ],
+      "compound_meaning": "fast-chaos",
+      "born": 1774
+    },
+    "aro": {
+      "parts": [
+        "ara",
+        "ko"
+      ],
+      "meanings": [
+        "fall",
+        "small"
+      ],
+      "compound_meaning": "fall-small",
+      "born": 1784
+    },
+    "iknam": {
+      "parts": [
+        "iken",
+        "lunam"
+      ],
+      "meanings": [
+        "cold",
+        "moon"
+      ],
+      "compound_meaning": "cold-moon",
+      "born": 1786
+    },
+    "aniunzam": {
+      "parts": [
+        "anipan",
+        "kumpunzam"
+      ],
+      "meanings": [
+        "from",
+        "water"
+      ],
+      "compound_meaning": "from-water",
+      "born": 1787
+    },
+    "inka": {
+      "parts": [
+        "inii",
+        "saka"
+      ],
+      "meanings": [
+        "big",
+        "new"
+      ],
+      "compound_meaning": "big-new",
+      "born": 1790
+    },
+    "ikti": {
+      "parts": [
+        "iken",
+        "poti"
+      ],
+      "meanings": [
+        "cold",
+        "take"
+      ],
+      "compound_meaning": "cold-take",
+      "born": 1796
+    },
+    "arzen": {
+      "parts": [
+        "ara",
+        "anzen"
+      ],
+      "meanings": [
+        "fall",
+        "balance"
+      ],
+      "compound_meaning": "fall-balance",
+      "born": 1797
+    },
+    "kano": {
+      "parts": [
+        "kamso",
+        "teno"
+      ],
+      "meanings": [
+        "around",
+        "boundary"
+      ],
+      "compound_meaning": "around-boundary",
+      "born": 1802
+    },
+    "tunnam": {
+      "parts": [
+        "tunanun",
+        "lunam"
+      ],
+      "meanings": [
+        "cycle",
+        "moon"
+      ],
+      "compound_meaning": "cycle-moon",
+      "born": 1813
+    },
+    "nanto": {
+      "parts": [
+        "name",
+        "okunto"
+      ],
+      "meanings": [
+        "end",
+        "seed"
+      ],
+      "compound_meaning": "end-seed",
+      "born": 1816
+    },
+    "nouti": {
+      "parts": [
+        "noku",
+        "kimuti"
+      ],
+      "meanings": [
+        "pattern",
+        "all"
+      ],
+      "compound_meaning": "pattern-all",
+      "born": 1822
+    },
+    "kikee": {
+      "parts": [
+        "kiela",
+        "menkee"
+      ],
+      "meanings": [
+        "ocean",
+        "near"
+      ],
+      "compound_meaning": "ocean-near",
+      "born": 1823
+    },
+    "natna": {
+      "parts": [
+        "natisa",
+        "nena"
+      ],
+      "meanings": [
+        "one",
+        "break"
+      ],
+      "compound_meaning": "one-break",
+      "born": 1828
+    },
+    "rehe": {
+      "parts": [
+        "rehine",
+        "ke"
+      ],
+      "meanings": [
+        "sun",
+        "far"
+      ],
+      "compound_meaning": "sun-far",
+      "born": 1831
+    },
+    "nakee": {
+      "parts": [
+        "nake",
+        "menkee"
+      ],
+      "meanings": [
+        "old",
+        "near"
+      ],
+      "compound_meaning": "old-near",
+      "born": 1844
+    },
+    "mina": {
+      "parts": [
+        "mini",
+        "nena"
+      ],
+      "meanings": [
+        "flower",
+        "break"
+      ],
+      "compound_meaning": "flower-break",
+      "born": 1852
+    },
+    "miui": {
+      "parts": [
+        "mini",
+        "pui"
+      ],
+      "meanings": [
+        "flower",
+        "move"
+      ],
+      "compound_meaning": "flower-move",
+      "born": 1854
+    },
+    "kotu": {
+      "parts": [
+        "koa",
+        "mutu"
+      ],
+      "meanings": [
+        "hard",
+        "big"
+      ],
+      "compound_meaning": "hard-big",
+      "born": 1857
+    },
+    "koroa": {
+      "parts": [
+        "korumo",
+        "koa"
+      ],
+      "meanings": [
+        "part",
+        "hard"
+      ],
+      "compound_meaning": "part-hard",
+      "born": 1860
+    },
+    "kornmin": {
+      "parts": [
+        "korumo",
+        "latanmin"
+      ],
+      "meanings": [
+        "part",
+        "begin"
+      ],
+      "compound_meaning": "part-begin",
+      "born": 1862
+    },
+    "lekam": {
+      "parts": [
+        "lekiku",
+        "iham"
+      ],
+      "meanings": [
+        "none",
+        "time"
+      ],
+      "compound_meaning": "none-time",
+      "born": 1865
+    },
+    "ziimha": {
+      "parts": [
+        "zimha",
+        "munimha"
+      ],
+      "meanings": [
+        "new",
+        "dark"
+      ],
+      "compound_meaning": "new-dark",
+      "born": 1880
+    },
+    "saru": {
+      "parts": [
+        "samme",
+        "muru"
+      ],
+      "meanings": [
+        "with",
+        "connection"
+      ],
+      "compound_meaning": "with-connection",
+      "born": 1890
+    },
+    "lenmum": {
+      "parts": [
+        "lem",
+        "mazanmum"
+      ],
+      "meanings": [
+        "new",
+        "flow"
+      ],
+      "compound_meaning": "new-flow",
+      "born": 1893
+    },
+    "naru": {
+      "parts": [
+        "napa",
+        "muru"
+      ],
+      "meanings": [
+        "whole",
+        "connection"
+      ],
+      "compound_meaning": "whole-connection",
+      "born": 1898
+    },
+    "tumanra": {
+      "parts": [
+        "tumoma",
+        "nunhanra"
+      ],
+      "meanings": [
+        "small",
+        "wind"
+      ],
+      "compound_meaning": "small-wind",
+      "born": 1909
+    },
+    "semni": {
+      "parts": [
+        "semnomo",
+        "vini"
+      ],
+      "meanings": [
+        "fast",
+        "balance"
+      ],
+      "compound_meaning": "fast-balance",
+      "born": 1914
+    },
+    "remanra": {
+      "parts": [
+        "remeno",
+        "nunhanra"
+      ],
+      "meanings": [
+        "from",
+        "wind"
+      ],
+      "compound_meaning": "from-wind",
+      "born": 1915
+    },
+    "konomo": {
+      "parts": [
+        "ko",
+        "semnomo"
+      ],
+      "meanings": [
+        "boundary",
+        "fast"
+      ],
+      "compound_meaning": "boundary-fast",
+      "born": 1919
+    },
+    "keeku": {
+      "parts": [
+        "kekun",
+        "waeku"
+      ],
+      "meanings": [
+        "flow",
+        "around"
+      ],
+      "compound_meaning": "flow-around",
+      "born": 1937
+    },
+    "kaoma": {
+      "parts": [
+        "kanu",
+        "tumoma"
+      ],
+      "meanings": [
+        "chaos",
+        "small"
+      ],
+      "compound_meaning": "chaos-small",
+      "born": 1946
+    },
+    "inlo": {
+      "parts": [
+        "inlali",
+        "no"
+      ],
+      "meanings": [
+        "self",
+        "cloud"
+      ],
+      "compound_meaning": "self-cloud",
+      "born": 1949
+    },
+    "roan": {
+      "parts": [
+        "rosa",
+        "rean"
+      ],
+      "meanings": [
+        "through",
+        "slow"
+      ],
+      "compound_meaning": "through-slow",
+      "born": 1958
+    },
+    "enawi": {
+      "parts": [
+        "enankum",
+        "ewi"
+      ],
+      "meanings": [
+        "big",
+        "change"
+      ],
+      "compound_meaning": "big-change",
+      "born": 1965
+    },
+    "tie": {
+      "parts": [
+        "tihe",
+        "re"
+      ],
+      "meanings": [
+        "far",
+        "cycle"
+      ],
+      "compound_meaning": "far-cycle",
+      "born": 1978
+    },
+    "temu": {
+      "parts": [
+        "teka",
+        "umu"
+      ],
+      "meanings": [
+        "star",
+        "warm"
+      ],
+      "compound_meaning": "star-warm",
+      "born": 1979
+    },
+    "reme": {
+      "parts": [
+        "reang",
+        "rame"
+      ],
+      "meanings": [
+        "slow",
+        "sky"
+      ],
+      "compound_meaning": "slow-sky",
+      "born": 1991
+    },
+    "reosum": {
+      "parts": [
+        "reang",
+        "tanosum"
+      ],
+      "meanings": [
+        "slow",
+        "self"
+      ],
+      "compound_meaning": "slow-self",
+      "born": 1992
+    },
+    "kanputi": {
+      "parts": [
+        "kannee",
+        "rumputi"
+      ],
+      "meanings": [
+        "whole",
+        "threshold"
+      ],
+      "compound_meaning": "whole-threshold",
+      "born": 2002
+    },
+    "sita": {
+      "parts": [
+        "simi",
+        "veta"
+      ],
+      "meanings": [
+        "from",
+        "seed"
+      ],
+      "compound_meaning": "from-seed",
+      "born": 2007
+    },
+    "vummi": {
+      "parts": [
+        "vumile",
+        "simi"
+      ],
+      "meanings": [
+        "all",
+        "from"
+      ],
+      "compound_meaning": "all-from",
+      "born": 2008
+    },
+    "mapmin": {
+      "parts": [
+        "mapila",
+        "nomin"
+      ],
+      "meanings": [
+        "fall",
+        "deep"
+      ],
+      "compound_meaning": "fall-deep",
+      "born": 2026
+    },
+    "rumihu": {
+      "parts": [
+        "rumputi",
+        "ritihu"
+      ],
+      "meanings": [
+        "threshold",
+        "within"
+      ],
+      "compound_meaning": "threshold-within",
+      "born": 2032
+    },
+    "mettin": {
+      "parts": [
+        "metuke",
+        "wontin"
+      ],
+      "meanings": [
+        "water",
+        "beyond"
+      ],
+      "compound_meaning": "water-beyond",
+      "born": 2041
+    },
+    "tiputi": {
+      "parts": [
+        "tisui",
+        "rumputi"
+      ],
+      "meanings": [
+        "earth",
+        "threshold"
+      ],
+      "compound_meaning": "earth-threshold",
+      "born": 2045
+    },
+    "ruui": {
+      "parts": [
+        "rumse",
+        "rui"
+      ],
+      "meanings": [
+        "far",
+        "fast"
+      ],
+      "compound_meaning": "far-fast",
+      "born": 2052
+    },
+    "nanru": {
+      "parts": [
+        "namoi",
+        "linru"
+      ],
+      "meanings": [
+        "fall",
+        "none"
+      ],
+      "compound_meaning": "fall-none",
+      "born": 2056
+    },
+    "nao": {
+      "parts": [
+        "namoi",
+        "po"
+      ],
+      "meanings": [
+        "fall",
+        "time"
+      ],
+      "compound_meaning": "fall-time",
+      "born": 2062
+    },
+    "mela": {
+      "parts": [
+        "meui",
+        "nela"
+      ],
+      "meanings": [
+        "hold",
+        "soft"
+      ],
+      "compound_meaning": "hold-soft",
+      "born": 2064
+    },
+    "kitan": {
+      "parts": [
+        "kinlu",
+        "natan"
+      ],
+      "meanings": [
+        "part",
+        "rain"
+      ],
+      "compound_meaning": "part-rain",
+      "born": 2075
+    },
+    "ammoi": {
+      "parts": [
+        "ama",
+        "namoi"
+      ],
+      "meanings": [
+        "fast",
+        "fall"
+      ],
+      "compound_meaning": "fast-fall",
+      "born": 2076
+    },
+    "nei": {
+      "parts": [
+        "nela",
+        "ti"
+      ],
+      "meanings": [
+        "soft",
+        "seed"
+      ],
+      "compound_meaning": "soft-seed",
+      "born": 2077
+    },
+    "nara": {
+      "parts": [
+        "natan",
+        "nira"
+      ],
+      "meanings": [
+        "rain",
+        "from"
+      ],
+      "compound_meaning": "rain-from",
+      "born": 2078
+    },
+    "anza": {
+      "parts": [
+        "anra",
+        "peza"
+      ],
+      "meanings": [
+        "sky",
+        "high"
+      ],
+      "compound_meaning": "sky-high",
+      "born": 2099
+    },
+    "immi": {
+      "parts": [
+        "imum",
+        "pemi"
+      ],
+      "meanings": [
+        "new",
+        "flow"
+      ],
+      "compound_meaning": "new-flow",
+      "born": 2135
+    },
+    "tunka": {
+      "parts": [
+        "tuno",
+        "henka"
+      ],
+      "meanings": [
+        "ocean",
+        "star"
+      ],
+      "compound_meaning": "ocean-star",
+      "born": 2148
+    },
+    "tane": {
+      "parts": [
+        "taniu",
+        "ine"
+      ],
+      "meanings": [
+        "cloud",
+        "around"
+      ],
+      "compound_meaning": "cloud-around",
+      "born": 2151
+    },
+    "lemi": {
+      "parts": [
+        "lemkan",
+        "ti"
+      ],
+      "meanings": [
+        "take",
+        "space"
+      ],
+      "compound_meaning": "take-space",
+      "born": 2155
+    },
+    "pene": {
+      "parts": [
+        "pemvi",
+        "ine"
+      ],
+      "meanings": [
+        "emergence",
+        "around"
+      ],
+      "compound_meaning": "emergence-around",
+      "born": 2157
+    },
+    "temta": {
+      "parts": [
+        "temaro",
+        "lita"
+      ],
+      "meanings": [
+        "dark",
+        "flower"
+      ],
+      "compound_meaning": "dark-flower",
+      "born": 2167
+    },
+    "kihe": {
+      "parts": [
+        "kimoa",
+        "ehe"
+      ],
+      "meanings": [
+        "join",
+        "chaos"
+      ],
+      "compound_meaning": "join-chaos",
+      "born": 2176
+    },
+    "erkea": {
+      "parts": [
+        "eroku",
+        "rekea"
+      ],
+      "meanings": [
+        "part",
+        "deep"
+      ],
+      "compound_meaning": "part-deep",
+      "born": 2178
+    },
+    "tilin": {
+      "parts": [
+        "ti",
+        "kilin"
+      ],
+      "meanings": [
+        "space",
+        "whole"
+      ],
+      "compound_meaning": "space-whole",
+      "born": 2183
+    },
+    "kimam": {
+      "parts": [
+        "kimoa",
+        "kunmam"
+      ],
+      "meanings": [
+        "join",
+        "ocean"
+      ],
+      "compound_meaning": "join-ocean",
+      "born": 2185
+    },
+    "ehi": {
+      "parts": [
+        "ehe",
+        "mi"
+      ],
+      "meanings": [
+        "chaos",
+        "begin"
+      ],
+      "compound_meaning": "chaos-begin",
+      "born": 2187
+    },
+    "pepin": {
+      "parts": [
+        "penti",
+        "tupin"
+      ],
+      "meanings": [
+        "seed",
+        "wind"
+      ],
+      "compound_meaning": "seed-wind",
+      "born": 2193
+    },
+    "elnti": {
+      "parts": [
+        "eloku",
+        "penti"
+      ],
+      "meanings": [
+        "part",
+        "seed"
+      ],
+      "compound_meaning": "part-seed",
+      "born": 2196
+    },
+    "iaru": {
+      "parts": [
+        "i",
+        "kutaru"
+      ],
+      "meanings": [
+        "within",
+        "sky"
+      ],
+      "compound_meaning": "within-sky",
+      "born": 2208
+    },
+    "monti": {
+      "parts": [
+        "moom",
+        "penti"
+      ],
+      "meanings": [
+        "pattern",
+        "seed"
+      ],
+      "compound_meaning": "pattern-seed",
+      "born": 2212
+    },
+    "hana": {
+      "parts": [
+        "hamni",
+        "nena"
+      ],
+      "meanings": [
+        "all",
+        "moon"
+      ],
+      "compound_meaning": "all-moon",
+      "born": 2218
+    },
+    "likka": {
+      "parts": [
+        "likewo",
+        "haka"
+      ],
+      "meanings": [
+        "tree",
+        "hold"
+      ],
+      "compound_meaning": "tree-hold",
+      "born": 2226
+    },
+    "nien": {
+      "parts": [
+        "niwi",
+        "nen"
+      ],
+      "meanings": [
+        "mountain",
+        "grow"
+      ],
+      "compound_meaning": "mountain-grow",
+      "born": 2236
+    },
+    "atwi": {
+      "parts": [
+        "atika",
+        "niwi"
+      ],
+      "meanings": [
+        "bright",
+        "mountain"
+      ],
+      "compound_meaning": "bright-mountain",
+      "born": 2252
+    },
+    "hoa": {
+      "parts": [
+        "honem",
+        "na"
+      ],
+      "meanings": [
+        "emergence",
+        "between"
+      ],
+      "compound_meaning": "emergence-between",
+      "born": 2256
+    },
+    "ata": {
+      "parts": [
+        "atika",
+        "na"
+      ],
+      "meanings": [
+        "bright",
+        "between"
+      ],
+      "compound_meaning": "bright-between",
+      "born": 2258
+    },
+    "intmtam": {
+      "parts": [
+        "intuku",
+        "helumtam"
+      ],
+      "meanings": [
+        "cold",
+        "join"
+      ],
+      "compound_meaning": "cold-join",
+      "born": 2259
+    },
+    "pumtewa": {
+      "parts": [
+        "pumimu",
+        "lamtewa"
+      ],
+      "meanings": [
+        "fast",
+        "flow"
+      ],
+      "compound_meaning": "fast-flow",
+      "born": 2263
+    },
+    "intka": {
+      "parts": [
+        "intuku",
+        "ika"
+      ],
+      "meanings": [
+        "cold",
+        "stone"
+      ],
+      "compound_meaning": "cold-stone",
+      "born": 2267
+    },
+    "ekewo": {
+      "parts": [
+        "ekete",
+        "likewo"
+      ],
+      "meanings": [
+        "many",
+        "tree"
+      ],
+      "compound_meaning": "many-tree",
+      "born": 2270
+    },
+    "nemmtam": {
+      "parts": [
+        "nemtini",
+        "helumtam"
+      ],
+      "meanings": [
+        "hard",
+        "join"
+      ],
+      "compound_meaning": "hard-join",
+      "born": 2272
+    },
+    "mitini": {
+      "parts": [
+        "miti",
+        "nemtini"
+      ],
+      "meanings": [
+        "toward",
+        "hard"
+      ],
+      "compound_meaning": "toward-hard",
+      "born": 2278
+    },
+    "ratii": {
+      "parts": [
+        "raale",
+        "wutii"
+      ],
+      "meanings": [
+        "fall",
+        "mountain"
+      ],
+      "compound_meaning": "fall-mountain",
+      "born": 2279
+    },
+    "pumho": {
+      "parts": [
+        "pumimu",
+        "saho"
+      ],
+      "meanings": [
+        "fast",
+        "boundary"
+      ],
+      "compound_meaning": "fast-boundary",
+      "born": 2281
+    },
+    "nemsa": {
+      "parts": [
+        "nemtini",
+        "tesa"
+      ],
+      "meanings": [
+        "hard",
+        "wave"
+      ],
+      "compound_meaning": "hard-wave",
+      "born": 2298
+    },
+    "samhe": {
+      "parts": [
+        "saho",
+        "memhe"
+      ],
+      "meanings": [
+        "boundary",
+        "many"
+      ],
+      "compound_meaning": "boundary-many",
+      "born": 2299
+    },
+    "aion": {
+      "parts": [
+        "a",
+        "nision"
+      ],
+      "meanings": [
+        "with",
+        "rise"
+      ],
+      "compound_meaning": "with-rise",
+      "born": 2308
+    },
+    "keensi": {
+      "parts": [
+        "keenra",
+        "wunsi"
+      ],
+      "meanings": [
+        "connection",
+        "none"
+      ],
+      "compound_meaning": "connection-none",
+      "born": 2310
+    },
+    "ruun": {
+      "parts": [
+        "rumim",
+        "kun"
+      ],
+      "meanings": [
+        "from",
+        "warm"
+      ],
+      "compound_meaning": "from-warm",
+      "born": 2319
+    },
+    "wua": {
+      "parts": [
+        "wunsi",
+        "ta"
+      ],
+      "meanings": [
+        "none",
+        "fast"
+      ],
+      "compound_meaning": "none-fast",
+      "born": 2323
+    },
+    "nomtmim": {
+      "parts": [
+        "nomtiren",
+        "rumim"
+      ],
+      "meanings": [
+        "far",
+        "from"
+      ],
+      "compound_meaning": "far-from",
+      "born": 2325
+    },
+    "ensa": {
+      "parts": [
+        "enami",
+        "susa"
+      ],
+      "meanings": [
+        "sun",
+        "move"
+      ],
+      "compound_meaning": "sun-move",
+      "born": 2353
+    },
+    "kimso": {
+      "parts": [
+        "kimkevi",
+        "aso"
+      ],
+      "meanings": [
+        "boundary",
+        "emergence"
+      ],
+      "compound_meaning": "boundary-emergence",
+      "born": 2368
+    },
+    "hiaso": {
+      "parts": [
+        "hianli",
+        "aso"
+      ],
+      "meanings": [
+        "between",
+        "emergence"
+      ],
+      "compound_meaning": "between-emergence",
+      "born": 2377
+    },
+    "tuo": {
+      "parts": [
+        "tula",
+        "wo"
+      ],
+      "meanings": [
+        "water",
+        "with"
+      ],
+      "compound_meaning": "water-with",
+      "born": 2386
+    },
+    "tina": {
+      "parts": [
+        "tinamo",
+        "ea"
+      ],
+      "meanings": [
+        "rain",
+        "self"
+      ],
+      "compound_meaning": "rain-self",
+      "born": 2392
+    },
+    "poo": {
+      "parts": [
+        "pokau",
+        "o"
+      ],
+      "meanings": [
+        "all",
+        "fast"
+      ],
+      "compound_meaning": "all-fast",
+      "born": 2399
+    },
+    "intu": {
+      "parts": [
+        "inisi",
+        "rutu"
+      ],
+      "meanings": [
+        "join",
+        "fire"
+      ],
+      "compound_meaning": "join-fire",
+      "born": 2404
+    },
+    "mio": {
+      "parts": [
+        "misu",
+        "ro"
+      ],
+      "meanings": [
+        "flower",
+        "other"
+      ],
+      "compound_meaning": "flower-other",
+      "born": 2410
+    },
+    "rumvui": {
+      "parts": [
+        "rumipi",
+        "levui"
+      ],
+      "meanings": [
+        "ocean",
+        "find"
+      ],
+      "compound_meaning": "ocean-find",
+      "born": 2413
+    },
+    "nivna": {
+      "parts": [
+        "nivimu",
+        "vina"
+      ],
+      "meanings": [
+        "time",
+        "flow"
+      ],
+      "compound_meaning": "time-flow",
+      "born": 2414
+    },
+    "kanu": {
+      "parts": [
+        "kamu",
+        "kinu"
+      ],
+      "meanings": [
+        "make",
+        "fall"
+      ],
+      "compound_meaning": "make-fall",
+      "born": 2430
+    },
+    "kau": {
+      "parts": [
+        "kamu",
+        "nu"
+      ],
+      "meanings": [
+        "make",
+        "stone"
+      ],
+      "compound_meaning": "make-stone",
+      "born": 2433
+    },
+    "napizo": {
+      "parts": [
+        "napeki",
+        "ziizo"
+      ],
+      "meanings": [
+        "mountain",
+        "boundary"
+      ],
+      "compound_meaning": "mountain-boundary",
+      "born": 2440
+    },
+    "tepeki": {
+      "parts": [
+        "tepenan",
+        "napeki"
+      ],
+      "meanings": [
+        "flower",
+        "mountain"
+      ],
+      "compound_meaning": "flower-mountain",
+      "born": 2445
+    },
+    "tepam": {
+      "parts": [
+        "tepenan",
+        "ram"
+      ],
+      "meanings": [
+        "flower",
+        "many"
+      ],
+      "compound_meaning": "flower-many",
+      "born": 2454
+    },
+    "saizo": {
+      "parts": [
+        "sa",
+        "ziizo"
+      ],
+      "meanings": [
+        "emergence",
+        "boundary"
+      ],
+      "compound_meaning": "emergence-boundary",
+      "born": 2456
+    },
+    "vanu": {
+      "parts": [
+        "vana",
+        "nunu"
+      ],
+      "meanings": [
+        "far",
+        "change"
+      ],
+      "compound_meaning": "far-change",
+      "born": 2464
+    },
+    "zasevu": {
+      "parts": [
+        "zae",
+        "ramsevu"
+      ],
+      "meanings": [
+        "give",
+        "wave"
+      ],
+      "compound_meaning": "give-wave",
+      "born": 2469
+    },
+    "tia": {
+      "parts": [
+        "tinro",
+        "ta"
+      ],
+      "meanings": [
+        "from",
+        "take"
+      ],
+      "compound_meaning": "from-take",
+      "born": 2473
+    },
+    "moee": {
+      "parts": [
+        "motea",
+        "pee"
+      ],
+      "meanings": [
+        "begin",
+        "move"
+      ],
+      "compound_meaning": "begin-move",
+      "born": 2480
+    },
+    "tini": {
+      "parts": [
+        "tinro",
+        "nuni"
+      ],
+      "meanings": [
+        "from",
+        "flower"
+      ],
+      "compound_meaning": "from-flower",
+      "born": 2485
+    },
+    "tiamun": {
+      "parts": [
+        "tinro",
+        "kumamun"
+      ],
+      "meanings": [
+        "from",
+        "time"
+      ],
+      "compound_meaning": "from-time",
+      "born": 2486
+    },
+    "ramee": {
+      "parts": [
+        "ramsevu",
+        "nee"
+      ],
+      "meanings": [
+        "wave",
+        "cycle"
+      ],
+      "compound_meaning": "wave-cycle",
+      "born": 2491
+    },
+    "meriam": {
+      "parts": [
+        "me",
+        "ninriam"
+      ],
+      "meanings": [
+        "other",
+        "connection"
+      ],
+      "compound_meaning": "other-connection",
+      "born": 2495
+    },
+    "wari": {
+      "parts": [
+        "wameu",
+        "reri"
+      ],
+      "meanings": [
+        "break",
+        "part"
+      ],
+      "compound_meaning": "break-part",
+      "born": 2508
+    },
+    "rukata": {
+      "parts": [
+        "rukemo",
+        "emata"
+      ],
+      "meanings": [
+        "wave",
+        "stone"
+      ],
+      "compound_meaning": "wave-stone",
+      "born": 2519
+    },
+    "mesa": {
+      "parts": [
+        "me",
+        "masa"
+      ],
+      "meanings": [
+        "other",
+        "big"
+      ],
+      "compound_meaning": "other-big",
+      "born": 2538
+    },
+    "mennan": {
+      "parts": [
+        "me",
+        "omunnan"
+      ],
+      "meanings": [
+        "other",
+        "soft"
+      ],
+      "compound_meaning": "other-soft",
+      "born": 2542
+    },
+    "eaa": {
+      "parts": [
+        "eaen",
+        "ma"
+      ],
+      "meanings": [
+        "fall",
+        "sun"
+      ],
+      "compound_meaning": "fall-sun",
+      "born": 2545
+    },
+    "lantako": {
+      "parts": [
+        "lanmai",
+        "wamtako"
+      ],
+      "meanings": [
+        "dark",
+        "self"
+      ],
+      "compound_meaning": "dark-self",
+      "born": 2548
+    },
+    "lisa": {
+      "parts": [
+        "linuu",
+        "masa"
+      ],
+      "meanings": [
+        "time",
+        "big"
+      ],
+      "compound_meaning": "time-big",
+      "born": 2553
+    },
+    "piai": {
+      "parts": [
+        "pimwo",
+        "teai"
+      ],
+      "meanings": [
+        "give",
+        "move"
+      ],
+      "compound_meaning": "give-move",
+      "born": 2557
+    },
+    "aimse": {
+      "parts": [
+        "a",
+        "kawimse"
+      ],
+      "meanings": [
+        "begin",
+        "high"
+      ],
+      "compound_meaning": "begin-high",
+      "born": 2573
+    },
+    "neai": {
+      "parts": [
+        "nenim",
+        "teai"
+      ],
+      "meanings": [
+        "within",
+        "move"
+      ],
+      "compound_meaning": "within-move",
+      "born": 2575
+    },
+    "amhan": {
+      "parts": [
+        "amenu",
+        "hihan"
+      ],
+      "meanings": [
+        "hold",
+        "rain"
+      ],
+      "compound_meaning": "hold-rain",
+      "born": 2585
+    },
+    "namli": {
+      "parts": [
+        "namonta",
+        "tuli"
+      ],
+      "meanings": [
+        "turn",
+        "river"
+      ],
+      "compound_meaning": "turn-river",
+      "born": 2597
+    },
+    "amnta": {
+      "parts": [
+        "amenu",
+        "wenta"
+      ],
+      "meanings": [
+        "hold",
+        "between"
+      ],
+      "compound_meaning": "hold-between",
+      "born": 2598
+    },
+    "piiki": {
+      "parts": [
+        "pikao",
+        "raiki"
+      ],
+      "meanings": [
+        "connection",
+        "far"
+      ],
+      "compound_meaning": "connection-far",
+      "born": 2607
+    },
+    "wiuha": {
+      "parts": [
+        "winam",
+        "tinuha"
+      ],
+      "meanings": [
+        "many",
+        "fire"
+      ],
+      "compound_meaning": "many-fire",
+      "born": 2617
+    },
+    "raam": {
+      "parts": [
+        "rasa",
+        "amam"
+      ],
+      "meanings": [
+        "soft",
+        "through"
+      ],
+      "compound_meaning": "soft-through",
+      "born": 2621
+    },
+    "liemsi": {
+      "parts": [
+        "liten",
+        "lememsi"
+      ],
+      "meanings": [
+        "high",
+        "seed"
+      ],
+      "compound_meaning": "high-seed",
+      "born": 2627
+    },
+    "zese": {
+      "parts": [
+        "zesaso",
+        "re"
+      ],
+      "meanings": [
+        "flower",
+        "star"
+      ],
+      "compound_meaning": "flower-star",
+      "born": 2633
+    },
+    "makeo": {
+      "parts": [
+        "makuni",
+        "heo"
+      ],
+      "meanings": [
+        "time",
+        "connection"
+      ],
+      "compound_meaning": "time-connection",
+      "born": 2641
+    },
+    "ranam": {
+      "parts": [
+        "raiki",
+        "winam"
+      ],
+      "meanings": [
+        "far",
+        "many"
+      ],
+      "compound_meaning": "far-many",
+      "born": 2642
+    },
+    "winta": {
+      "parts": [
+        "winam",
+        "wenta"
+      ],
+      "meanings": [
+        "many",
+        "between"
+      ],
+      "compound_meaning": "many-between",
+      "born": 2647
+    },
+    "wina": {
+      "parts": [
+        "winam",
+        "una"
+      ],
+      "meanings": [
+        "many",
+        "seed"
+      ],
+      "compound_meaning": "many-seed",
+      "born": 2651
+    },
+    "liipi": {
+      "parts": [
+        "liten",
+        "namipi"
+      ],
+      "meanings": [
+        "high",
+        "wave"
+      ],
+      "compound_meaning": "high-wave",
+      "born": 2658
+    },
+    "iao": {
+      "parts": [
+        "iaa",
+        "io"
+      ],
+      "meanings": [
+        "tree",
+        "cycle"
+      ],
+      "compound_meaning": "tree-cycle",
+      "born": 2660
+    },
+    "zotenmi": {
+      "parts": [
+        "zotuha",
+        "venenmi"
+      ],
+      "meanings": [
+        "sun",
+        "small"
+      ],
+      "compound_meaning": "sun-small",
+      "born": 2680
+    },
+    "nase": {
+      "parts": [
+        "nawin",
+        "hase"
+      ],
+      "meanings": [
+        "mountain",
+        "ocean"
+      ],
+      "compound_meaning": "mountain-ocean",
+      "born": 2693
+    },
+    "apniro": {
+      "parts": [
+        "apima",
+        "zenniro"
+      ],
+      "meanings": [
+        "tree",
+        "break"
+      ],
+      "compound_meaning": "tree-break",
+      "born": 2707
+    },
+    "onima": {
+      "parts": [
+        "one",
+        "apima"
+      ],
+      "meanings": [
+        "threshold",
+        "tree"
+      ],
+      "compound_meaning": "threshold-tree",
+      "born": 2719
+    },
+    "leita": {
+      "parts": [
+        "lesa",
+        "ratita"
+      ],
+      "meanings": [
+        "slow",
+        "fire"
+      ],
+      "compound_meaning": "slow-fire",
+      "born": 2726
+    },
+    "tasa": {
+      "parts": [
+        "taka",
+        "lesa"
+      ],
+      "meanings": [
+        "rain",
+        "slow"
+      ],
+      "compound_meaning": "rain-slow",
+      "born": 2733
+    },
+    "kuanto": {
+      "parts": [
+        "kum",
+        "wimanto"
+      ],
+      "meanings": [
+        "bright",
+        "chaos"
+      ],
+      "compound_meaning": "bright-chaos",
+      "born": 2743
+    },
+    "leata": {
+      "parts": [
+        "lesa",
+        "suata"
+      ],
+      "meanings": [
+        "slow",
+        "earth"
+      ],
+      "compound_meaning": "slow-earth",
+      "born": 2749
+    },
+    "ratanto": {
+      "parts": [
+        "ratita",
+        "wimanto"
+      ],
+      "meanings": [
+        "fire",
+        "chaos"
+      ],
+      "compound_meaning": "fire-chaos",
+      "born": 2752
+    },
+    "rato": {
+      "parts": [
+        "ratita",
+        "o"
+      ],
+      "meanings": [
+        "fire",
+        "ocean"
+      ],
+      "compound_meaning": "fire-ocean",
+      "born": 2757
+    },
+    "haata": {
+      "parts": [
+        "hati",
+        "suata"
+      ],
+      "meanings": [
+        "deep",
+        "earth"
+      ],
+      "compound_meaning": "deep-earth",
+      "born": 2758
+    },
+    "kamata": {
+      "parts": [
+        "kamkin",
+        "suata"
+      ],
+      "meanings": [
+        "snow",
+        "earth"
+      ],
+      "compound_meaning": "snow-earth",
+      "born": 2759
+    },
+    "linu": {
+      "parts": [
+        "likan",
+        "imnu"
+      ],
+      "meanings": [
+        "begin",
+        "turn"
+      ],
+      "compound_meaning": "begin-turn",
+      "born": 2766
+    },
+    "kasa": {
+      "parts": [
+        "kanki",
+        "lesa"
+      ],
+      "meanings": [
+        "around",
+        "slow"
+      ],
+      "compound_meaning": "around-slow",
+      "born": 2775
+    },
+    "liae": {
+      "parts": [
+        "likan",
+        "nae"
+      ],
+      "meanings": [
+        "begin",
+        "one"
+      ],
+      "compound_meaning": "begin-one",
+      "born": 2776
+    },
+    "mara": {
+      "parts": [
+        "maroum",
+        "a"
+      ],
+      "meanings": [
+        "cloud",
+        "water"
+      ],
+      "compound_meaning": "cloud-water",
+      "born": 2778
+    },
+    "vunae": {
+      "parts": [
+        "vunimnu",
+        "nae"
+      ],
+      "meanings": [
+        "wave",
+        "one"
+      ],
+      "compound_meaning": "wave-one",
+      "born": 2795
+    },
+    "nani": {
+      "parts": [
+        "nae",
+        "neni"
+      ],
+      "meanings": [
+        "one",
+        "connection"
+      ],
+      "compound_meaning": "one-connection",
+      "born": 2797
+    },
+    "vune": {
+      "parts": [
+        "vunimnu",
+        "me"
+      ],
+      "meanings": [
+        "wave",
+        "warm"
+      ],
+      "compound_meaning": "wave-warm",
+      "born": 2798
+    },
+    "vunme": {
+      "parts": [
+        "vunimnu",
+        "kime"
+      ],
+      "meanings": [
+        "wave",
+        "wind"
+      ],
+      "compound_meaning": "wave-wind",
+      "born": 2800
+    },
+    "aszim": {
+      "parts": [
+        "asu",
+        "tezim"
+      ],
+      "meanings": [
+        "beyond",
+        "through"
+      ],
+      "compound_meaning": "beyond-through",
+      "born": 2801
+    },
+    "miimnu": {
+      "parts": [
+        "milu",
+        "vunimnu"
+      ],
+      "meanings": [
+        "turn",
+        "wave"
+      ],
+      "compound_meaning": "turn-wave",
+      "born": 2803
+    },
+    "nenna": {
+      "parts": [
+        "neni",
+        "tinna"
+      ],
+      "meanings": [
+        "connection",
+        "snow"
+      ],
+      "compound_meaning": "connection-snow",
+      "born": 2810
+    },
+    "asimnu": {
+      "parts": [
+        "asu",
+        "vunimnu"
+      ],
+      "meanings": [
+        "beyond",
+        "wave"
+      ],
+      "compound_meaning": "beyond-wave",
+      "born": 2813
+    },
+    "kiu": {
+      "parts": [
+        "kiman",
+        "su"
+      ],
+      "meanings": [
+        "mountain",
+        "dark"
+      ],
+      "compound_meaning": "mountain-dark",
+      "born": 2818
+    },
+    "ehte": {
+      "parts": [
+        "eha",
+        "tute"
+      ],
+      "meanings": [
+        "join",
+        "tree"
+      ],
+      "compound_meaning": "join-tree",
+      "born": 2827
+    },
+    "tume": {
+      "parts": [
+        "tute",
+        "neme"
+      ],
+      "meanings": [
+        "tree",
+        "small"
+      ],
+      "compound_meaning": "tree-small",
+      "born": 2829
+    },
+    "kiise": {
+      "parts": [
+        "kiman",
+        "revise"
+      ],
+      "meanings": [
+        "mountain",
+        "one"
+      ],
+      "compound_meaning": "mountain-one",
+      "born": 2844
+    },
+    "saoa": {
+      "parts": [
+        "salun",
+        "woa"
+      ],
+      "meanings": [
+        "other",
+        "part"
+      ],
+      "compound_meaning": "other-part",
+      "born": 2849
+    },
+    "kana": {
+      "parts": [
+        "ka",
+        "ina"
+      ],
+      "meanings": [
+        "order",
+        "grow"
+      ],
+      "compound_meaning": "order-grow",
+      "born": 2859
+    },
+    "kevao": {
+      "parts": [
+        "kevonna",
+        "mao"
+      ],
+      "meanings": [
+        "sky",
+        "connection"
+      ],
+      "compound_meaning": "sky-connection",
+      "born": 2862
+    },
+    "kukum": {
+      "parts": [
+        "ku",
+        "nankum"
+      ],
+      "meanings": [
+        "all",
+        "give"
+      ],
+      "compound_meaning": "all-give",
+      "born": 2879
+    },
+    "taiin": {
+      "parts": [
+        "tapo",
+        "mutiin"
+      ],
+      "meanings": [
+        "new",
+        "space"
+      ],
+      "compound_meaning": "new-space",
+      "born": 2881
+    },
+    "temmi": {
+      "parts": [
+        "temruo",
+        "umi"
+      ],
+      "meanings": [
+        "snow",
+        "water"
+      ],
+      "compound_meaning": "snow-water",
+      "born": 2892
+    },
+    "nuiti": {
+      "parts": [
+        "nuza",
+        "oliti"
+      ],
+      "meanings": [
+        "pattern",
+        "chaos"
+      ],
+      "compound_meaning": "pattern-chaos",
+      "born": 2904
+    },
+    "ezza": {
+      "parts": [
+        "ezi",
+        "nuza"
+      ],
+      "meanings": [
+        "move",
+        "pattern"
+      ],
+      "compound_meaning": "move-pattern",
+      "born": 2914
+    },
+    "samhammo": {
+      "parts": [
+        "samhomun",
+        "marammo"
+      ],
+      "meanings": [
+        "water",
+        "soft"
+      ],
+      "compound_meaning": "water-soft",
+      "born": 2915
+    },
+    "eznka": {
+      "parts": [
+        "ezi",
+        "konka"
+      ],
+      "meanings": [
+        "move",
+        "fall"
+      ],
+      "compound_meaning": "move-fall",
+      "born": 2920
+    },
+    "tami": {
+      "parts": [
+        "taso",
+        "nimi"
+      ],
+      "meanings": [
+        "many",
+        "toward"
+      ],
+      "compound_meaning": "many-toward",
+      "born": 2923
+    },
+    "wapso": {
+      "parts": [
+        "wapomhe",
+        "taso"
+      ],
+      "meanings": [
+        "warm",
+        "many"
+      ],
+      "compound_meaning": "warm-many",
+      "born": 2924
+    },
+    "saso": {
+      "parts": [
+        "sata",
+        "taso"
+      ],
+      "meanings": [
+        "wind",
+        "many"
+      ],
+      "compound_meaning": "wind-many",
+      "born": 2929
+    },
+    "satam": {
+      "parts": [
+        "sata",
+        "nentam"
+      ],
+      "meanings": [
+        "wind",
+        "within"
+      ],
+      "compound_meaning": "wind-within",
+      "born": 2932
+    },
+    "wene": {
+      "parts": [
+        "wea",
+        "nune"
+      ],
+      "meanings": [
+        "sun",
+        "break"
+      ],
+      "compound_meaning": "sun-break",
+      "born": 2934
+    },
+    "riemo": {
+      "parts": [
+        "rina",
+        "puhemo"
+      ],
+      "meanings": [
+        "stone",
+        "mountain"
+      ],
+      "compound_meaning": "stone-mountain",
+      "born": 2941
+    },
+    "sino": {
+      "parts": [
+        "sia",
+        "sono"
+      ],
+      "meanings": [
+        "from",
+        "connection"
+      ],
+      "compound_meaning": "from-connection",
+      "born": 2947
+    },
+    "puhia": {
+      "parts": [
+        "puhemo",
+        "sia"
+      ],
+      "meanings": [
+        "mountain",
+        "from"
+      ],
+      "compound_meaning": "mountain-from",
+      "born": 2956
+    },
+    "haammo": {
+      "parts": [
+        "ha",
+        "sosammo"
+      ],
+      "meanings": [
+        "other",
+        "join"
+      ],
+      "compound_meaning": "other-join",
+      "born": 2971
+    },
+    "moa": {
+      "parts": [
+        "mokai",
+        "ha"
+      ],
+      "meanings": [
+        "star",
+        "other"
+      ],
+      "compound_meaning": "star-other",
+      "born": 2974
+    },
+    "marun": {
+      "parts": [
+        "maki",
+        "tumrun"
+      ],
+      "meanings": [
+        "hard",
+        "warm"
+      ],
+      "compound_meaning": "hard-warm",
+      "born": 2978
+    },
+    "koki": {
+      "parts": [
+        "konla",
+        "maki"
+      ],
+      "meanings": [
+        "toward",
+        "hard"
+      ],
+      "compound_meaning": "toward-hard",
+      "born": 2985
+    },
+    "mikim": {
+      "parts": [
+        "miwan",
+        "rakim"
+      ],
+      "meanings": [
+        "high",
+        "seed"
+      ],
+      "compound_meaning": "high-seed",
+      "born": 3005
+    },
+    "kokunsi": {
+      "parts": [
+        "kokono",
+        "nununsi"
+      ],
+      "meanings": [
+        "warm",
+        "water"
+      ],
+      "compound_meaning": "warm-water",
+      "born": 3009
+    },
+    "koketo": {
+      "parts": [
+        "kokono",
+        "numeto"
+      ],
+      "meanings": [
+        "warm",
+        "many"
+      ],
+      "compound_meaning": "warm-many",
+      "born": 3010
+    },
+    "meeso": {
+      "parts": [
+        "me",
+        "numeso"
+      ],
+      "meanings": [
+        "stone",
+        "many"
+      ],
+      "compound_meaning": "stone-many",
+      "born": 3022
+    },
+    "loru": {
+      "parts": [
+        "loka",
+        "naru"
+      ],
+      "meanings": [
+        "deep",
+        "pattern"
+      ],
+      "compound_meaning": "deep-pattern",
+      "born": 3026
+    },
+    "aineu": {
+      "parts": [
+        "aizo",
+        "meneu"
+      ],
+      "meanings": [
+        "old",
+        "within"
+      ],
+      "compound_meaning": "old-within",
+      "born": 3036
+    },
+    "pazna": {
+      "parts": [
+        "pazeta",
+        "oena"
+      ],
+      "meanings": [
+        "join",
+        "order"
+      ],
+      "compound_meaning": "join-order",
+      "born": 3041
+    },
+    "oezo": {
+      "parts": [
+        "oena",
+        "aizo"
+      ],
+      "meanings": [
+        "order",
+        "old"
+      ],
+      "compound_meaning": "order-old",
+      "born": 3042
+    },
+    "lava": {
+      "parts": [
+        "la",
+        "rava"
+      ],
+      "meanings": [
+        "threshold",
+        "dark"
+      ],
+      "compound_meaning": "threshold-dark",
+      "born": 3046
+    },
+    "hinkim": {
+      "parts": [
+        "hinele",
+        "lokim"
+      ],
+      "meanings": [
+        "turn",
+        "far"
+      ],
+      "compound_meaning": "turn-far",
+      "born": 3058
+    },
+    "wakene": {
+      "parts": [
+        "wa",
+        "wimkene"
+      ],
+      "meanings": [
+        "star",
+        "earth"
+      ],
+      "compound_meaning": "star-earth",
+      "born": 3065
+    },
+    "sonna": {
+      "parts": [
+        "sonnure",
+        "una"
+      ],
+      "meanings": [
+        "make",
+        "new"
+      ],
+      "compound_meaning": "make-new",
+      "born": 3070
+    },
+    "maoro": {
+      "parts": [
+        "maran",
+        "miroro"
+      ],
+      "meanings": [
+        "whole",
+        "part"
+      ],
+      "compound_meaning": "whole-part",
+      "born": 3090
+    },
+    "hinti": {
+      "parts": [
+        "hiniru",
+        "liti"
+      ],
+      "meanings": [
+        "space",
+        "none"
+      ],
+      "compound_meaning": "space-none",
+      "born": 3100
+    },
+    "laza": {
+      "parts": [
+        "lamko",
+        "neza"
+      ],
+      "meanings": [
+        "bright",
+        "around"
+      ],
+      "compound_meaning": "bright-around",
+      "born": 3118
+    },
+    "lione": {
+      "parts": [
+        "liti",
+        "zuhone"
+      ],
+      "meanings": [
+        "none",
+        "big"
+      ],
+      "compound_meaning": "none-big",
+      "born": 3120
+    },
+    "neevi": {
+      "parts": [
+        "neaka",
+        "nisevi"
+      ],
+      "meanings": [
+        "tree",
+        "connection"
+      ],
+      "compound_meaning": "tree-connection",
+      "born": 3132
+    },
+    "okke": {
+      "parts": [
+        "okena",
+        "umke"
+      ],
+      "meanings": [
+        "sun",
+        "old"
+      ],
+      "compound_meaning": "sun-old",
+      "born": 3136
+    },
+    "kitu": {
+      "parts": [
+        "ki",
+        "netu"
+      ],
+      "meanings": [
+        "chaos",
+        "fall"
+      ],
+      "compound_meaning": "chaos-fall",
+      "born": 3141
+    },
+    "nuhkin": {
+      "parts": [
+        "nuhane",
+        "minkin"
+      ],
+      "meanings": [
+        "rise",
+        "hard"
+      ],
+      "compound_meaning": "rise-hard",
+      "born": 3143
+    },
+    "umi": {
+      "parts": [
+        "umke",
+        "ki"
+      ],
+      "meanings": [
+        "old",
+        "chaos"
+      ],
+      "compound_meaning": "old-chaos",
+      "born": 3145
+    },
+    "wuali": {
+      "parts": [
+        "wuroe",
+        "weali"
+      ],
+      "meanings": [
+        "cold",
+        "moon"
+      ],
+      "compound_meaning": "cold-moon",
+      "born": 3149
+    }
+  },
+  "generation": 3151,
+  "created": "2026-02-10T20:11:47.796968",
+  "last_evolved": "2026-02-11T12:15:59.080699",
+  "sound_shifts": [
+    {
+      "gen": 1098,
+      "from": "nonalan",
+      "to": "nomalan",
+      "meaning": "cycle"
+    },
+    {
+      "gen": 1197,
+      "from": "lemoti",
+      "to": "lemosi",
+      "meaning": "beyond"
+    },
+    {
+      "gen": 1248,
+      "from": "ka",
+      "to": "ga",
+      "meaning": "sky"
+    },
+    {
+      "gen": 1283,
+      "from": "moen",
+      "to": "moeng",
+      "meaning": "other"
+    },
+    {
+      "gen": 1332,
+      "from": "nazanu",
+      "to": "ngazanu",
+      "meaning": "find"
+    },
+    {
+      "gen": 1343,
+      "from": "titae",
+      "to": "ditae",
+      "meaning": "chaos"
+    },
+    {
+      "gen": 1388,
+      "from": "kaso",
+      "to": "kasho",
+      "meaning": "balance"
+    },
+    {
+      "gen": 1427,
+      "from": "nuii",
+      "to": "nguii",
+      "meaning": "high"
+    },
+    {
+      "gen": 1568,
+      "from": "lieti",
+      "to": "liesi",
+      "meaning": "through"
+    },
+    {
+      "gen": 1595,
+      "from": "nimlem",
+      "to": "mimlem",
+      "meaning": "time"
+    },
+    {
+      "gen": 1627,
+      "from": "kua",
+      "to": "gua",
+      "meaning": "deep"
+    },
+    {
+      "gen": 1632,
+      "from": "nawi",
+      "to": "ngawi",
+      "meaning": "toward"
+    },
+    {
+      "gen": 1698,
+      "from": "sinra",
+      "to": "sina",
+      "meaning": "through"
+    },
+    {
+      "gen": 1708,
+      "from": "sunu",
+      "to": "sumu",
+      "meaning": "slow"
+    },
+    {
+      "gen": 1752,
+      "from": "zekoun",
+      "to": "zekoum",
+      "meaning": "wind"
+    },
+    {
+      "gen": 1980,
+      "from": "rean",
+      "to": "reang",
+      "meaning": "slow"
+    },
+    {
+      "gen": 2158,
+      "from": "vinama",
+      "to": "vimama",
+      "meaning": "old"
+    },
+    {
+      "gen": 2189,
+      "from": "eroku",
+      "to": "eloku",
+      "meaning": "part"
+    },
+    {
+      "gen": 2304,
+      "from": "nahem",
+      "to": "ngahem",
+      "meaning": "cycle"
+    },
+    {
+      "gen": 2312,
+      "from": "rotan",
+      "to": "rotam",
+      "meaning": "change"
+    },
+    {
+      "gen": 2503,
+      "from": "rana",
+      "to": "rama",
+      "meaning": "old"
+    },
+    {
+      "gen": 2602,
+      "from": "amenu",
+      "to": "amengu",
+      "meaning": "hold"
+    },
+    {
+      "gen": 2603,
+      "from": "sani",
+      "to": "zani",
+      "meaning": "space"
+    },
+    {
+      "gen": 2654,
+      "from": "masaro",
+      "to": "masalo",
+      "meaning": "self"
+    },
+    {
+      "gen": 2731,
+      "from": "hoani",
+      "to": "woani",
+      "meaning": "sun"
+    },
+    {
+      "gen": 2739,
+      "from": "namuna",
+      "to": "mamuna",
+      "meaning": "grow"
+    },
+    {
+      "gen": 2781,
+      "from": "rosimi",
+      "to": "rozimi",
+      "meaning": "river"
+    },
+    {
+      "gen": 3015,
+      "from": "numeto",
+      "to": "numeso",
+      "meaning": "many"
+    },
+    {
+      "gen": 3063,
+      "from": "lokim",
+      "to": "lohim",
+      "meaning": "far"
+    },
+    {
+      "gen": 3086,
+      "from": "nisa",
+      "to": "ngisa",
+      "meaning": "ocean"
+    }
+  ],
+  "extinct": [
+    {
+      "word": "lohim",
+      "meaning": "far",
+      "born": 3043,
+      "died": 3074,
+      "uses": 10
+    },
+    {
+      "word": "wimkene",
+      "meaning": "earth",
+      "born": 3052,
+      "died": 3076,
+      "uses": 12
+    },
+    {
+      "word": "uzama",
+      "meaning": "give",
+      "born": 3054,
+      "died": 3079,
+      "uses": 9
+    },
+    {
+      "word": "sim",
+      "meaning": "cloud",
+      "born": 3072,
+      "died": 3079,
+      "uses": 1
+    },
+    {
+      "word": "luan",
+      "meaning": "balance",
+      "born": 3036,
+      "died": 3081,
+      "uses": 17
+    },
+    {
+      "word": "haha",
+      "meaning": "hold",
+      "born": 3044,
+      "died": 3082,
+      "uses": 19
+    },
+    {
+      "word": "wizin",
+      "meaning": "river",
+      "born": 3071,
+      "died": 3084,
+      "uses": 1
+    },
+    {
+      "word": "mamvotam",
+      "meaning": "tree",
+      "born": 3056,
+      "died": 3085,
+      "uses": 10
+    },
+    {
+      "word": "sonnure",
+      "meaning": "make",
+      "born": 3058,
+      "died": 3085,
+      "uses": 11
+    },
+    {
+      "word": "wa",
+      "meaning": "star",
+      "born": 3053,
+      "died": 3086,
+      "uses": 12
+    },
+    {
+      "word": "una",
+      "meaning": "new",
+      "born": 3046,
+      "died": 3087,
+      "uses": 20
+    },
+    {
+      "word": "wemo",
+      "meaning": "time",
+      "born": 3082,
+      "died": 3091,
+      "uses": 1
+    },
+    {
+      "word": "ngisa",
+      "meaning": "ocean",
+      "born": 3064,
+      "died": 3093,
+      "uses": 11
+    },
+    {
+      "word": "ma",
+      "meaning": "seed",
+      "born": 3068,
+      "died": 3095,
+      "uses": 10
+    },
+    {
+      "word": "miroro",
+      "meaning": "part",
+      "born": 3081,
+      "died": 3100,
+      "uses": 18
+    },
+    {
+      "word": "u",
+      "meaning": "through",
+      "born": 3076,
+      "died": 3101,
+      "uses": 9
+    },
+    {
+      "word": "sati",
+      "meaning": "self",
+      "born": 3060,
+      "died": 3102,
+      "uses": 33
+    },
+    {
+      "word": "sewen",
+      "meaning": "fast",
+      "born": 3069,
+      "died": 3103,
+      "uses": 25
+    },
+    {
+      "word": "ata",
+      "meaning": "water",
+      "born": 3075,
+      "died": 3104,
+      "uses": 14
+    },
+    {
+      "word": "ume",
+      "meaning": "tree",
+      "born": 3089,
+      "died": 3104,
+      "uses": 6
+    },
+    {
+      "word": "nurain",
+      "meaning": "rise",
+      "born": 3088,
+      "died": 3106,
+      "uses": 12
+    },
+    {
+      "word": "maran",
+      "meaning": "whole",
+      "born": 3087,
+      "died": 3107,
+      "uses": 12
+    },
+    {
+      "word": "roka",
+      "meaning": "all",
+      "born": 3094,
+      "died": 3107,
+      "uses": 3
+    },
+    {
+      "word": "suna",
+      "meaning": "sun",
+      "born": 3063,
+      "died": 3108,
+      "uses": 22
+    },
+    {
+      "word": "sasi",
+      "meaning": "warm",
+      "born": 3048,
+      "died": 3113,
+      "uses": 37
+    },
+    {
+      "word": "iu",
+      "meaning": "move",
+      "born": 3090,
+      "died": 3115,
+      "uses": 15
+    },
+    {
+      "word": "kunaem",
+      "meaning": "new",
+      "born": 3095,
+      "died": 3119,
+      "uses": 12
+    },
+    {
+      "word": "hiniru",
+      "meaning": "space",
+      "born": 3098,
+      "died": 3121,
+      "uses": 8
+    },
+    {
+      "word": "noatem",
+      "meaning": "many",
+      "born": 3117,
+      "died": 3122,
+      "uses": 0
+    },
+    {
+      "word": "makikan",
+      "meaning": "small",
+      "born": 3104,
+      "died": 3123,
+      "uses": 6
+    },
+    {
+      "word": "ke",
+      "meaning": "pattern",
+      "born": 3073,
+      "died": 3124,
+      "uses": 25
+    },
+    {
+      "word": "takomi",
+      "meaning": "with",
+      "born": 3077,
+      "died": 3124,
+      "uses": 28
+    },
+    {
+      "word": "zuhone",
+      "meaning": "big",
+      "born": 3091,
+      "died": 3124,
+      "uses": 21
+    },
+    {
+      "word": "re",
+      "meaning": "begin",
+      "born": 3105,
+      "died": 3124,
+      "uses": 6
+    },
+    {
+      "word": "liti",
+      "meaning": "none",
+      "born": 3097,
+      "died": 3125,
+      "uses": 25
+    },
+    {
+      "word": "mike",
+      "meaning": "take",
+      "born": 3123,
+      "died": 3128,
+      "uses": 0
+    },
+    {
+      "word": "kimunon",
+      "meaning": "flow",
+      "born": 3092,
+      "died": 3129,
+      "uses": 23
+    },
+    {
+      "word": "amumam",
+      "meaning": "make",
+      "born": 3114,
+      "died": 3129,
+      "uses": 4
+    },
+    {
+      "word": "lamko",
+      "meaning": "bright",
+      "born": 3079,
+      "died": 3133,
+      "uses": 30
+    },
+    {
+      "word": "neza",
+      "meaning": "around",
+      "born": 3115,
+      "died": 3134,
+      "uses": 4
+    },
+    {
+      "word": "neaka",
+      "meaning": "tree",
+      "born": 3106,
+      "died": 3135,
+      "uses": 12
+    },
+    {
+      "word": "haam",
+      "meaning": "snow",
+      "born": 3134,
+      "died": 3139,
+      "uses": 0
+    },
+    {
+      "word": "perani",
+      "meaning": "find",
+      "born": 3080,
+      "died": 3140,
+      "uses": 40
+    },
+    {
+      "word": "maku",
+      "meaning": "grow",
+      "born": 3101,
+      "died": 3140,
+      "uses": 15
+    },
+    {
+      "word": "he",
+      "meaning": "cloud",
+      "born": 3121,
+      "died": 3145,
+      "uses": 7
+    },
+    {
+      "word": "ki",
+      "meaning": "chaos",
+      "born": 3096,
+      "died": 3147,
+      "uses": 25
+    },
+    {
+      "word": "wise",
+      "meaning": "begin",
+      "born": 3143,
+      "died": 3148,
+      "uses": 0
+    },
+    {
+      "word": "minkin",
+      "meaning": "hard",
+      "born": 3113,
+      "died": 3149,
+      "uses": 15
+    },
+    {
+      "word": "umke",
+      "meaning": "old",
+      "born": 3109,
+      "died": 3151,
+      "uses": 17
+    },
+    {
+      "word": "more",
+      "meaning": "fire",
+      "born": 3124,
+      "died": 3151,
+      "uses": 8
+    }
+  ],
+  "stats": {
+    "total_generated": 2192,
+    "total_extinct": 2172,
+    "total_compounds": 479,
+    "total_shifts": 43
+  }
+}
