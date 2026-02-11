@@ -1,164 +1,212 @@
 {
-  "generated": "2026-02-11T22:34:20.100Z",
-  "generation": 3300,
+  "generated": "2026-02-11T23:09:53.283Z",
+  "generation": 3401,
   "stats": {
-    "generation": 3300,
-    "population": 16,
-    "totalBorn": 2300,
-    "totalDead": 2284,
-    "totalCompounds": 497,
-    "totalShifts": 44,
-    "mortalityRate": "99.3",
-    "avgLifespan": "28.0",
-    "maxLifespan": 79,
-    "stillbornCount": 6,
+    "generation": 3401,
+    "population": 22,
+    "totalBorn": 2373,
+    "totalDead": 2351,
+    "totalCompounds": 518,
+    "totalShifts": 49,
+    "mortalityRate": "99.1",
+    "avgLifespan": "29.0",
+    "maxLifespan": 81,
+    "stillbornCount": 5,
     "categories": {
-      "quality": 5,
-      "natural": 2,
-      "relation": 3,
-      "abstract": 2,
-      "action": 2,
-      "being": 2
+      "quality": 4,
+      "being": 2,
+      "natural": 6,
+      "relation": 4,
+      "action": 4,
+      "abstract": 2
     },
     "elder": {
-      "word": "kunvam",
-      "meaning": "fast",
-      "age": 54,
-      "fitness": 0.20000000000000068
+      "word": "memisi",
+      "meaning": "warm",
+      "age": 39,
+      "fitness": 0.1500000000000002
     },
     "fittest": {
-      "word": "memummen",
-      "meaning": "break",
+      "word": "imihem",
+      "meaning": "from",
       "fitness": 0.6499999999999996
     },
     "livingWords": [
       {
-        "word": "memummen",
-        "meaning": "break",
-        "category": "action",
-        "age": 7,
+        "word": "imihem",
+        "meaning": "from",
+        "category": "relation",
+        "age": 11,
         "fitness": 0.6499999999999996,
         "uses": 7
       },
       {
-        "word": "nenu",
-        "meaning": "wave",
-        "category": "abstract",
+        "word": "ualem",
+        "meaning": "earth",
+        "category": "natural",
         "age": 2,
         "fitness": 0.5999999999999999,
-        "uses": 3
+        "uses": 2
       },
       {
-        "word": "kutem",
-        "meaning": "many",
-        "category": "being",
-        "age": 1,
-        "fitness": 0.5499999999999999,
-        "uses": 3
-      },
-      {
-        "word": "pimkula",
-        "meaning": "grow",
+        "word": "hiha",
+        "meaning": "end",
         "category": "action",
-        "age": 11,
-        "fitness": 0.5499999999999994,
-        "uses": 8
-      },
-      {
-        "word": "nita",
-        "meaning": "one",
-        "category": "being",
-        "age": 8,
-        "fitness": 0.5,
+        "age": 9,
+        "fitness": 0.5499999999999999,
         "uses": 5
       },
       {
-        "word": "walema",
+        "word": "nomnitu",
+        "meaning": "other",
+        "category": "being",
+        "age": 6,
+        "fitness": 0.5,
+        "uses": 3
+      },
+      {
+        "word": "hunkuva",
         "meaning": "through",
         "category": "relation",
-        "age": 12,
-        "fitness": 0.4,
-        "uses": 7
-      },
-      {
-        "word": "sowuku",
-        "meaning": "new",
-        "category": "quality",
-        "age": 10,
-        "fitness": 0.4,
-        "uses": 4
-      },
-      {
-        "word": "nasu",
-        "meaning": "with",
-        "category": "relation",
-        "age": 37,
-        "fitness": 0.35000000000000026,
-        "uses": 17
-      },
-      {
-        "word": "ra",
-        "meaning": "toward",
-        "category": "relation",
-        "age": 29,
-        "fitness": 0.34999999999999865,
-        "uses": 14
-      },
-      {
-        "word": "manmi",
-        "meaning": "deep",
-        "category": "quality",
-        "age": 23,
-        "fitness": 0.25000000000000044,
-        "uses": 12
-      },
-      {
-        "word": "na",
-        "meaning": "order",
-        "category": "abstract",
-        "age": 35,
-        "fitness": 0.24999999999999983,
+        "age": 30,
+        "fitness": 0.49999999999999906,
         "uses": 15
       },
       {
-        "word": "kunvam",
-        "meaning": "fast",
-        "category": "quality",
-        "age": 54,
-        "fitness": 0.20000000000000068,
-        "uses": 24
-      },
-      {
-        "word": "mara",
-        "meaning": "old",
-        "category": "quality",
-        "age": 40,
-        "fitness": 0.20000000000000046,
-        "uses": 21
-      },
-      {
-        "word": "kute",
-        "meaning": "sun",
+        "word": "tatili",
+        "meaning": "moon",
         "category": "natural",
-        "age": 44,
-        "fitness": 0.19999999999999857,
-        "uses": 20
+        "age": 1,
+        "fitness": 0.45,
+        "uses": 0
       },
       {
-        "word": "mosena",
-        "meaning": "star",
+        "word": "eka",
+        "meaning": "soft",
+        "category": "quality",
+        "age": 32,
+        "fitness": 0.4,
+        "uses": 15
+      },
+      {
+        "word": "mule",
+        "meaning": "grow",
+        "category": "action",
+        "age": 28,
+        "fitness": 0.3999999999999994,
+        "uses": 13
+      },
+      {
+        "word": "omkaki",
+        "meaning": "river",
         "category": "natural",
-        "age": 13,
-        "fitness": 0.15000000000000013,
+        "age": 3,
+        "fitness": 0.35000000000000003,
+        "uses": 0
+      },
+      {
+        "word": "u",
+        "meaning": "within",
+        "category": "relation",
+        "age": 19,
+        "fitness": 0.3499999999999993,
+        "uses": 8
+      },
+      {
+        "word": "uma",
+        "meaning": "move",
+        "category": "action",
+        "age": 12,
+        "fitness": 0.3,
+        "uses": 4
+      },
+      {
+        "word": "naira",
+        "meaning": "beyond",
+        "category": "relation",
+        "age": 24,
+        "fitness": 0.2999999999999991,
+        "uses": 10
+      },
+      {
+        "word": "mumpi",
+        "meaning": "rise",
+        "category": "action",
+        "age": 25,
+        "fitness": 0.25000000000000006,
+        "uses": 11
+      },
+      {
+        "word": "elu",
+        "meaning": "small",
+        "category": "quality",
+        "age": 15,
+        "fitness": 0.25000000000000006,
         "uses": 5
       },
       {
-        "word": "otali",
-        "meaning": "dark",
+        "word": "wita",
+        "meaning": "mountain",
+        "category": "natural",
+        "age": 16,
+        "fitness": 0.20000000000000023,
+        "uses": 5
+      },
+      {
+        "word": "miko",
+        "meaning": "time",
+        "category": "abstract",
+        "age": 14,
+        "fitness": 0.20000000000000007,
+        "uses": 5
+      },
+      {
+        "word": "memisi",
+        "meaning": "warm",
         "category": "quality",
-        "age": 4,
-        "fitness": 0.10000000000000003,
-        "uses": 1
+        "age": 39,
+        "fitness": 0.1500000000000002,
+        "uses": 17
+      },
+      {
+        "word": "tai",
+        "meaning": "sun",
+        "category": "natural",
+        "age": 13,
+        "fitness": 0.15000000000000008,
+        "uses": 4
+      },
+      {
+        "word": "bova",
+        "meaning": "space",
+        "category": "abstract",
+        "age": 21,
+        "fitness": 0.14999999999999997,
+        "uses": 7
+      },
+      {
+        "word": "limae",
+        "meaning": "big",
+        "category": "quality",
+        "age": 8,
+        "fitness": 0.10000000000000002,
+        "uses": 2
+      },
+      {
+        "word": "hini",
+        "meaning": "all",
+        "category": "being",
+        "age": 37,
+        "fitness": 0.04999999999999996,
+        "uses": 16
+      },
+      {
+        "word": "mumula",
+        "meaning": "snow",
+        "category": "natural",
+        "age": 34,
+        "fitness": 4.0245584642661925e-16,
+        "uses": 12
       }
     ]
   },
@@ -2670,13 +2718,6 @@
       ]
     },
     {
-      "type": "shift",
-      "gen": 1197,
-      "from": "lemoti",
-      "to": "lemosi",
-      "meaning": "beyond"
-    },
-    {
       "type": "compound",
       "gen": 1211,
       "word": "sata",
@@ -2759,13 +2800,6 @@
         "turn",
         "self"
       ]
-    },
-    {
-      "type": "shift",
-      "gen": 1248,
-      "from": "ka",
-      "to": "ga",
-      "meaning": "sky"
     },
     {
       "type": "compound",
@@ -2880,13 +2914,6 @@
       ]
     },
     {
-      "type": "shift",
-      "gen": 1283,
-      "from": "moen",
-      "to": "moeng",
-      "meaning": "other"
-    },
-    {
       "type": "compound",
       "gen": 1296,
       "word": "rinrze",
@@ -2957,13 +2984,6 @@
       ]
     },
     {
-      "type": "shift",
-      "gen": 1332,
-      "from": "nazanu",
-      "to": "ngazanu",
-      "meaning": "find"
-    },
-    {
       "type": "compound",
       "gen": 1332,
       "word": "rikmi",
@@ -3004,13 +3024,6 @@
         "wind",
         "turn"
       ]
-    },
-    {
-      "type": "shift",
-      "gen": 1343,
-      "from": "titae",
-      "to": "ditae",
-      "meaning": "chaos"
     },
     {
       "type": "compound",
@@ -7143,22 +7156,6 @@
       ]
     },
     {
-      "type": "birth",
-      "gen": 3179,
-      "word": "miun",
-      "meaning": "water",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3181,
-      "word": "ehase",
-      "meaning": "fall",
-      "category": "unknown",
-      "alive": false
-    },
-    {
       "type": "compound",
       "gen": 3188,
       "word": "somun",
@@ -7187,14 +7184,6 @@
       ]
     },
     {
-      "type": "birth",
-      "gen": 3201,
-      "word": "punepe",
-      "meaning": "flow",
-      "category": "unknown",
-      "alive": false
-    },
-    {
       "type": "compound",
       "gen": 3204,
       "word": "ohmen",
@@ -7207,62 +7196,6 @@
         "ocean",
         "small"
       ]
-    },
-    {
-      "type": "birth",
-      "gen": 3208,
-      "word": "ore",
-      "meaning": "far",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3209,
-      "word": "nuu",
-      "meaning": "part",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3213,
-      "word": "kinun",
-      "meaning": "slow",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3214,
-      "word": "min",
-      "meaning": "all",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3216,
-      "word": "amha",
-      "meaning": "moon",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3217,
-      "word": "na",
-      "meaning": "within",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3219,
-      "word": "rinwa",
-      "meaning": "emergence",
-      "category": "unknown",
-      "alive": false
     },
     {
       "type": "compound",
@@ -7279,62 +7212,6 @@
       ]
     },
     {
-      "type": "birth",
-      "gen": 3220,
-      "word": "nino",
-      "meaning": "grow",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3221,
-      "word": "sovi",
-      "meaning": "end",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3223,
-      "word": "tasamhi",
-      "meaning": "beyond",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3224,
-      "word": "tehumpu",
-      "meaning": "deep",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3225,
-      "word": "sa",
-      "meaning": "space",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3226,
-      "word": "vein",
-      "meaning": "star",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3227,
-      "word": "halemti",
-      "meaning": "join",
-      "category": "unknown",
-      "alive": false
-    },
-    {
       "type": "compound",
       "gen": 3229,
       "word": "punemti",
@@ -7347,22 +7224,6 @@
         "flow",
         "join"
       ]
-    },
-    {
-      "type": "birth",
-      "gen": 3229,
-      "word": "meha",
-      "meaning": "cold",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3230,
-      "word": "vepuma",
-      "meaning": "turn",
-      "category": "unknown",
-      "alive": false
     },
     {
       "type": "compound",
@@ -7379,22 +7240,6 @@
       ]
     },
     {
-      "type": "birth",
-      "gen": 3231,
-      "word": "tanuo",
-      "meaning": "hard",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3233,
-      "word": "mauna",
-      "meaning": "toward",
-      "category": "unknown",
-      "alive": false
-    },
-    {
       "type": "compound",
       "gen": 3236,
       "word": "ranun",
@@ -7409,35 +7254,11 @@
       ]
     },
     {
-      "type": "birth",
-      "gen": 3236,
-      "word": "aua",
-      "meaning": "rain",
-      "category": "unknown",
-      "alive": false
-    },
-    {
       "type": "shift",
       "gen": 3237,
       "from": "raua",
       "to": "aua",
       "meaning": "rain"
-    },
-    {
-      "type": "birth",
-      "gen": 3237,
-      "word": "sumemro",
-      "meaning": "rise",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3238,
-      "word": "uao",
-      "meaning": "warm",
-      "category": "unknown",
-      "alive": false
     },
     {
       "type": "compound",
@@ -7454,216 +7275,6 @@
       ]
     },
     {
-      "type": "death",
-      "gen": 3239,
-      "word": "tehumpu",
-      "meaning": "deep",
-      "category": "unknown",
-      "lifespan": 15,
-      "uses": 2,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3240,
-      "word": "punepe",
-      "meaning": "flow",
-      "category": "unknown",
-      "lifespan": 39,
-      "uses": 14,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3242,
-      "word": "tikei",
-      "meaning": "boundary",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3242,
-      "word": "nuu",
-      "meaning": "part",
-      "category": "unknown",
-      "lifespan": 33,
-      "uses": 11,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3243,
-      "word": "pesitu",
-      "meaning": "take",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3243,
-      "word": "amha",
-      "meaning": "moon",
-      "category": "unknown",
-      "lifespan": 27,
-      "uses": 8,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3244,
-      "word": "i",
-      "meaning": "time",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3245,
-      "word": "loma",
-      "meaning": "through",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3245,
-      "word": "ore",
-      "meaning": "far",
-      "category": "unknown",
-      "lifespan": 37,
-      "uses": 15,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3246,
-      "word": "kunvam",
-      "meaning": "fast",
-      "category": "quality",
-      "fitness": 0.20000000000000068,
-      "age": 54,
-      "alive": true
-    },
-    {
-      "type": "death",
-      "gen": 3246,
-      "word": "mauna",
-      "meaning": "toward",
-      "category": "unknown",
-      "lifespan": 13,
-      "uses": 3,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3247,
-      "word": "amenwa",
-      "meaning": "self",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3247,
-      "word": "meha",
-      "meaning": "cold",
-      "category": "unknown",
-      "lifespan": 18,
-      "uses": 7,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3249,
-      "word": "konu",
-      "meaning": "chaos",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3249,
-      "word": "tasamhi",
-      "meaning": "beyond",
-      "category": "unknown",
-      "lifespan": 26,
-      "uses": 9,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3250,
-      "word": "miun",
-      "meaning": "water",
-      "category": "unknown",
-      "lifespan": 71,
-      "uses": 30,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3250,
-      "word": "halemti",
-      "meaning": "join",
-      "category": "unknown",
-      "lifespan": 23,
-      "uses": 6,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3251,
-      "word": "ani",
-      "meaning": "seed",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3252,
-      "word": "vamimse",
-      "meaning": "from",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3252,
-      "word": "rinwa",
-      "meaning": "emergence",
-      "category": "unknown",
-      "lifespan": 33,
-      "uses": 12,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3253,
-      "word": "ero",
-      "meaning": "moon",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3254,
-      "word": "himrame",
-      "meaning": "release",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3254,
-      "word": "tanuo",
-      "meaning": "hard",
-      "category": "unknown",
-      "lifespan": 23,
-      "uses": 10,
-      "stillborn": false
-    },
-    {
       "type": "compound",
       "gen": 3255,
       "word": "sani",
@@ -7678,154 +7289,10 @@
       ]
     },
     {
-      "type": "death",
-      "gen": 3255,
-      "word": "min",
-      "meaning": "all",
-      "category": "unknown",
-      "lifespan": 41,
-      "uses": 24,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3255,
-      "word": "nino",
-      "meaning": "grow",
-      "category": "unknown",
-      "lifespan": 35,
-      "uses": 13,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3256,
-      "word": "kute",
-      "meaning": "sun",
-      "category": "natural",
-      "fitness": 0.19999999999999857,
-      "age": 44,
-      "alive": true
-    },
-    {
-      "type": "death",
-      "gen": 3256,
-      "word": "sovi",
-      "meaning": "end",
-      "category": "unknown",
-      "lifespan": 35,
-      "uses": 12,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3257,
-      "word": "entati",
-      "meaning": "join",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3259,
-      "word": "kampele",
-      "meaning": "cold",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3259,
-      "word": "vepuma",
-      "meaning": "turn",
-      "category": "unknown",
-      "lifespan": 29,
-      "uses": 11,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3260,
-      "word": "mara",
-      "meaning": "old",
-      "category": "quality",
-      "fitness": 0.20000000000000046,
-      "age": 40,
-      "alive": true
-    },
-    {
-      "type": "death",
-      "gen": 3260,
-      "word": "ehase",
-      "meaning": "fall",
-      "category": "unknown",
-      "lifespan": 79,
-      "uses": 38,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3260,
-      "word": "sumemro",
-      "meaning": "rise",
-      "category": "unknown",
-      "lifespan": 23,
-      "uses": 7,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3261,
-      "word": "roamam",
-      "meaning": "whole",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3262,
-      "word": "na",
-      "meaning": "within",
-      "category": "unknown",
-      "lifespan": 45,
-      "uses": 18,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3262,
-      "word": "vein",
-      "meaning": "star",
-      "category": "unknown",
-      "lifespan": 36,
-      "uses": 14,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3262,
-      "word": "tikei",
-      "meaning": "boundary",
-      "category": "unknown",
-      "lifespan": 20,
-      "uses": 5,
-      "stillborn": false
-    },
-    {
       "type": "birth",
       "gen": 3263,
       "word": "nasu",
       "meaning": "with",
-      "category": "relation",
-      "fitness": 0.35000000000000026,
-      "age": 37,
-      "alive": true
-    },
-    {
-      "type": "birth",
-      "gen": 3264,
-      "word": "vasinni",
-      "meaning": "pattern",
       "category": "unknown",
       "alive": false
     },
@@ -7844,352 +7311,6 @@
       ]
     },
     {
-      "type": "birth",
-      "gen": 3265,
-      "word": "na",
-      "meaning": "order",
-      "category": "abstract",
-      "fitness": 0.24999999999999983,
-      "age": 35,
-      "alive": true
-    },
-    {
-      "type": "birth",
-      "gen": 3266,
-      "word": "elu",
-      "meaning": "mountain",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3266,
-      "word": "konu",
-      "meaning": "chaos",
-      "category": "unknown",
-      "lifespan": 17,
-      "uses": 4,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3266,
-      "word": "roamam",
-      "meaning": "whole",
-      "category": "unknown",
-      "lifespan": 5,
-      "uses": 0,
-      "stillborn": true
-    },
-    {
-      "type": "birth",
-      "gen": 3267,
-      "word": "movi",
-      "meaning": "end",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3267,
-      "word": "amenwa",
-      "meaning": "self",
-      "category": "unknown",
-      "lifespan": 20,
-      "uses": 9,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3268,
-      "word": "kohee",
-      "meaning": "whole",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3269,
-      "word": "aua",
-      "meaning": "rain",
-      "category": "unknown",
-      "lifespan": 33,
-      "uses": 13,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3270,
-      "word": "kote",
-      "meaning": "snow",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3271,
-      "word": "ra",
-      "meaning": "toward",
-      "category": "relation",
-      "fitness": 0.34999999999999865,
-      "age": 29,
-      "alive": true
-    },
-    {
-      "type": "birth",
-      "gen": 3272,
-      "word": "enna",
-      "meaning": "flow",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3272,
-      "word": "ani",
-      "meaning": "seed",
-      "category": "unknown",
-      "lifespan": 21,
-      "uses": 5,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3273,
-      "word": "nozuam",
-      "meaning": "break",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3273,
-      "word": "kinun",
-      "meaning": "slow",
-      "category": "unknown",
-      "lifespan": 60,
-      "uses": 25,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3273,
-      "word": "loma",
-      "meaning": "through",
-      "category": "unknown",
-      "lifespan": 28,
-      "uses": 9,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3273,
-      "word": "kohee",
-      "meaning": "whole",
-      "category": "unknown",
-      "lifespan": 5,
-      "uses": 0,
-      "stillborn": true
-    },
-    {
-      "type": "birth",
-      "gen": 3274,
-      "word": "tuza",
-      "meaning": "whole",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3275,
-      "word": "tiram",
-      "meaning": "sky",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3275,
-      "word": "sa",
-      "meaning": "space",
-      "category": "unknown",
-      "lifespan": 50,
-      "uses": 21,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3275,
-      "word": "ero",
-      "meaning": "moon",
-      "category": "unknown",
-      "lifespan": 22,
-      "uses": 6,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3275,
-      "word": "kote",
-      "meaning": "snow",
-      "category": "unknown",
-      "lifespan": 5,
-      "uses": 0,
-      "stillborn": true
-    },
-    {
-      "type": "death",
-      "gen": 3276,
-      "word": "pesitu",
-      "meaning": "take",
-      "category": "unknown",
-      "lifespan": 33,
-      "uses": 12,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3277,
-      "word": "manmi",
-      "meaning": "deep",
-      "category": "quality",
-      "fitness": 0.25000000000000044,
-      "age": 23,
-      "alive": true
-    },
-    {
-      "type": "birth",
-      "gen": 3278,
-      "word": "inmenom",
-      "meaning": "fall",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3279,
-      "word": "hin",
-      "meaning": "none",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "birth",
-      "gen": 3281,
-      "word": "tahai",
-      "meaning": "soft",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3281,
-      "word": "uao",
-      "meaning": "warm",
-      "category": "unknown",
-      "lifespan": 43,
-      "uses": 22,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3281,
-      "word": "enna",
-      "meaning": "flow",
-      "category": "unknown",
-      "lifespan": 9,
-      "uses": 1,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3282,
-      "word": "rarei",
-      "meaning": "balance",
-      "category": "unknown",
-      "alive": false
-    },
-    {
-      "type": "death",
-      "gen": 3284,
-      "word": "hin",
-      "meaning": "none",
-      "category": "unknown",
-      "lifespan": 5,
-      "uses": 0,
-      "stillborn": true
-    },
-    {
-      "type": "death",
-      "gen": 3285,
-      "word": "kampele",
-      "meaning": "cold",
-      "category": "unknown",
-      "lifespan": 26,
-      "uses": 8,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3286,
-      "word": "tahai",
-      "meaning": "soft",
-      "category": "unknown",
-      "lifespan": 5,
-      "uses": 0,
-      "stillborn": true
-    },
-    {
-      "type": "birth",
-      "gen": 3287,
-      "word": "mosena",
-      "meaning": "star",
-      "category": "natural",
-      "fitness": 0.15000000000000013,
-      "age": 13,
-      "alive": true
-    },
-    {
-      "type": "death",
-      "gen": 3287,
-      "word": "i",
-      "meaning": "time",
-      "category": "unknown",
-      "lifespan": 43,
-      "uses": 16,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3287,
-      "word": "entati",
-      "meaning": "join",
-      "category": "unknown",
-      "lifespan": 30,
-      "uses": 10,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3287,
-      "word": "vasinni",
-      "meaning": "pattern",
-      "category": "unknown",
-      "lifespan": 23,
-      "uses": 6,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3287,
-      "word": "rarei",
-      "meaning": "balance",
-      "category": "unknown",
-      "lifespan": 5,
-      "uses": 0,
-      "stillborn": true
-    },
-    {
       "type": "compound",
       "gen": 3288,
       "word": "tua",
@@ -8205,43 +7326,11 @@
     },
     {
       "type": "birth",
-      "gen": 3288,
-      "word": "walema",
-      "meaning": "through",
-      "category": "relation",
-      "fitness": 0.4,
-      "age": 12,
-      "alive": true
-    },
-    {
-      "type": "birth",
-      "gen": 3289,
-      "word": "pimkula",
-      "meaning": "grow",
-      "category": "action",
-      "fitness": 0.5499999999999994,
-      "age": 11,
-      "alive": true
-    },
-    {
-      "type": "death",
-      "gen": 3289,
-      "word": "nozuam",
-      "meaning": "break",
-      "category": "unknown",
-      "lifespan": 16,
-      "uses": 3,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
       "gen": 3290,
       "word": "sowuku",
       "meaning": "new",
-      "category": "quality",
-      "fitness": 0.4,
-      "age": 10,
-      "alive": true
+      "category": "unknown",
+      "alive": false
     },
     {
       "type": "compound",
@@ -8258,44 +7347,12 @@
       ]
     },
     {
-      "type": "death",
-      "gen": 3291,
-      "word": "tuza",
-      "meaning": "whole",
-      "category": "unknown",
-      "lifespan": 17,
-      "uses": 10,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3291,
-      "word": "inmenom",
-      "meaning": "fall",
-      "category": "unknown",
-      "lifespan": 13,
-      "uses": 1,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3292,
-      "word": "nita",
-      "meaning": "one",
-      "category": "being",
-      "fitness": 0.5,
-      "age": 8,
-      "alive": true
-    },
-    {
       "type": "birth",
       "gen": 3293,
       "word": "memummen",
       "meaning": "break",
-      "category": "action",
-      "fitness": 0.6499999999999996,
-      "age": 7,
-      "alive": true
+      "category": "unknown",
+      "alive": false
     },
     {
       "type": "compound",
@@ -8312,83 +7369,1428 @@
       ]
     },
     {
-      "type": "death",
-      "gen": 3294,
-      "word": "vamimse",
-      "meaning": "from",
-      "category": "unknown",
-      "lifespan": 42,
-      "uses": 16,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3294,
-      "word": "movi",
-      "meaning": "end",
-      "category": "unknown",
-      "lifespan": 27,
-      "uses": 11,
-      "stillborn": false
-    },
-    {
-      "type": "death",
-      "gen": 3295,
-      "word": "himrame",
-      "meaning": "release",
-      "category": "unknown",
-      "lifespan": 41,
-      "uses": 17,
-      "stillborn": false
-    },
-    {
-      "type": "birth",
-      "gen": 3296,
-      "word": "otali",
-      "meaning": "dark",
-      "category": "quality",
-      "fitness": 0.10000000000000003,
-      "age": 4,
-      "alive": true
-    },
-    {
-      "type": "death",
-      "gen": 3296,
-      "word": "tiram",
-      "meaning": "sky",
-      "category": "unknown",
-      "lifespan": 21,
-      "uses": 6,
-      "stillborn": false
-    },
-    {
       "type": "birth",
       "gen": 3298,
       "word": "nenu",
       "meaning": "wave",
-      "category": "abstract",
-      "fitness": 0.5999999999999999,
-      "age": 2,
-      "alive": true
+      "category": "unknown",
+      "alive": false
     },
     {
       "type": "birth",
       "gen": 3299,
       "word": "kutem",
       "meaning": "many",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 3303,
+      "word": "nisu",
+      "meaning": "one-with",
+      "parts": [
+        "nita",
+        "nasu"
+      ],
+      "partMeanings": [
+        "one",
+        "with"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3303,
+      "word": "tomkin",
+      "meaning": "move",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3304,
+      "word": "namkem",
+      "meaning": "all",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3305,
+      "word": "taa",
+      "meaning": "flow",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3307,
+      "word": "kisika",
+      "meaning": "take",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3309,
+      "word": "onrema",
+      "meaning": "sky",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3313,
+      "word": "rauhe",
+      "meaning": "hard",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3314,
+      "word": "aa",
+      "meaning": "far",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 3315,
+      "word": "namnu",
+      "meaning": "all-chaos",
+      "parts": [
+        "namkem",
+        "tinu"
+      ],
+      "partMeanings": [
+        "all",
+        "chaos"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3316,
+      "word": "taon",
+      "meaning": "none",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3318,
+      "word": "ote",
+      "meaning": "change",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3319,
+      "word": "lemu",
+      "meaning": "tree",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3321,
+      "word": "oa",
+      "meaning": "bright",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3323,
+      "word": "vakun",
+      "meaning": "within",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3325,
+      "word": "eiun",
+      "meaning": "high",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3327,
+      "word": "mopua",
+      "meaning": "snow",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3328,
+      "word": "mata",
+      "meaning": "moon",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3329,
+      "word": "wimi",
+      "meaning": "wind",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3330,
+      "word": "nekomi",
+      "meaning": "water",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 3331,
+      "word": "nekem",
+      "meaning": "wave-all",
+      "parts": [
+        "nenu",
+        "namkem"
+      ],
+      "partMeanings": [
+        "wave",
+        "all"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3331,
+      "word": "semma",
+      "meaning": "ocean",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3332,
+      "word": "tomami",
+      "meaning": "around",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3333,
+      "word": "lue",
+      "meaning": "end",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3333,
+      "word": "memummen",
+      "meaning": "break",
+      "category": "unknown",
+      "lifespan": 40,
+      "uses": 17,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3333,
+      "word": "kisika",
+      "meaning": "take",
+      "category": "unknown",
+      "lifespan": 26,
+      "uses": 8,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3333,
+      "word": "taon",
+      "meaning": "none",
+      "category": "unknown",
+      "lifespan": 17,
+      "uses": 3,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3334,
+      "word": "tomkin",
+      "meaning": "move",
+      "category": "unknown",
+      "lifespan": 31,
+      "uses": 10,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3334,
+      "word": "lemu",
+      "meaning": "tree",
+      "category": "unknown",
+      "lifespan": 15,
+      "uses": 2,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3335,
+      "word": "neaa",
+      "meaning": "wave-flow",
+      "parts": [
+        "nenu",
+        "taa"
+      ],
+      "partMeanings": [
+        "wave",
+        "flow"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3335,
+      "word": "lawa",
+      "meaning": "one",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3335,
+      "word": "namkem",
+      "meaning": "all",
+      "category": "unknown",
+      "lifespan": 31,
+      "uses": 10,
+      "stillborn": false
+    },
+    {
+      "type": "shift",
+      "gen": 3336,
+      "from": "onrena",
+      "to": "onrema",
+      "meaning": "sky"
+    },
+    {
+      "type": "compound",
+      "gen": 3336,
+      "word": "moomi",
+      "meaning": "snow-water",
+      "parts": [
+        "mopua",
+        "nekomi"
+      ],
+      "partMeanings": [
+        "snow",
+        "water"
+      ]
+    },
+    {
+      "type": "death",
+      "gen": 3336,
+      "word": "nenu",
+      "meaning": "wave",
+      "category": "unknown",
+      "lifespan": 38,
+      "uses": 15,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3337,
+      "word": "toma",
+      "meaning": "around-bright",
+      "parts": [
+        "tomami",
+        "oa"
+      ],
+      "partMeanings": [
+        "around",
+        "bright"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3337,
+      "word": "zimo",
+      "meaning": "warm",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3338,
+      "word": "nomnen",
+      "meaning": "none",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3338,
+      "word": "aa",
+      "meaning": "far",
+      "category": "unknown",
+      "lifespan": 24,
+      "uses": 7,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3340,
+      "word": "ote",
+      "meaning": "change",
+      "category": "unknown",
+      "lifespan": 22,
+      "uses": 6,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3341,
+      "word": "manen",
+      "meaning": "moon-none",
+      "parts": [
+        "mata",
+        "nomnen"
+      ],
+      "partMeanings": [
+        "moon",
+        "none"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3341,
+      "word": "mine",
+      "meaning": "make",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3342,
+      "word": "zimo",
+      "meaning": "warm",
+      "category": "unknown",
+      "lifespan": 5,
+      "uses": 0,
+      "stillborn": true
+    },
+    {
+      "type": "birth",
+      "gen": 3343,
+      "word": "luku",
+      "meaning": "move",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3344,
+      "word": "sake",
+      "meaning": "connection",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3344,
+      "word": "nasu",
+      "meaning": "with",
+      "category": "unknown",
+      "lifespan": 81,
+      "uses": 36,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3344,
+      "word": "oa",
+      "meaning": "bright",
+      "category": "unknown",
+      "lifespan": 23,
+      "uses": 6,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3344,
+      "word": "vakun",
+      "meaning": "within",
+      "category": "unknown",
+      "lifespan": 21,
+      "uses": 5,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3344,
+      "word": "eiun",
+      "meaning": "high",
+      "category": "unknown",
+      "lifespan": 19,
+      "uses": 6,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3345,
+      "word": "awa",
+      "meaning": "break",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3346,
+      "word": "rone",
+      "meaning": "fast",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3346,
+      "word": "onrema",
+      "meaning": "sky",
+      "category": "unknown",
+      "lifespan": 37,
+      "uses": 13,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3347,
+      "word": "nukomi",
+      "meaning": "pattern",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3348,
+      "word": "em",
+      "meaning": "tree",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 3349,
+      "word": "wine",
+      "meaning": "wind-make",
+      "parts": [
+        "wimi",
+        "mine"
+      ],
+      "partMeanings": [
+        "wind",
+        "make"
+      ]
+    },
+    {
+      "type": "compound",
+      "gen": 3351,
+      "word": "kum",
+      "meaning": "many-tree",
+      "parts": [
+        "kutem",
+        "em"
+      ],
+      "partMeanings": [
+        "many",
+        "tree"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3351,
+      "word": "mem",
+      "meaning": "give",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3352,
+      "word": "nureme",
+      "meaning": "threshold",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3352,
+      "word": "kutem",
+      "meaning": "many",
+      "category": "unknown",
+      "lifespan": 53,
+      "uses": 23,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3353,
+      "word": "awue",
+      "meaning": "break-end",
+      "parts": [
+        "awa",
+        "lue"
+      ],
+      "partMeanings": [
+        "break",
+        "end"
+      ]
+    },
+    {
+      "type": "death",
+      "gen": 3353,
+      "word": "tomami",
+      "meaning": "around",
+      "category": "unknown",
+      "lifespan": 21,
+      "uses": 5,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3354,
+      "word": "nekomi",
+      "meaning": "water",
+      "category": "unknown",
+      "lifespan": 24,
+      "uses": 7,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3355,
+      "word": "mi",
+      "meaning": "cold",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3356,
+      "word": "hana",
+      "meaning": "release",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3356,
+      "word": "mopua",
+      "meaning": "snow",
+      "category": "unknown",
+      "lifespan": 29,
+      "uses": 9,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3357,
+      "word": "luaa",
+      "meaning": "move-flow",
+      "parts": [
+        "luku",
+        "taa"
+      ],
+      "partMeanings": [
+        "move",
+        "flow"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3357,
+      "word": "semmain",
+      "meaning": "take",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3358,
+      "word": "popen",
+      "meaning": "flower",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3361,
+      "word": "mamsa",
+      "meaning": "earth",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3361,
+      "word": "sowuku",
+      "meaning": "new",
+      "category": "unknown",
+      "lifespan": 71,
+      "uses": 31,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3361,
+      "word": "lawa",
+      "meaning": "one",
+      "category": "unknown",
+      "lifespan": 26,
+      "uses": 8,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3362,
+      "word": "emmsa",
+      "meaning": "tree-earth",
+      "parts": [
+        "em",
+        "mamsa"
+      ],
+      "partMeanings": [
+        "tree",
+        "earth"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3362,
+      "word": "memisi",
+      "meaning": "warm",
+      "category": "quality",
+      "fitness": 0.1500000000000002,
+      "age": 39,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3362,
+      "word": "lue",
+      "meaning": "end",
+      "category": "unknown",
+      "lifespan": 29,
+      "uses": 9,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3363,
+      "word": "taa",
+      "meaning": "flow",
+      "category": "unknown",
+      "lifespan": 58,
+      "uses": 24,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3363,
+      "word": "nukomi",
+      "meaning": "pattern",
+      "category": "unknown",
+      "lifespan": 16,
+      "uses": 3,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3364,
+      "word": "hini",
+      "meaning": "all",
       "category": "being",
+      "fitness": 0.04999999999999996,
+      "age": 37,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3365,
+      "word": "kareram",
+      "meaning": "dark",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3365,
+      "word": "semma",
+      "meaning": "ocean",
+      "category": "unknown",
+      "lifespan": 34,
+      "uses": 12,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3366,
+      "word": "milunsu",
+      "meaning": "beyond",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3366,
+      "word": "em",
+      "meaning": "tree",
+      "category": "unknown",
+      "lifespan": 18,
+      "uses": 4,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3367,
+      "word": "nomuhe",
+      "meaning": "none-hard",
+      "parts": [
+        "nomnen",
+        "rauhe"
+      ],
+      "partMeanings": [
+        "none",
+        "hard"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3367,
+      "word": "mumula",
+      "meaning": "snow",
+      "category": "natural",
+      "fitness": 4.0245584642661925e-16,
+      "age": 34,
+      "alive": true
+    },
+    {
+      "type": "compound",
+      "gen": 3368,
+      "word": "mimsa",
+      "meaning": "make-earth",
+      "parts": [
+        "mine",
+        "mamsa"
+      ],
+      "partMeanings": [
+        "make",
+        "earth"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3368,
+      "word": "kaninin",
+      "meaning": "fall",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3369,
+      "word": "eka",
+      "meaning": "soft",
+      "category": "quality",
+      "fitness": 0.4,
+      "age": 32,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3370,
+      "word": "po",
+      "meaning": "part",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3370,
+      "word": "nomnen",
+      "meaning": "none",
+      "category": "unknown",
+      "lifespan": 32,
+      "uses": 11,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3370,
+      "word": "mine",
+      "meaning": "make",
+      "category": "unknown",
+      "lifespan": 29,
+      "uses": 9,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3370,
+      "word": "kareram",
+      "meaning": "dark",
+      "category": "unknown",
+      "lifespan": 5,
+      "uses": 0,
+      "stillborn": true
+    },
+    {
+      "type": "birth",
+      "gen": 3371,
+      "word": "hunkuva",
+      "meaning": "through",
+      "category": "relation",
+      "fitness": 0.49999999999999906,
+      "age": 30,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3371,
+      "word": "rauhe",
+      "meaning": "hard",
+      "category": "unknown",
+      "lifespan": 58,
+      "uses": 24,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3371,
+      "word": "milunsu",
+      "meaning": "beyond",
+      "category": "unknown",
+      "lifespan": 5,
+      "uses": 0,
+      "stillborn": true
+    },
+    {
+      "type": "shift",
+      "gen": 3372,
+      "from": "reka",
+      "to": "eka",
+      "meaning": "soft"
+    },
+    {
+      "type": "birth",
+      "gen": 3372,
+      "word": "lita",
+      "meaning": "dark",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 3373,
+      "word": "liisi",
+      "meaning": "dark-warm",
+      "parts": [
+        "lita",
+        "memisi"
+      ],
+      "partMeanings": [
+        "dark",
+        "warm"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3373,
+      "word": "mule",
+      "meaning": "grow",
+      "category": "action",
+      "fitness": 0.3999999999999994,
+      "age": 28,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3373,
+      "word": "rone",
+      "meaning": "fast",
+      "category": "unknown",
+      "lifespan": 27,
+      "uses": 8,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3373,
+      "word": "nureme",
+      "meaning": "threshold",
+      "category": "unknown",
+      "lifespan": 21,
+      "uses": 5,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3374,
+      "word": "wimi",
+      "meaning": "wind",
+      "category": "unknown",
+      "lifespan": 45,
+      "uses": 17,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3374,
+      "word": "popen",
+      "meaning": "flower",
+      "category": "unknown",
+      "lifespan": 16,
+      "uses": 3,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3375,
+      "word": "po",
+      "meaning": "part",
+      "category": "unknown",
+      "lifespan": 5,
+      "uses": 0,
+      "stillborn": true
+    },
+    {
+      "type": "compound",
+      "gen": 3376,
+      "word": "hamsa",
+      "meaning": "release-earth",
+      "parts": [
+        "hana",
+        "mamsa"
+      ],
+      "partMeanings": [
+        "release",
+        "earth"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3376,
+      "word": "mumpi",
+      "meaning": "rise",
+      "category": "action",
+      "fitness": 0.25000000000000006,
+      "age": 25,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3376,
+      "word": "awa",
+      "meaning": "break",
+      "category": "unknown",
+      "lifespan": 31,
+      "uses": 10,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3377,
+      "word": "naira",
+      "meaning": "beyond",
+      "category": "relation",
+      "fitness": 0.2999999999999991,
+      "age": 24,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3378,
+      "word": "mi",
+      "meaning": "cold",
+      "category": "unknown",
+      "lifespan": 23,
+      "uses": 6,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3379,
+      "word": "memni",
+      "meaning": "warm-all",
+      "parts": [
+        "memisi",
+        "hini"
+      ],
+      "partMeanings": [
+        "warm",
+        "all"
+      ]
+    },
+    {
+      "type": "shift",
+      "gen": 3380,
+      "from": "pova",
+      "to": "bova",
+      "meaning": "space"
+    },
+    {
+      "type": "birth",
+      "gen": 3380,
+      "word": "bova",
+      "meaning": "space",
+      "category": "abstract",
+      "fitness": 0.14999999999999997,
+      "age": 21,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3381,
+      "word": "umini",
+      "meaning": "near",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "compound",
+      "gen": 3382,
+      "word": "liu",
+      "meaning": "dark-within",
+      "parts": [
+        "lita",
+        "u"
+      ],
+      "partMeanings": [
+        "dark",
+        "within"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3382,
+      "word": "u",
+      "meaning": "within",
+      "category": "relation",
+      "fitness": 0.3499999999999993,
+      "age": 19,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3383,
+      "word": "mata",
+      "meaning": "moon",
+      "category": "unknown",
+      "lifespan": 55,
+      "uses": 22,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3383,
+      "word": "sake",
+      "meaning": "connection",
+      "category": "unknown",
+      "lifespan": 39,
+      "uses": 14,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3383,
+      "word": "hana",
+      "meaning": "release",
+      "category": "unknown",
+      "lifespan": 27,
+      "uses": 8,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3383,
+      "word": "kaninin",
+      "meaning": "fall",
+      "category": "unknown",
+      "lifespan": 15,
+      "uses": 2,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3384,
+      "word": "wamotan",
+      "meaning": "cold",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "birth",
+      "gen": 3385,
+      "word": "wita",
+      "meaning": "mountain",
+      "category": "natural",
+      "fitness": 0.20000000000000023,
+      "age": 16,
+      "alive": true
+    },
+    {
+      "type": "shift",
+      "gen": 3386,
+      "from": "umrini",
+      "to": "umini",
+      "meaning": "near"
+    },
+    {
+      "type": "birth",
+      "gen": 3386,
+      "word": "elu",
+      "meaning": "small",
+      "category": "quality",
+      "fitness": 0.25000000000000006,
+      "age": 15,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3387,
+      "word": "miko",
+      "meaning": "time",
+      "category": "abstract",
+      "fitness": 0.20000000000000007,
+      "age": 14,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3388,
+      "word": "tai",
+      "meaning": "sun",
+      "category": "natural",
+      "fitness": 0.15000000000000008,
+      "age": 13,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3388,
+      "word": "luku",
+      "meaning": "move",
+      "category": "unknown",
+      "lifespan": 45,
+      "uses": 17,
+      "stillborn": false
+    },
+    {
+      "type": "death",
+      "gen": 3388,
+      "word": "semmain",
+      "meaning": "take",
+      "category": "unknown",
+      "lifespan": 31,
+      "uses": 10,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3389,
+      "word": "wimsa",
+      "meaning": "mountain-earth",
+      "parts": [
+        "wita",
+        "mamsa"
+      ],
+      "partMeanings": [
+        "mountain",
+        "earth"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3389,
+      "word": "uma",
+      "meaning": "move",
+      "category": "action",
+      "fitness": 0.3,
+      "age": 12,
+      "alive": true
+    },
+    {
+      "type": "shift",
+      "gen": 3390,
+      "from": "niko",
+      "to": "miko",
+      "meaning": "time"
+    },
+    {
+      "type": "compound",
+      "gen": 3390,
+      "word": "mata",
+      "meaning": "earth-mountain",
+      "parts": [
+        "mamsa",
+        "wita"
+      ],
+      "partMeanings": [
+        "earth",
+        "mountain"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3390,
+      "word": "imihem",
+      "meaning": "from",
+      "category": "relation",
+      "fitness": 0.6499999999999996,
+      "age": 11,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3391,
+      "word": "ririi",
+      "meaning": "moon",
+      "category": "unknown",
+      "alive": false
+    },
+    {
+      "type": "death",
+      "gen": 3391,
+      "word": "mem",
+      "meaning": "give",
+      "category": "unknown",
+      "lifespan": 40,
+      "uses": 15,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3392,
+      "word": "hiha",
+      "meaning": "end",
+      "category": "action",
       "fitness": 0.5499999999999999,
+      "age": 9,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3392,
+      "word": "mamsa",
+      "meaning": "earth",
+      "category": "unknown",
+      "lifespan": 31,
+      "uses": 10,
+      "stillborn": false
+    },
+    {
+      "type": "compound",
+      "gen": 3393,
+      "word": "umko",
+      "meaning": "near-time",
+      "parts": [
+        "umini",
+        "miko"
+      ],
+      "partMeanings": [
+        "near",
+        "time"
+      ]
+    },
+    {
+      "type": "birth",
+      "gen": 3393,
+      "word": "limae",
+      "meaning": "big",
+      "category": "quality",
+      "fitness": 0.10000000000000002,
+      "age": 8,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3393,
+      "word": "wamotan",
+      "meaning": "cold",
+      "category": "unknown",
+      "lifespan": 9,
+      "uses": 1,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3395,
+      "word": "nomnitu",
+      "meaning": "other",
+      "category": "being",
+      "fitness": 0.5,
+      "age": 6,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3396,
+      "word": "ririi",
+      "meaning": "moon",
+      "category": "unknown",
+      "lifespan": 5,
+      "uses": 0,
+      "stillborn": true
+    },
+    {
+      "type": "birth",
+      "gen": 3398,
+      "word": "omkaki",
+      "meaning": "river",
+      "category": "natural",
+      "fitness": 0.35000000000000003,
+      "age": 3,
+      "alive": true
+    },
+    {
+      "type": "death",
+      "gen": 3398,
+      "word": "umini",
+      "meaning": "near",
+      "category": "unknown",
+      "lifespan": 17,
+      "uses": 3,
+      "stillborn": false
+    },
+    {
+      "type": "birth",
+      "gen": 3399,
+      "word": "ualem",
+      "meaning": "earth",
+      "category": "natural",
+      "fitness": 0.5999999999999999,
+      "age": 2,
+      "alive": true
+    },
+    {
+      "type": "birth",
+      "gen": 3400,
+      "word": "tatili",
+      "meaning": "moon",
+      "category": "natural",
+      "fitness": 0.45,
       "age": 1,
       "alive": true
     },
     {
       "type": "death",
-      "gen": 3299,
-      "word": "elu",
-      "meaning": "mountain",
+      "gen": 3401,
+      "word": "lita",
+      "meaning": "dark",
       "category": "unknown",
-      "lifespan": 33,
-      "uses": 11,
+      "lifespan": 29,
+      "uses": 9,
       "stillborn": false
     }
   ]
